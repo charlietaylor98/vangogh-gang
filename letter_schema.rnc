@@ -1,0 +1,17 @@
+start = letter
+letter = element letter {salutation, body, close, sig}
+salutation = element salutation {text}
+body = element body {p+}
+p = element p {mixed {(good_health|bad_health|stress|unstress|work)*}}
+good_health = element good_health {text}
+bad_health = element bad_health {text}
+stress = element stress {mixed{problem}}
+problem = attribute problem {"friendship"|"love"|"money"|"environment"}
+unstress = element unstress {mixed{reason}}
+reason = attribute reason {"friendship"|"love"|"money"|"environment"}
+work = element work {mixed{(origin, completion)|mention}}
+origin = attribute origin {"new"|"existing"}
+completion = attribute completion {"sketch"|"planned"|"continuing"|"finished"}
+mention = attribute mention {text}
+close = element close {text}
+sig = element sig {text}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <letter>
     <salutation>My dear Theo,</salutation>
-    <p>I’m enclosing a word or two because they’re writing to you, for I thought you’d like to hear
+    <body><p>I’m enclosing a word or two because they’re writing to you, for I thought you’d like to hear
         from me as well once in a while about what I’m actually doing.</p>
     <p>If it isn’t raining, I go outdoors every day, usually on the heath.</p>
     <p>I’m making my studies quite large, like a few you saw here during your visit.</p>
@@ -17,9 +17,9 @@
         implements, such as a cart, plough, harrow, wheelbarrow &amp;c. &amp;c.</p>
     <p>The one with the woodcutters turned out the best, and I think it would please you.</p>
     <p>
-        <unstress type="friendship">Perhaps Rappard will be coming here for a while this summer,
+        <unstress reason="friendship">Perhaps Rappard will be coming here for a while this summer,
             I’ve had a letter from him.</unstress>
-    </p>
+    </p></body>
     <p>In thought a handshake, and believe me</p>
     <close>Ever yours,</close>
     <sig>Vincent</sig>

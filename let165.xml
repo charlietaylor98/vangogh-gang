@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <letter>
     <salutation>My dear Theo,</salutation>
-    <p>Having heard from Pa that there’s a chance you’ll be coming to Etten this Sunday, and Pa
+    <body><p>Having heard from Pa that there’s a chance you’ll be coming to Etten this Sunday, and Pa
         having written to me that it would be good if I were there as well, I set out for there
         today.</p>
     <p>So I hope to meet you soon, which I look forward to with great eagerness, also because I
@@ -15,7 +15,7 @@
     <p>So I’m leaving today and am telling you this lest you should perhaps look for me in Brussels.
             <work origin="new" completion="planned">In Etten I’d like to make a few sketches on the
             heath, which is why I’m going a couple of days earlier.</work></p>
-    <p>So I hope we see each other soon, and shake your hand in thought.</p>
+    <p>So I hope we see each other soon, and shake your hand in thought.</p></body>
     <close>Yours truly,</close>
     <sig>Vincent</sig>
 </letter>

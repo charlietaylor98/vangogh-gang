@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <letter>
     <salutation>My dear Theo,</salutation>
-    <p>My sincere congratulations on your birthday.<anchor n="1" xml:id="note-t-1"/> I think of your
+    <body><p>My sincere congratulations on your birthday. I think of your
         visit time and again, I’m glad we spoke to each other again in this way, and hope it turns
         out that you’ll come again in the summer.</p>
     <p>
-        <unstress type="aesthetic_pleasure">I’ve been here for a few days<anchor n="2"
-                xml:id="note-t-2"/> and it’s beautiful outdoors, but the weather doesn’t yet permit
+        <unstress reason="environment">I’ve been here for a few days and it’s beautiful outdoors, but the weather doesn’t yet permit
             of drawing outdoors every day.</unstress>
     </p>
     <p>Meanwhile I’ve started on the Millets, <work origin="new" completion="finished">The sower is
@@ -45,7 +44,7 @@
     <p>
         <good_health>I’m very glad indeed that it’s been arranged for me to work here quietly for a
             while,</good_health>
-        <work mention="vague">I hope to make as many studies as I possibly can, for that’s the seed
+        <work>I hope to make as many studies as I possibly can, for that’s the seed
             from which later drawings will grow.</work>
     </p>
     <p>Do write to me from time to time and keep me informed, if possible, of one thing and another
@@ -55,7 +54,7 @@
         tell me from time to time what you would advise me, by preference, to draw and to look out
         for. Sometimes I’ll find it useful, sometimes perhaps not, but don’t hesitate to tell me one
         thing and another, I’ll do the same to you, and then we must both try to separate the wheat
-        from the chaff.</p>
+        from the chaff.</p></body>
     <close>Adieu, with a handshake in thought.</close>
     <sig>Vincent</sig>
 </letter>
