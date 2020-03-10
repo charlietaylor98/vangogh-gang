@@ -1,0 +1,32 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>Ramsgate, 12 May 1876</head>
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Thanks for your letter; I also like ‘Tell me the old, old story’ very much. I first heard
+            it sung in Paris, in the evening in a small church I used to attend sometimes. No. 12 is
+            also beautiful. I regret not having gone to hear Moody and Sankey when they were in
+            London. There’s such a yearning for Religion among the people in those big cities. Many
+            a worker in a factory or shop has had a remarkable, pure, pious youth. But city life
+            often takes away ‘the early dew of morning’, yet the yearning for ‘the old, old story’
+            remains, the bottom of one’s heart remains the bottom of one’s heart. In one of his
+            books, Eliot describes the life of factory workers &amp;c. who have joined a small
+            community and hold religious services in a chapel in ‘Lantern Yard’, and he says it is
+            ‘God’s Kingdom upon earth’, nothing more nor less.</p>
+        <p>And there’s something moving about seeing the thousands now flocking to hear those
+            evangelists.</p>
+        <p>I think your plan to give Pa and Ma ‘After the departure’ by Sadée is very good; that’s
+            agreed, then.</p>
+        <p>Willemien may be already there on 21 May. I see from your letter that you’re also
+            thinking of going. Do it, old boy, if you can manage it. Sometimes such actions receive
+            a special blessing. How it would surprise them.</p>
+        <p><stress reason="family">There was something wistful in Ma’s last letter, in which she wrote a word or two about
+            the necessity of our being so far from home. And Ma’s eyes are hurting her again.</stress></p>
+        <p>Come on, old boy, brighten them up again by being there on that day.</p>
+        <p>This afternoon Mr Reid sent me the catalogue of the exhibition in London.</p>
+        <p>In thought a handshake, and congratulations on the birthdays of Lies and Cor, and also on
+            21 May. Regards to everyone at the Rooses’. In haste.</p>
+    </body>
+    <close>Your loving brother.</close>
+    <sig>Vincent.</sig>
+</letter>
