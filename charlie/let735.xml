@@ -1,0 +1,109 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Even before receiving (this very moment) your kind letter, I received a letter from your
+            fiancée this morning announcing the engagement. So I’ve already replied to her with my
+            sincere congratulations, as I repeat them here to you.</p>
+        <p><unstress reason="family">My fear that my indisposition might prevent your very necessary journey, which I’ve hoped
+            for so much and for so long</unstress> <good_health>— now that this fear has disappeared I feel completely
+            normal.</good_health></p>
+        <p>This morning I went to the hospital again to have my wound dressed, and walked for an
+            hour and a half with the house physician, and we talked a little about everything, even
+            natural history.</p>
+        <p><unstress reason="friendship">What you tell me about Gauguin gives me enormous pleasure, that’s to say that he hasn’t
+            abandoned his plan to return to the tropics. That’s the right path for him. I think I
+            can see clearly into his plan, and I approve of it with all my heart. Naturally I have
+            regrets about it, but you can understand that provided it goes well for him that’s all I
+            need.</unstress></p>
+        <p>If you can do so, talk a little to C.M. about the future of his business and the fact
+            that his son can continue it, provided C.M. himself does his full duty as regards
+            listening to you and putting you and his son together. All the same C.M. must wish that
+            the firm he founded continues — hasn’t he introduced into Holland the very artists who
+            were not with the Goupils, &amp;c. &amp;c.?</p>
+        <p>Then Tersteeg must admit the Impressionists, or at least believe in E. Delacroix, and
+            then Tersteeg and you joining hands would be a great force that Boussod would have to
+            reckon with.</p>
+        <p>What is the 89 exhibition going to be?</p>
+        <p>Don’t forget The anatomy lesson for Mr Rey. He had already told me before this morning
+            that he likes painting, although he knows little about it, and that he would like to
+            learn. I told him that he should become an art lover but that he shouldn’t try to do painting himself. This means that perhaps we’ll find 2
+            doctor friends here, Rey and the Parisian doctor I spoke to you about before.</p>
+        <p>I told them that Bruyas of Montpellier shares a certain family characteristic with the
+            two of us, and that we’re therefore simply continuing what Monticelli and Bruyas began
+            in the south.</p>
+        <p><stress reason="money">When I came out of the hospital I had quite a few things to pay, and while they aren’t at
+            all urgent for a few days, I’d be pleased if you could send me about fifty francs within
+            the next few days.</stress></p>
+        <p><stress reason="friendship">The mistake in pal Gauguin’s calculations was, in my opinion, that he’s a little too
+            accustomed to closing his eyes to the inevitable expenses of house rental, charwoman and
+            a whole heap of earthly things of that kind. Now, all these things weigh a little
+            heavily on the shoulders of the two of us.</stress> But once we bear them, other artists could
+            lodge with me without having those costs. </p>
+        <p><stress reason="money">I’ve just been told that in my absence the owner of my house here apparently made a
+            contract with a fellow who has a tobacco shop, to turn me out and give him, the
+            tobacconist, the house.</stress></p>
+        <p>That worries me a little, for I’m not much inclined to have myself turned out of this
+            house almost shamefully when it was I who had it repainted inside and out and had gas
+            put in &amp;c., in short who made habitable a house that had been locked up and
+            uninhabited for quite a long time, and which I took on in very poor condition. This is
+            to warn you that perhaps at Easter, for example, if the owner persists, I’ll ask you for
+            advice about it, and that in all of this I consider myself merely an agent, defending
+            the interests of our artist friends.</p>
+        <p>Besides, it’s more than likely that water will flow under the bridge between now and
+            then. And the main thing is not to worry about it.</p>
+        <p>Has Bernard returned the Silvestre book to you yet? I’ll need the exact title to get
+            those doctors to read this book.</p>
+        <p>Physically I am well, the wound is closing very well and the great loss of blood is
+            balancing out, since I’m eating and digesting well. <bad_health>The most fearsome thing is the
+            insomnia, and the doctor didn’t talk to me about it, nor have I spoken to him about it
+            yet. But I’m fighting it myself.</bad_health></p>
+        <p> <good_health>I’m fighting this insomnia with a very, very strong dose of camphor in my pillow and my
+            mattress, and I recommend it to you if you ever have trouble sleeping. I was very
+            fearful of sleeping alone in the house, and I felt anxious that I wouldn’t be able to
+            sleep, but it went very well and I dare to believe that it won’t recur.</good_health></p>
+        <p>My suffering in that way in the hospital was appalling, and yet in the midst of it all,
+            though I was more than insensible, I can tell you as a curiosity that I kept thinking
+            about Degas.</p>
+        <p>Gauguin and I had talked about Degas before, and I pointed out to Gauguin that Degas had
+            said this:... ‘I’m saving myself for the Arlésiennes.’</p>
+        <p>Now, you who know how subtle Degas is, once you’re back in Paris, tell Degas that I admit
+            to you that up until now I’ve been powerless to paint them as other than poisonous, the
+            women of Arles, and that he mustn’t believe Gauguin if Gauguin says good things too soon about my work, which has only been done under the influence of illness.</p>
+        <p>Now, if I recover I must start again, and I can’t again attain those peaks to which
+            sickness imperfectly led me.</p>
+        <p>I would very much have liked to give another painting to Rivet precisely because I wholly
+            agree with you that it would be good to put Mr Rey in touch with Rivet.</p>
+        <p>But you could indeed tell Rivet that it would be good to send Mr Rey back here to the
+            hospital with the doctor’s qualification he’s going to try and get. He’s very, very
+            useful here, and we’ll darned well be in need of doctors again here in Arles in days to
+            come, as long as cholera and the plague &amp;c. continue to menace the area around
+            Marseille. Now Rey was born here and would be worthless in Paris or elsewhere, while
+            once he was armed with the full medical power of Paris, </p>
+        <p> he could perform real miracles here in a time of calamity.</p>
+        <p>Of course we have no right to get involved in the question of medicine, only Rivet
+            himself will perhaps be of the same opinion as regards the feeling that an Arlesian
+            isn’t a Parisian and vice versa.</p>
+        <p>Did you pass through Breda, I’m naturally inclined to think so. Above all, reassure
+            Mother about me.</p>
+        <p>Have you seen the portrait of me that Gauguin has, and have you seen the portrait that
+            Gauguin did of himself during those final days?</p>
+        <p>If you were to compare this portrait which Gauguin did of himself then with the one I
+            still have of him, which he sent to me from Brittany in exchange for mine, you would see
+            that all in all he grew more serene here, personally. </p>
+        <p>What have De Haan and Isaäcson been doing? <stress reason="money">I had vaguely hoped to see them here one day
+            had Gauguin himself stayed longer with me, and with a view to that I’d even rented two
+            little rooms which were coming vacant in the house which I currently have the whole of
+            (the rent is 21.50 francs a month). I daren’t press the point any more, seeing as
+            Gauguin has gone, especially when one considers that the journey to the south costs
+            quite a lot.</stress> Anyway, give them my kind regards when you see them again.</p>
+        <p>Roulin sends his warm regards, he was very pleased with what you said about him in your
+            letter today, and besides, he amply deserves it.</p>
+        <p>Handshake, and naturally you’ll feel how much I wish you good days with your fiancée.</p>
+    </body>
+    <close>Ever yours,</close>
+    <sig>Vincent.</sig>
+    <ps>
+        <p>Warm regards to André Bonger if he’s there too.</p>
+    </ps>
+</letter>
