@@ -1,0 +1,186 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+  <salutation>Dear Theo,</salutation>
+  <body>
+    <p>I heard from home that you were ill. How much I’d like to be with you, my boy. Yesterday
+      evening I walked over to Richmond and I thought about you the whole way, it was a beautiful,
+      grey evening, you know that I go there every Monday evening to the Methodist church, yesterday
+      evening I even said a few words on ‘Nothing pleaseth me but in Jesus Christ, and in Him all
+      things please me’.</p>
+    <p><stress reason="family">How I’d like to be with you, though, oh why are we all so far apart? But what shall we do
+      about it?</stress></p>
+    <p>I’m sending herewith a letter from the aunts at Zundert. You know that Aunt Bet hurt herself
+      so badly. I wrote and told them that, if possible, you and I would walk to Zundert sometime at
+      Christmas.</p>
+    <p>Herewith I’m copying out a few psalms, you might like to read them at this time. Write a few
+      words soon if you can.</p>
+    <p>A week ago on Saturday I made a long journey to London, <unstress reason="career">and there I heard about a situation
+      that might be of future interest. The clergymen in such seaside places as Liverpool and Hull,
+      for example, often have need of assistants who speak various languages to work among the
+      seamen and foreigners, and also to visit the sick. In addition, such a situation would be
+      salaried.</unstress></p>
+    <p>I left here early that morning, 4 o’clock, that night it was beautiful in the park here, with
+      the dark avenues of elm trees and the wet road going through them and the grey rainy sky above
+      it all, and there was a thunderstorm in the distance. When daylight came I was in Hyde Park,
+      where the leaves were already falling from the trees and the Virginia creeper was so
+      magnificently red against the houses, and it was foggy. <unstress reason="environment">At 7 o’clock I was in Kennington, and
+      rested there awhile in the church I had attended many a Sunday evening. In London I visited
+      one or two people and also went to the gallery of Messrs Goupil &amp; Cie, and there I saw the
+      drawings that Van Iterson had brought, and it was a pleasure to see the Dutch cities and
+      meadows again. That painting by Artz, that mill on the canal, I find really very beautiful.</unstress>
+      You also have a good life ahead of you, Theo, remain steadfast, and much light will come your
+      way. Is Van Iterson back yet? I was very glad indeed to see him again, he’s bringing you ‘De
+      wijde wijde wereld’, read it one of these days, the first chapters in particular are so
+      beautiful and so truly straightforward. And read Longfellow sometime, e.g.:I see the lights of
+      the village</p>
+    <p>Gleam through the rain and the mist</p>
+    <p>And a feeling of sadness comes o’er me</p>
+    <p>That my soul cannot resistA feeling of sadness and longing</p>
+    <p>That is not akin to pain</p>
+    <p>And resembles sorrow only</p>
+    <p>As the mist resembles the rainCome read to me some poem</p>
+    <p>Some simple and heartfelt lay</p>
+    <p>That shall soothe this restless feeling</p>
+    <p>And banish the thoughts of day.Not from the grand old masters</p>
+    <p>Not from the bards sublime</p>
+    <p>Whose distant footsteps echo</p>
+    <p>Through the corridors of timeRead from some humbler poet,</p>
+    <p>Whose songs gushed from his heart</p>
+    <p>As showers from the clouds of summer</p>
+    <p>Or tears from the eyelids start.Who through long days of labour</p>
+    <p>And nights devoid of ease,</p>
+    <p>Still heard in his soul the music</p>
+    <p>Of wonderful melodiesSuch songs have power to quiet</p>
+    <p>The restless pulse of care</p>
+    <p>And come like the benediction</p>
+    <p>That follows after prayer.Why art thou cast down, my soul,</p>
+    <p>Disquieted in me, oh why?</p>
+    <p>Foster again the faith of old,</p>
+    <p>Rejoice in praising Him most high.</p>
+    <p>Oft hath he taken your distress</p>
+    <p>And turned it into happiness.</p>
+    <p>Hope in Him, eyes heavenward raised,</p>
+    <p>For to my God I still give praise.If Van Iterson gave you that English hymnal, read No.
+      14.</p>
+    <p>And now, old boy, a handshake in thought to you and one to Uncle Jan, adieu, old boy, remain
+      steadfast and get well soon, and write soon about how you’re doing and at the same time send
+      back the aunts’ letter, poor Aunt Bet, what old friends we are. Oh that Zundert, the thought
+      of it’s almost too much at times. Adieu, old boy, may God make us brothers more and more and
+      join us intimately to one another, and may the Love for Him make that bond ever stronger. Give
+      my very warm regards to Uncle Jan, I heard from Pa that Willem and Johan are doing very well
+      indeed. Give my regards, too, to everyone at the Rooses’, from</p>
+  </body>
+  <close>Your most loving brother,</close>
+  <sig>Vincent.</sig>
+  <ps>
+    <p><unstress reason="environment">Paris will also be beautiful now in the autumn, last year Gladwell and I went every Sunday to
+      as many friends and churches as we could, we left in the morning and came home late. NotreDame
+      is so absolutely beautiful in the autumn evenings among the chestnut trees. There’s something
+      in Paris, though, that’s more beautiful than the autumn and the churches, and that is the poor
+      people there. I sometimes think of many a person there.</unstress> </p>
+    <p>Psalm 23 </p>
+    <p>The Lord is my Shepherd; I shall not want. He maketh me to lie down in green pastures: He
+      leadeth me beside the still waters. He restoreth my soul: He leadeth me in the paths of
+      righteousness for His name’s sake.</p>
+    <p>Yea, though I walk through the valley of the shadow of death, I will fear no evil: for Thou
+      art with me; Thy rod and Thy staff they comfort me. Thou preparest a table before me: Thou
+      anointest my head with oil; my cup runneth over. Surely goodness and mercy shall follow me all
+      the days of my life: And I will dwell in the house of the Lord for ever.Psalm 91 </p>
+    <p>He that dwelleth in the secret place of the most High shall abide under the shadow of the
+      Almighty.</p>
+    <p>I will say of the Lord, He is my refuge and my fortress: my God; in him will I trust. Surely
+      He shall deliver thee from the snare of the fowler, and from the noisome pestilence. He shall
+      cover thee with His wings, and under His wings shalt thou trust: His truth shall be thy shield
+      and buckler. Thou shalt not be afraid for the terror by night; nor for the arrow that flieth
+      by day; nor for the pestilence that walketh in darkness; nor for the destruction that wasteth
+      at noonday. A thousand shall fall at thy side, and ten thousand at thy right hand; but it
+      shall not come nigh thee. Only with thine eyes shalt thou behold and see the reward of the
+      wicked. Because Thou hast made the Lord, which is my refuge, even the most High, Thy
+      habitation;</p>
+    <p>There shall no evil befall thee, neither shall any plague come nigh thy dwelling. For He
+      shall give his angels charge to keep thee in all thy ways. They shall bear thee up in their
+      hands, lest thou dash thy foot against a stone. Thou shalt tread upon the lion and adder: the
+      young lion and the dragon shalt thou trample under feet.</p>
+    <p>Because he hath set his love upon Me, therefore will I deliver him: I will set him on high,
+      because he hath known My name. He shall call upon Me, and I will answer him: I will be with
+      him in trouble; I will deliver him, and honour him.</p>
+    <p>With long life will I satisfy him, and shew him my salvation.Psalm 121 </p>
+    <p>I will lift up mine eyes unto the hills, from whence cometh my help.</p>
+    <p>My help cometh from the Lord, which made Heaven and earth. He will not suffer thy foot to be
+      moved: he that keepeth thee will not slumber.</p>
+    <p>Behold, he that keepeth Israel shall neither slumber nor sleep.</p>
+    <p>The Lord is thy keeper: the Lord is thy shade upon thy right hand.</p>
+    <p>The sun shall not smite thee by day, nor the moon by night.</p>
+    <p>The Lord shall preserve thee from all evil: he shall preserve thy soul.</p>
+    <p>The Lord shall preserve thy going out and thy coming in from this time forth, and even for
+      evermore.A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her
+      children refused to be comforted for her children, because they were not.</p>
+    <p>Thus saith the Lord; Refrain thine eyes from tears, and thy voice from weeping, for thy work
+      shall be rewarded, and they shall come again from the land of the enemy. But this shall be the
+      covenant that I will make, saith the Lord, I will write my law in their inward parts, and will
+      be their God, and they shall be My sons and daughters. And they shall teach no more every man
+      his neighbour, and every man his brother, saying, Know the Lord: for they shall all know Me,
+      from the least of them unto the greatest of them, saith the Lord: for I will forgive their
+      iniquity, and I will remember their sin no more.I know in Whom my faith is founded,</p>
+    <p>Though day and night change constantly,</p>
+    <p>My Saviour waits, unfailingly.</p>
+    <p>When once life’s evening overcomes me,</p>
+    <p>Worn down by ills and strife always,</p>
+    <p>For every day Thou hast allowed me,</p>
+    <p>I’ll bring Thee higher, purer praise.Father in my great affliction,</p>
+    <p>Father, who punishes and saves,</p>
+    <p>Father, e’en in death’s own kingdom,</p>
+    <p>Father, too, in the silent grave.</p>
+    <p>Where’er I see inconstancy,</p>
+    <p>God, Thou takest a firm stand.</p>
+    <p>My dust, too, rests in Thy loyalty</p>
+    <p>And slumbers in Thy fatherly hand.</p>
+    <p>Though catastrophes come hither,</p>
+    <p>Refuge I shall find in thee.</p>
+    <p>Thou art in Thy Son my Father,</p>
+    <p>Constant shalt Thou ever be.The light of stars.The night is come but not too soon;</p>
+    <p>And sinking silently,</p>
+    <p>All silently the little moon</p>
+    <p>Drops down beneath the sky.There is no light in heaven and earth</p>
+    <p>But the cold light of stars;</p>
+    <p>And the first watch of night is given</p>
+    <p>To the red planet Mars.Is it the tender star of love?</p>
+    <p>The star of love and dreams?</p>
+    <p>Oh no, from that blue tent above,</p>
+    <p>A hero’s armour gleamsAnd earnest thoughts within me rise,</p>
+    <p>When I behold afar,</p>
+    <p>Susp</p>
+    <p>ended in the evening skies,</p>
+    <p>The shield of that red starO star of strength, I see thee stand</p>
+    <p>And smile upon my pain</p>
+    <p>Thou beckonest with thy mailed hand</p>
+    <p>And I am strong againWithin my breast there is no light,</p>
+    <p>But the cold light of stars;</p>
+    <p>I give the first watch of the night</p>
+    <p>To the red planet Mars.The star of the unconquered will,</p>
+    <p>He rises in my breast</p>
+    <p>Serene and resolute and still,</p>
+    <p>And calm and selfpossessed.And thou, too, whosoe’er thou art</p>
+    <p>That readest this brief psalm</p>
+    <p>As one by one thy hopes depart</p>
+    <p>Be resolute and calm.O fear not in a world like this</p>
+    <p>And thou shalt know ’ere long</p>
+    <p>Know how sublime a thing it is</p>
+    <p>To suffer and be strong.The panting hart, the hunt escapèd,</p>
+    <p>Cries no harder for the pleasure</p>
+    <p>Of fresh flowing streams of water</p>
+    <p>Than my soul doth long for God.</p>
+    <p>Yea, my soul thirsts for the Lord,</p>
+    <p>God of life, oh when shall I</p>
+    <p>Approach Thy sight and drawing nigh,</p>
+    <p>Give Thee praise in Thine own house.Do read Isaiah 53.</p>
+    <p>Taken, with several changes, from Henry Wadsworth Longfellow’s poem ‘The saga of king Olaf’
+      in Tales of a Wayside inn. See Longfellow 18861891, vol. 4, p. 108.</p>
+    <p>‘So hearts that are fainting</p>
+    <p>Grow full to o’erflowing</p>
+    <p>And they that behold it</p>
+    <p>Marvel, and know not</p>
+    <p>That God at their fountains</p>
+    <p>Far off has been raining!’</p>
+  </ps>
+</letter>

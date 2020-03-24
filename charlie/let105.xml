@@ -1,0 +1,16 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <body>
+        <p>When the Lord’s Supper is next celebrated here I’ll attend it, you should do the same in
+            The Hague, let us go as true participants in the Lord’s Supper.</p>
+        <p>And take this piece of rye bread too, and eat it, as I do, with our thoughts turned
+            toward our Father’s house and to the things we heard and saw there.</p>
+        <p>And believe me</p>
+    </body>
+    <close>Your most loving and affectionate brother</close>
+    <sig>Vincent</sig>
+    <ps>
+        <p>And pray: Lord, bless this food!</p>
+        <p>Herewith Ecce Homo, send me Mater Dolorosa. Adieu, old boy, a handshake in thought.</p>
+    </ps>
+</letter>
