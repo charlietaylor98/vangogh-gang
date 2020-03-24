@@ -1,0 +1,18 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>The Hague, 29 September 1872.</head>
+
+    <salutation> My dear Theo,</salutation>
+    <body>
+        <p>Thanks for your letter, I was glad to hear that you got back safely. I missed you the
+            first few days, and it was strange for me not to find you when I came home in the
+            afternoon.<unstress reason = "family"> We spent some pleasant days together</unstress>, and actually did go for some walks and
+            see a thing or two whenever we had the chance.</p>
+        <p>What terrible weather, you must feel anxious on your walks to Oisterwijk. Yesterday there
+            were trotting races on the occasion of the exhibition, but the illumination and
+            fireworks were postponed because of the bad weather, so it’s just as well you didn’t
+            stay to see them. Regards from the Haanebeeks and the Rooses.</p>
+    </body>
+    <close>Ever, Your loving </close>
+    <sig>Vincent</sig>
+</letter>

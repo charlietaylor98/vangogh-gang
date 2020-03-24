@@ -1,0 +1,30 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>London, 21 July 1874.</head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Yesterday a crate was sent to The Hague in which I put a photo of a J. Maris and also
+            ‘The landlady’s daughter’ I promised, both of which I hope you’ll hang up in your room.
+            There’s a photo in the same crate of a Thijs Maris for Mr Tersteeg. Schüller at Paris
+            sent me 6 copies of both, which I needed in order to give away. I can’t spare another of
+            the Thijs Maris. Anna and I arrived in London safe and sound, and will manage here
+            somehow. </p>
+
+        <p>I’m not saying that we’ll find something quickly, but each day that she’s here she learns
+            something, and in any case I believe there’s more chance of her finding something here
+            than in Holland. It’s wonderful for me to walk with her through the streets in the
+            evening; I then<unstress reason = "environment"> find everything here just as beautiful as I did when I first arrived</unstress>. I
+            wish you well, old chap, and give my regards to the Rooses, Haanebeeks and Carbentuses
+            if you see any of them. I’m learning to swim.</p>
+        <p>Write to me whether you’ve begun reading Michelet and what you think of it. That book was
+            a revelation to me.</p>
+    </body>
+    <close>Adieu,</close>
+
+    <sig>Vincent</sig>
+
+    <ps>
+        <p>Regards from Anna.</p>
+    </ps>
+</letter>

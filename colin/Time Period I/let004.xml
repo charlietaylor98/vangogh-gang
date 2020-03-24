@@ -1,0 +1,42 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>The Hague, 28 Jan. 1873</head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>It’s good that you answered me so quickly. <good_health>I’m glad that things are to your
+                liking</good_health> and that you’ve been lucky with your boarding-house. Be of good
+            heart if things sometimes get difficult, everything will come right later on, and no one
+            can do what he really wants in the beginning. How sorry I am about Uncle Hein. I
+            sincerely hope he’ll get better, but Theo, I fear he won’t. Last summer he was still so
+            full of ambition, and had so many plans and told me that business was going so well.
+                <stress reason="family">It is indeed sad</stress>.</p>
+        <p> Last Sunday <unstress reason = "family">I was at Uncle Cor’s and had a very pleasant day there</unstress> and, as you can well
+            imagine, saw many beautiful things. As you know, Uncle has just been to Paris and has
+            brought home splendid paintings and drawings. I stayed in Amsterdam on Monday morning
+            and went to the museums again. Did you know that a large, new building will take the
+            place of the Trippenhuis in Amsterdam? That’s fine with me; the Trippenhuis is too
+            small, and many paintings hang in such a way that one can’t see them properly. </p>
+        <p>How I’d like to see that painting by Cluysenaar. I’ve seen only a few of his paintings,
+            and those I find very beautiful. Write and tell me whether that other painting is by
+            Alfred Stevens, or otherwise what his Christian name is. I know the photo of the Rotta,
+            and even saw the painting at the Brussels exhibition. Do keep me constantly informed
+            about whatever you see, that always gives me pleasure. The album whose title you gave me
+            isn’t the one I meant, which contains only lithographs after Corot. Thanks anyway for
+            taking the trouble. I expect a letter from Anna soon. She’s rather lazy about writing
+            these days. You ought to surprise her with a letter sometime, that would give her so
+            much pleasure. You must be very busy, but that’s a good thing. </p>
+        <p>It’s cold here, and people are already skating on the flooded fields. I go walking as
+            much as I can. I’m curious to know whether you’ll find an opportunity to go skating.
+            Herewith my portrait, but don’t say anything about it when you write home. As you know,
+            it’s for Pa’s birthday, on which I congratulate you ahead of the event. My warm regards
+            to Uncle and Aunt, also to Mr Schmidt and Eduard.</p>
+    </body>
+    <close>Ever your loving brother </close>
+    <sig>Vincent</sig>
+
+    <ps>
+        <p>All at the Haanebeeks’, Aunt Fie’s and the Rooses’ send you their compliments. Adieu, I
+            wish you well.</p>
+    </ps>
+</letter>

@@ -1,0 +1,26 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>Paris, 19 June 1875</head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p><stress reason = "love">I had hoped to see her again before she died</stress>, and that didn’t happen. Man proposes and
+            God disposes.</p>
+        <p>In the first crate we send to Holland you’ll find a photo of that painting by P. de
+            Champaigne, of which Michelet said, ‘she stayed with me for 30 years, coming back to me
+            incessantly’, also an etching by Daubigny after Ruisdael’s ‘Bush’, a lithograph after
+            Corot’s ‘Sunset’, a lithograph by Bodmer, ‘Fontainebleau in the autumn’ and two Jacque
+            etchings. </p>
+    </body>
+    <close>Adieu</close>
+
+    <sig>Vincent</sig>
+
+    <ps>
+        <p>I don’t know how long I’ll be staying here, but before I return to London I hope to go to
+            Helvoirt. I hope you’ll be there too. I’ll pay for the journey. </p>
+        <p>You certainly won’t forget her and her death, but keep it to yourself. This is one of
+            those things that, little by little, makes us ‘sorrowful, yet alway rejoicing’; and that
+            we must become. </p>
+    </ps>
+</letter>

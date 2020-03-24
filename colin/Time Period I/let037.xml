@@ -1,0 +1,32 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+      <head>Paris, 6 July 1875 </head>
+      <salutation>My dear Theo, </salutation>
+      <body>
+            <p>Thanks for writing, yes, old boy, I thought so. You must write and tell me sometime
+                  how your English is, have you done anything about it? If not, it’s not such a
+                  great disaster. I’ve rented a small room in Montmartre which you’d like; it’s
+                  small, but overlooks a little garden full of ivy and Virginia creeper. I want to
+                  tell you which prints I have on the wall.</p>
+
+            <p>Ruisdael The bush ditto Bleaching fields Rembrandt Reading the Bible (a large, old
+                  Dutch room, (in the evening, a candle on the table) in which a young mother sits
+                  beside her child’s cradle reading the Bible; an old woman listens, it’s something
+                  that recalls: Verily I say unto you, ‘for where 2 or 3 are gathered together in my
+                  name, there am I in the midst of them’, it’s an old copper engraving, as large as
+                  ‘The bush’, superb). </p>
+            <p>P. de Champaigne Portrait of a lady Corot Evening ditto ditto Bodmer Fontainebleau
+                  Bonington A road Troyon Morning Jules Dupré Evening (resting place) Maris
+                  Washerwoman ditto A baptism Millet The four times of the day (woodcuts, 4 prints)
+                  Van der Maaten Funeral in the cornfield Daubigny Dawn (cock crowing) Charlet
+                  Hospitality. Farmhouse surrounded by fir trees, winter scene with snow. A peasant
+                  and a soldier before a door. Ed. Frère Seamstressesditto A cooper</p>
+
+
+            <p>Well, old boy, keep well, you know it, longsuffering and meek, as much as possible.
+                  Let us remain good friends. </p>
+      </body>
+      <close>Adieu</close>
+
+      <sig>Vincent</sig>
+</letter>

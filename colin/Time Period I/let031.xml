@@ -1,0 +1,28 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>6 April 1875</head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Thanks for your letter. Didn’t I copy out Meeresstille by Heine in your little book? Some
+            time ago I saw a painting by Thijs Maris that reminded me of it. An old Dutch town with
+            rows of brownish red houses with step-gables and tall flights of steps, grey roofs, and
+            white or yellow doors, window-frames and cornices; canals with ships and a large white
+            drawbridge, a barge with a man at the tiller going under it. The little house of the
+            bridge-keeper, whom one sees through the window, sitting in his office. Some distance
+            away a stone bridge over the canal, with people and a cart with white horses crossing
+            it.</p>
+        <p>And everywhere movement, a porter with his wheelbarrow, a man leaning against the
+            railing, gazing into the water, women in black with white caps. The foreground a quay
+            with paving-stones and a black railing.</p>
+        <p>In the distance a tower rises above the houses. A greyish white sky over everything. It’s
+            a small painting, upright. The subject is nearly the same as the large J. Maris,
+            Amsterdam, which you perhaps know, only this is talent and the other is genius. I’ve
+            again copied out one or two things for you, which I’ll send when I get the chance. Think
+            of ‘The cliff’ and whether you know of anything else. That Victor Hugo piece is
+            beautiful.</p>
+    </body>
+    <close>Adieu, give my regards to Pa if you see him.</close>
+
+    <sig>Vincent</sig>
+</letter>

@@ -1,0 +1,26 @@
+<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>London, 16 June 1874</head>
+
+    <salutation>My dear Theo, </salutation>
+    <body>
+        <p>Thanks for your letter. I think I’ll be leaving here on Thursday, 25 or Saturday, 27
+            June, if nothing unforeseen happens. I’m longing so much to see everyone and Holland.
+            I’m also looking forward to having a good talk with you about art, start thinking about
+            any questions you might want to put to me. We have many beautiful things here, including
+            a spirited painting by Jacquet, and a beautiful Boldini.</p>
+
+        <p>There are beautiful things at the Royal Academy this year; among others Tissot has 3
+            paintings. I’ve been drawing again recently, but <work origin = "new" stage = "sketch">it</work> was nothing special. <unstress reason = "family">I was glad</unstress> to
+            see in your letter that you visit the Haanebeeks. Adieu, goodbye for now, give my
+            regards to all my friends.</p>
+    </body>
+    <close>Ever, Your brother.</close>
+    <sig>Vincent.</sig>
+
+    <ps>
+        <p>I’m glad you like César de Cock so much; he’s one of the few painters to have understood
+            our Brabant intimately enough. I don’t know whether I told you that I met him last year
+            in Paris.</p>
+    </ps>
+</letter>
