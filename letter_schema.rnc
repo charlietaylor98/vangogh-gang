@@ -1,5 +1,5 @@
 start = letter
-letter = element letter {head*, salutation*, body, close, sig, ps*}
+letter = element letter {head, salutation*, body, close, sig, ps*}
 head = element head {text}
 salutation = element salutation {text}
 body = element body {p+}

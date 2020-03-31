@@ -1,6 +1,6 @@
 <?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth</head>
+  <head>Isleworth, 3 November 1876</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>It’s again high time that you heard something from me. <unstress reason="family">Thank God

@@ -1,5 +1,6 @@
 <?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>15 April 1877</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Thanks for your letter of yesterday, which I answer today, having an hour of time.</p>

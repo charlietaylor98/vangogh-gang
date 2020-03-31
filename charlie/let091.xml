@@ -1,5 +1,6 @@
 <?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Between 16 and 22 September 1876</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>Van Iterson just came and surprised me, I think it’s nice that he came, but it’s as
