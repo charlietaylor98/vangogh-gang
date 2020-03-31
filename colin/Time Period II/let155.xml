@@ -2,14 +2,14 @@
 <letter>
     <salutation>My dear Theo, </salutation>
     <body>
-        <p>It’s with some reluctance that I write to you, not having done so for so long, and that
+        <p><stress reason = "family">It’s with some reluctance that I write to you</stress>, not having done so for so long, and that
             for many a reason. Up to a certain point you’ve become a stranger to me, and I too am
             one to you, perhaps more than you think; perhaps it would be better for us not to go on
             this way. It’s possible that I wouldn’t even have written to you now if it weren’t that
             I’m under the obligation, the necessity, of writing to you. If, I say, you yourself
             hadn’t imposed that necessity. I learned at Etten that you had sent fifty francs for me;
-            well, I accepted them. Certainly reluctantly, certainly with a rather melancholy
-            feeling, but I’m in some sort of impasse or mess; what else can one do? And so it’s to
+            well, I accepted them. Certainly reluctantly, certainly with a <stress reason = "family">rather melancholy
+            feeling</stress>, but I’m in some sort of impasse or mess; what else can one do? And so it’s to
             thank you for it that I’m writing to you.</p>
         <p>As you may perhaps know, I’m back in the Borinage; my father spoke to me of staying in
             the vicinity of Etten instead; I said no, and I believe I acted thus for the best.
@@ -20,8 +20,8 @@
             and to remain at a proper distance, as if I didn’t exist. What moulting is to birds, the
             time when they change their feathers, that’s adversity or misfortune, hard times, for us
             human beings. One may remain in this period of moulting, one may also come out of it
-            renewed, but it’s not to be done in public, however; it’s scarcely entertaining, it’s
-            not cheerful, so it’s a matter of making oneself scarce. Well, so be it. Now, although
+            renewed, but it’s not to be done in public, however; <bad_health>it’s scarcely entertaining, it’s
+            not cheerful, so it’s a matter of making oneself scarce</bad_health>. Well, so be it. Now, although
             it may be a thing of rather demoralizing difficulty to regain the trust of an entire
             family perhaps not entirely devoid of prejudices and other similarly honourable and
             fashionable qualities, nevertheless, I’m not utterly without hope that little by little,
@@ -61,9 +61,9 @@
             others, and without wishing to, offends to a greater or lesser degree against certain
             forms and customs and social conventions. It’s a pity, though, when people take that in
             bad part. For example, you well know that I’ve frequently neglected my appearance, I
-            admit it, and I admit that it’s shocking. But look, money troubles and poverty have
-            something to do with it, and then a profound discouragement also has something to do
-            with it, and then it’s sometimes a good means of ensuring for oneself the solitude
+            admit it, and I admit that it’s shocking. But look, <stress reason = "money">money troubles and poverty have
+            something to do with it</stress>, and then <stress reason = "environment">a profound discouragement also has something to do
+            with it</stress>, and then it’s sometimes a good means of ensuring for oneself the solitude
             needed to be able to go somewhat more deeply into this or that field of study with which
             one is preoccupied. One very necessary field of study is medicine; there’s hardly a man
             who doesn’t try to know a little bit about it, who doesn’t try to understand at least
@@ -74,18 +74,18 @@
             time you’ve been going downhill, you’ve faded away, you’ve done nothing. Is that
             entirely true? It’s true that sometimes I’ve earned my crust of bread, sometimes some
             friend has given me it as a favour; I’ve lived as best I could, better or worse, as
-            things went; it’s true that I’ve lost several people’s trust, it’s true that my
-            financial affairs are in a sorry state, it’s true that the future’s not a little dark,
+            things went; it’s true that <stress reason = "friendship">I’ve lost several people’s trust</stress>, it’s true that my
+            <stress reason = "money">financial affairs are in a sorry state</stress>, it’s true that the future’s not a little dark,
             it’s true that I could have done better, it’s true that just in terms of earning my
             living I’ve lost time, it’s true that my studies themselves are in a rather sorry and
             disheartening state, and that I lack more, infinitely more than I have. But is that
             called going downhill, and is that called doing nothing? Perhaps you’ll say, but why
             didn’t you continue as people would have wished you to continue, along the university
             road? </p>
-        <p>To that I’d say only this, it costs too much and then, that future was no better than the
-            present one, on the road that I’m on. But on the road that I’m on I must continue; if I
+        <p>To that I’d say only this, it costs too much and then, <stress reason = "environment">that future was no better than the
+            present one</stress>, on the road that I’m on. <bad_health>But on the road that I’m on I must continue; if I
             do nothing, if I don’t study, if I don’t keep on trying, then I’m lost, then woe betide
-            me. That’s how I see this, to keep on, keep on, that’s what’s needed. But what’s your
+            me.</bad_health> That’s how I see this, to keep on, keep on, that’s what’s needed. But what’s your
             ultimate goal, you’ll say. That goal will become clearer, will take shape slowly and
             surely, as the croquis becomes a sketch and the sketch a painting, as one works more
             seriously, as one digs deeper into the originally vague idea, the first fugitive,
@@ -104,8 +104,8 @@
             doesn’t agree with all that, and who protests against it with all his heart and with all
             his soul and with all the indignation of which he is capable. Myself, I respect
             academicians who are not like those academicians, but the respectable ones are more
-            thinly scattered than one would believe at first glance. Now one of the reasons why I’m
-            now without a position, why I’ve been without a position for years, it’s quite simply
+            thinly scattered than one would believe at first glance. <stress reason = "career">Now one of the reasons why I’m
+            now without a position, why I’ve been without a position for years</stress>, it’s quite simply
             because I have different ideas from these gentlemen who give positions to individuals
             who think like them. It’s not a simple matter of appearance, as people have
             hypocritically held it against me, it’s something more serious than that, I assure
@@ -148,8 +148,8 @@
             think that I’m rejecting this or that; in my unbelief I’m a believer, in a way, and
             though having changed I am the same, and my torment is none other than this, what could
             I be good for, couldn’t I serve and be useful in some way, how could I come to know more
-            thoroughly, and go more deeply into this subject or that? Do you see, it continually
-            torments me, and then you feel a prisoner in penury, excluded from participating in this
+            thoroughly, and go more deeply into this subject or that? Do you see, <stress reason = "environment">it continually
+            torments me</stress>, and then you feel a prisoner in penury, excluded from participating in this
             work or that, and such and such necessary things are beyond your reach. Because of that,
             you’re not without melancholy, and you feel emptiness where there could be friendship
             and high and serious affections, and you feel a terrible discouragement gnawing at your

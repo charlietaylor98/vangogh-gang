@@ -4,9 +4,9 @@
     <body>
         <p>My sincere congratulations on your birthday. I think of your visit time and again, I’m
             glad we spoke to each other again in this way, and hope it turns out that you’ll come
-            again in the summer. I’ve been here for a few days and it’s beautiful outdoors, but the
+            again in the summer. I’ve been here for a few days and <unstress reason = "environment">it’s beautiful outdoors</unstress>, but the
             weather doesn’t yet permit of drawing outdoors every day.</p>
-        <p>Meanwhile I’ve started on the Millets, The sower is finished and the 4 times of the day
+        <p>Meanwhile <work origin = "new" stage = "sketch">I’ve started on the Millets</work>, The sower is finished and the 4 times of the day
             sketched. And now still to come are The labours of the field. As you know, there was an
             exhibition of watercolours in Brussels and it was quite interesting. There were 4 or 5
             Mauves, woodcutters, 1 J. Maris, dunes, just like a painting by Ruisdael or Van de
@@ -36,7 +36,7 @@
             that he really received a cold shower when he was there earlier, but that’s no reason to
             think that he won’t have more luck during his next stay. He’s certainly progressed a
             good deal since then.</p>
-        <p> I’m very glad indeed that it’s been arranged for me to work here quietly for a while, I
+        <p> <unstress reason = "career">I’m very glad indeed</unstress> that it’s been arranged for me to work here quietly for a while, I
             hope to make as many studies as I possibly can, for that’s the seed from which later
             drawings will grow. Do write to me from time to time and keep me informed, if possible,
             of one thing and another that strikes you, and think of me if you happen to hear of a
