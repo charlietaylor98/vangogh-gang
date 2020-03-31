@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Wasmes, between Tuesday, 4 and Monday, 31 March 1879.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> I heard from Pa and Ma that they were recently surprised by a visit from you, just when

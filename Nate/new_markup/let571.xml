@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Paris, between about Sunday, 17 and Tuesday, 19 July 1887.</head>
   <salutation>My dear friend,</salutation>
   <body>
     <p>Enclosed a letter that arrived yesterday but which the concierge didn’t pass on to me
@@ -26,14 +28,14 @@
       believe it was more the case that she’d tried to warn me people were trying to pick a fight
       with me, than that she’d been up to something herself. She can’t do as she’d like. Now I’ll
       wait till you get back before doing anything.</p>
-    <p>I’ve done two paintings since you left.</p>
-    <p>Now I have two louis left, and I fear I won’t know how to get through the days from now till
-      you get back.</p>
-    <p>Because remember when I started working at Asnières I had lots of canvases and Tanguy was
+    <p><work origin="new" stage="finished">I’ve done two paintings since you left.</work></p>
+    <p><work origin="new" stage="planned">Now I have two louis left, and I fear I won’t know how to get through the days from now till
+      you get back.</work></p>
+    <p><stress reason="friendship">Because remember when I started working at Asnières I had lots of canvases and Tanguy was
       very good to me. He still is, when it comes down to it, but his old witch of a wife noticed
       what was going on and objected to it. Now I gave Tanguy’s wife a piece of my mind and said it
       was her fault if I wouldn’t buy anything else from them. Père Tanguy’s wise enough to keep
-      quiet, and he’ll do what I ask of him all the same.</p>
+      quiet, and he’ll do what I ask of him all the same</stress>.</p>
     <p>But with all that it isn’t easy to work.</p>
     <p>I saw Lautrec today, he’s sold a painting, through Portier, I think. </p>
     <p>Someone brought in a watercolour by Mrs Mesdag, which I find very beautiful.</p>

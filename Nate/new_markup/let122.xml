@@ -1,5 +1,6 @@
 <?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Sunday, 15 July 1877.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> I feel the need to write to you again, let me have a word from you too, if you have time. </p>

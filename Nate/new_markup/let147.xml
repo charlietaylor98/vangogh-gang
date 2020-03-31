@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Etten, Thursday, 15 August 1878.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> I’m enclosing a few words with Pa and Ma’s letter to bid you good morning. It’s raining

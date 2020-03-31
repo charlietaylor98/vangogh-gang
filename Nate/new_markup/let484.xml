@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Nuenen, on or about Monday, 2 March 1885.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p><unstress reason="money">Thanks for the prompt dispatch of the money for this month, arriving promptly like that

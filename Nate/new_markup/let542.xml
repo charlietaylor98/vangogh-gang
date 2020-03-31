@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Nuenen, on or about Tuesday, 17 November 1885.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>I’ll tell you in a few words what Van de Loo said about Ma. He says</p>
@@ -11,9 +13,9 @@
                   and didn’t make anything of it.</p>
             <p>So she can do whatever she likes and doesn’t have to feel awkward about travelling or
                   moving house.</p>
-            <p>So much the better, then. In any event it’s reassuring. Because for my part I believe
+            <p><unstress reason="family">So much the better, then. In any event it’s reassuring. Because for my part I believe
                   what he says, and with the good care that Ma gets thanks to Wil there’s little
-                  chance of ‘contracting some disease or other’.</p>
+                  chance of ‘contracting some disease or other’.</unstress></p>
             <p>Wanted to let you know straightaway. It’s reassuring for me, too.I’m really looking
                   forward to Antwerp now. The first thing I’ll do there will probably be to go and
                   see Leys’s paintings in his dining room, if one can see them. You know, that Walk
@@ -26,17 +28,17 @@
             <p>I’m at something of a stand with the work here at present. It’s freezing hard, so
                   it’s no longer possible to work outdoors. It’s better if I just don’t use any more
                   models as long as I’m living in this house; at any rate not until I come back.
-                  Besides, I’m saving my paint and canvas so as to have ammunition there.SO THE
-                  SOONER I CAN GET AWAY, THE BETTER.</p>
-            <p>I recently received a letter from Leurs about my paintings. He wrote that Tersteeg
-                  and Wisselingh had seen them and thought them ‘not suitable for them’.</p>
+                  Besides, I’m saving my paint and canvas so as to have ammunition there.<stress reason="environment">SO THE
+                  SOONER I CAN GET AWAY, THE BETTER.</stress></p>
+            <p><stress reason="career">I recently received a letter from Leurs about my paintings. He wrote that Tersteeg
+                  and Wisselingh had seen them and thought them ‘not suitable for them’.</stress></p>
             <p>All the same, I maintain that I’ll make people change their minds — even if Tersteeg
                   and Wisselingh don’t want to.</p>
             <p>I’ve just read a few books in the style of Gigoux’s Souvenirs, which my friend in
                   Eindhoven had sent for, in which I found some very interesting things about the
-                  fellows of those days, starting with Paul Huet. And which give me confidence that
+                  fellows of those days, starting with Paul Huet. <unstress reason="career">And which give me confidence that
                   I haven’t tackled nature the wrong way, nor the technique of painting, although I
-                  freely admit that I will and must still change.</p>
+                  freely admit that I will and must still change.</unstress></p>
             <p>There you have those heads that are with you, there must be good ones among them, I’m
                   as good as certain of it. So — let’s go.</p>
             <p>I don’t think this winter will be dull. It’s obvious that it’ll mainly be a question
@@ -51,9 +53,9 @@
                   technical things — all the same I’ll always see through my own eyes and tackle
                   things originally.</p>
             <p>However, nothing could be surer than that I’ll try to learn more things. And if I can
-                  — particularly the nude figure. I imagine, though, that in order to get models, as
+                  — particularly the nude figure. <stress reason="money">I imagine, though, that in order to get models, as
                   many as I want and good, I won’t be done all at once, but will have to find the
-                  money for it by making other things. Be it landscapes, be it townscapes, be it
+                  money for it by making other things.</stress> Be it landscapes, be it townscapes, be it
                   portraits, as I said — or — even if it were signboards and decoration. Or —
                   something I didn’t mention in my last letter among the things that I could do ‘on
                   the side’ — give lessons in painting, letting them begin by painting still lifes —
@@ -67,10 +69,10 @@
                   Write soon if you have time. I wanted to tell you Van de Loo’s opinion of Ma
                   straightaway.Since I’m already busy packing up my things, it goes without saying
                   that my thoughts are more there than here.</p>
-            <p>Here I’ve just kept on ceaselessly painting in order to learn painting, to get firm
-                  ideas about colour (and);c., without leaving much room in my head for other
-                  things. But when I escaped to Amsterdam for a few days, I was really delighted to
-                  see paintings once again. For it’s sometimes damned hard to be entirely away from
+            <p><stress reason="career">Here I’ve just kept on ceaselessly painting in order to learn painting, to get firm
+                  ideas about colour, without leaving much room in my head for other
+                  things.</stress> <unstress reason="environment">But when I escaped to Amsterdam for a few days, I was really delighted to
+                  see paintings once again.</unstress> For it’s sometimes damned hard to be entirely away from
                   paintings and the world of painters and not to see anything by other people. Since
                   then I’ve had quite a yearning to get back into it, at least for a while.</p>
             <p>If one’s entirely out of it for a couple of years and wrestles with nature, that can
@@ -80,8 +82,8 @@
                   have to act according to circumstances, I mean, if I could perhaps make the
                   acquaintance of an art buyer and persuade him to show some of my things. But
                   tomorrow doesn’t mean never, and you’ll soon see something of it, particularly if
-                  I succeed in making new studies of heads or figures. The one landscape I’m taking
-                  with me — and possibly both — but the one with the yellow leaves: I think you’d
+                  I succeed in making new studies of heads or figures. <work origin="existing" stage="finished">The one landscape I’m taking
+                  with me — and possibly both — but the one with the yellow leaves:</work> I think you’d
                   like it too. I enclose a quick croquis of it.</p>
             <p>The horizon is a dark line against a light line of sky in white and blue. In this
                   dark line little flecks of red, bluish and green or brown, forming the silhouette

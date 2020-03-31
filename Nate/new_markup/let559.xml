@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Antwerp, on or about Saturday, 6 February 1886.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>I’ve received your letter and 25 francs enclosed and I thank you very much for both.
@@ -11,11 +13,11 @@
                   write about yourself — I’ll disappoint you.</p>
             <p>And even so, this is the way to combine forces. And even so, much greater
                   understanding of each other can follow from it.</p>
-            <p>Now what shall I tell you about my health? I still believe that I have a chance of
+            <p>Now what shall I tell you about my health? <bad_health>I still believe that I have a chance of
                   avoiding being really ill; all the same, I’ll need time to get better. I also
                   still have two more teeth to be filled, then my upper jaw, which was most
-                  affected, will be all right again. I still have to pay 10 francs for that, and
-                  then another 40 francs to get the bottom half right too.</p>
+                  affected, will be all right again.</bad_health> <stress reason="money">I still have to pay 10 francs for that, and
+                  then another 40 francs to get the bottom half right too.</stress></p>
             <p>Some years of those 10 years that I appear to have spent in prison will disappear as
                   a result. Because bad teeth, which one so seldom sees any more as it’s so easy to
                   get them put right, since bad teeth give a physiognomy a sort of sunken look.</p>
@@ -24,9 +26,9 @@
             <p>I really do notice that I’ve been at a very low ebb, though — and as you wrote
                   yourself, all sorts of things that are even worse could arise out of neglecting
                   it. However, we’ll see that we get it put right.</p>
-            <p>I haven’t worked for a few days, gone to bed early a couple of nights (otherwise it
+            <p><unstress reason="career">I haven’t worked for a few days, gone to bed early a couple of nights (otherwise it
                   was usually 1 or 2 o’clock because of drawing at the club). And I feel that it’s
-                  calming me.</p>
+                  calming me.</unstress></p>
             <p>I’ve had a note from Ma, who writes that they’re going to start packing in March.</p>
             <p>Further, since you say you’ll have to pay rent until the end of June — well then,
                   perhaps it would be best after all if I were to return to Nuenen, starting in
@@ -34,16 +36,16 @@
                   would be wasting my time there and so, even if it were only just for those few
                   months, I’d make a change anyhow, since I want to have some new things from the
                   country ready to bring to Paris with me.</p>
-            <p>That Siberdt, the teacher of the antique, who spoke to me at first as I told you,
+            <p><stress reason="environment">That Siberdt, the teacher of the antique, who spoke to me at first as I told you,
                   definitely tried to pick a quarrel with me today, perhaps with a view to getting
-                  rid of me. Which didn’t work inasmuch as I said — Why are you trying to pick a
+                  rid of me.</stress> Which didn’t work inasmuch as I said — Why are you trying to pick a
                   quarrel with me? I have no wish to quarrel, and in any case I have absolutely no
                   desire to contradict you, but you deliberately try to pick a quarrel with me.</p>
             <p>He evidently hadn’t expected that and couldn’t say much to refute it this time, but —
                   next time, of course, he’ll be able to start something.</p>
-            <p>The issue behind it is that the fellows in the class are talking about things in my
+            <p><stress reason="friendship">The issue behind it is that the fellows in the class are talking about things in my
                   work among themselves, and I’ve said, not to Siberdt but outside the class to some
-                  of the fellows, that their drawings were completely wrong.</p>
+                  of the fellows, that their drawings were completely wrong.</stress></p>
             <p>Bear in mind that if I go to Cormon and run into trouble sooner or later either with
                   the master or the pupils, I wouldn’t let it worry me. If need be, even if I didn’t
                   have a master, I could also go through the antique course by going to draw in the
@@ -80,13 +82,13 @@
                   one can’t do anything about.</p>
             <p>Very well — I won’t go into that except in so far as it might make a fatal separation
                   between us where reconciliation is needed.</p>
-            <p>And our upbringing (and);c. — won’t prove to be so good that we’ll retain many
+            <p><stress reason="family">And our upbringing  — won’t prove to be so good that we’ll retain many
                   illusions about it — there you are — and we might perhaps have been happier with a
                   different upbringing. But if we stick to the positive idea of wanting to produce
                   and to be something, then we’ll be able, without getting angry, to discuss faits
                   accomplis as such when it’s unavoidable and might perhaps touch on or directly
                   concern the Goupils or the family. And for the rest, these issues between us are
-                  for the understanding of the situation and not out of rancour. But if we undertake
+                  for the understanding of the situation and not out of rancour. </stress>But if we undertake
                   something it won’t be a matter of indifference to either of us to improve our
                   health, because we need time alive — some 25 or 30 years of working constantly.
                   There’s so much of interest in the present age when one thinks how very possible

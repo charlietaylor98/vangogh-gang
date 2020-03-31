@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Amsterdam, Monday, 18 and Tuesday, 19 February 1878.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> <good_health>Thanks for your letter of 17 February, which gave me not a little pleasure</good_health>, as I had

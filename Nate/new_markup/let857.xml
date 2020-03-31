@@ -1,9 +1,11 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Saint-Rémy-de-Provence, on or about Monday, 17 March 1890.</head>
       <salutation>My dear Theo,</salutation>
       <body>
-            <p>Today I wanted to try and read the letters that had come for me, but I wasn’t yet
-                  clearheaded enough to be able to understand them.</p>
+            <p><bad_health>Today I wanted to try and read the letters that had come for me, but I wasn’t yet
+                  clearheaded enough to be able to understand them.</bad_health></p>
             <p>However, I’m trying to answer you straightaway, and am hoping that it will lift
                   within a few days from now. Above all I hope that you’re well, and your wife and
                   your child.</p>
@@ -16,18 +18,18 @@
       <close> Ever yours, </close>
       <sig>Vincent</sig>
       <ps>
-            <p>I’m picking up this letter again to try and write, it will come little by little,
+            <p><bad_health>I’m picking up this letter again to try and write, it will come little by little,
                   it’s just that my mind has been so affected – without pain, it’s true – but
-                  totally stupefied. I must tell you that there are – as far as I can judge – others
+                  totally stupefied. </bad_health>I must tell you that there are – as far as I can judge – others
                   who have this like me; who having worked during a period of their life are reduced
                   to powerlessness even so. One doesn’t easily learn anything good between four
                   walls, that’s understandable, but nevertheless it’s true that there are also
                   people who can no longer be left at liberty as if they had nothing wrong with
                   them. And so I almost or entirely despair of myself. Perhaps, perhaps I would
                   indeed get better in the country for a time.</p>
-            <p>Work was going well, the last canvas of the branches in blossom, you’ll see that it
+            <p><work origin="new" stage="middle">Work was going well, the last canvas of the branches in blossom, you’ll see that it
                   was perhaps the most patiently worked, best thing I had done, painted with calm
-                  and a greater sureness of touch. And the next day done for like a brute. Difficult
+                  and a greater sureness of touch. </work>And the next day done for like a brute. Difficult
                   to understand things like that, but alas, that’s how it is. I have a great desire
                   to get back to my work, though, but Gauguin also writes that he, who is
                   nevertheless robust, also despairs of being able to continue. And isn’t it true

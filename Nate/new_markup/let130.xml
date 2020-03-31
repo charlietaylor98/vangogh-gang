@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Friday, 7 September 1877.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> <good_health>It felt wonderful to hear Gladwell’s voice in the hall as I sat upstairs studying and to see

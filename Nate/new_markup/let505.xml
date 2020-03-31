@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Nuenen, on or about Thursday, 28 May 1885.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p><unstress reason="environment">I’ve just received Germinal, which I started on immediately. I’ve read 50 pages of it

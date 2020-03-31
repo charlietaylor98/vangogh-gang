@@ -1,5 +1,6 @@
 <?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Monday, 21 and Tuesday, 22 May 1877</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Thanks for your letter and for the church’s attestation, it’s a pity you didn’t go to Etten

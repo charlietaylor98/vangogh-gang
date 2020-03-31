@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Nuenen, on or about Thursday, 20 March 1884.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>I just received your letter and the 250 francs enclosed. If I may regard your letter

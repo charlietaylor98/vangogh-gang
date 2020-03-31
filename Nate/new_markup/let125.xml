@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Friday, 3 August 1877.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> Thanks for your last letter, which I was happy to receive and for which I heartily thank

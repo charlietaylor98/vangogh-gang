@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Sunday, 3 March 1878.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> It’s time to write to you again, how I should like to have been with you today, <unstress reason="environment">it was such

@@ -1,32 +1,34 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Saint-Rémy-de-Provence, Saturday, 7 December 1889.</head>
       <salutation>My dear Theo,</salutation>
       <body>
-            <p>Yesterday I sent three packets by parcel post containing studies which I hope you’ll
-                  receive in good order. I really must thank you for the 10 metres of canvas, which
+            <p><work origin="new" stage="finished">Yesterday I sent three packets by parcel post containing studies which I hope you’ll
+                  receive in good order.</work> I really must thank you for the 10 metres of canvas, which
                   have just arrived.</p>
-            <p>Among the studies you’ll find the following, which are for our mother and sister.
+            <p><work stage="finished" origin="new">Among the studies you’ll find the following, which are for our mother and sister.
                   Olive trees – Bedroom – Reaper – Working with plough – Wheatfield with cypresses –
-                  Orchard in blossom – Portrait.</p>
+                  Orchard in blossom – Portrait.</work></p>
             <p>The remainder is above all autumn studies and I think the best one is the yellow
                   mulberry tree against a very blue sky. Then the study of the house and of the
-                  park, of which there are two variants. The studies on no. 30 canvases weren’t yet
+                  park, of which there are two variants. <work origin="new" stage="middle">The studies on no. 30 canvases weren’t yet
                   dry and will follow later. They’re giving me a lot of trouble, and sometimes I
                   find them very ugly, sometimes they look good to me – perhaps you’ll have the same
                   impression when you see them. There are a dozen of them, so it’s more substantial
-                  than what I’ve just sent.</p>
+                  than what I’ve just sent.</work></p>
             <p>In spite of the cold I’m continuing to work outside up to now, and I think that it’s
                   good for me and for the work.</p>
-            <p>The last study I did is a view of the village – where people were at work – under
+            <p><work stage="finished" origin="new">The last study I did is a view of the village – where people were at work – under
                   enormous plane trees – repairing the pavements. So there are piles of sand, stones
                   and the gigantic treetrunks – the yellowing foliage, and here and there glimpses
-                  of a housefront and little figures.I often think of you and Jo, but with a feeling
+                  of a housefront and little figures.</work><stress reason="family">I often think of you and Jo, but with a feeling
                   as if there was an enormous distance from here to Paris and as if it were years
-                  since I saw you. I hope that your health is good, for myself I can’t complain, I
+                  since I saw you.</stress> I hope that your health is good, for myself I can’t complain, I
                   feel absolutely normal, so to speak, but without ideas for the future, and truly I
                   don’t know what it’s going to be, and perhaps I’m avoiding going into this
                   question deeply, sensing that I can do nothing about it.</p>
-            <p>I’ve finished, or almost, the copy of The diggers too.</p>
+            <p><work origin="new" stage="middle">I’ve finished, or almost, the copy of The diggers too.</work></p>
             <p>You’ll see that there are no more impastos in the large studies. I prepare the thing
                   with sorts of washes with spirits, and then proceed with touches or hatchings of
                   colour with spaces between them. This imparts atmosphere and uses less paint.</p>

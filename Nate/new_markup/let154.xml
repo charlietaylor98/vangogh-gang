@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Cuesmes, between about Monday, 11 and Thursday, 14 August 1879.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> It’s mainly to tell you that I’m grateful for your visit that I’m writing to you. It was

@@ -1,5 +1,8 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<letter><salutation>My dear brother,</salutation>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+      <head> Auvers-sur-Oise, Wednesday, 23 July 1890.</head>
+      <salutation>My dear brother,</salutation>
       <body>
             <p>Thanks for your letter of today and for the 50franc note it contained.</p>
             <p>I’d perhaps like to write to you about many things, but first the desire has passed
@@ -13,10 +16,10 @@
             <p>Things go quickly here – aren’t Dries, you and I a little more convinced of that,
                   don’t we feel it a little more than those ladies? So much the better for them –
                   but anyway, talking with rested minds, we can’t even count on that.</p>
-            <p>As for myself, I’m applying myself to my canvases with all my attention, I’m trying
-                  to do as well as certain painters whom I’ve liked and admired a great deal.What
+            <p><good_health>As for myself, I’m applying myself to my canvases with all my attention, I’m trying
+                  to do as well as certain painters whom I’ve liked and admired a great deal.</good_health><stress reason="friendship">What
                   seems to me on my return – is that the painters themselves are increasingly at
-                  bay.</p>
+                  bay.</stress></p>
             <p>Very well. But has the moment to make them understand the utility of a union not
                   rather passed already? On the other hand a union, if it were formed, would go
                   under if the rest went under. Then you’d perhaps tell me that dealers would unite
@@ -25,9 +28,9 @@
                   begin it again?</p>
             <p>I noted with pleasure that the Gauguin from Brittany that I saw was very beautiful,
                   and it seems to me that the others he’s done there must be too.</p>
-            <p>Perhaps you’ll see this croquis of Daubigny’s garden – it’s one of my most deliberate
+            <p><work origin="new" stage="middle">Perhaps you’ll see this croquis of Daubigny’s garden – it’s one of my most deliberate
                   canvases – to it I’m adding a croquis of old thatched roofs and the croquis of 2
-                  no. 30 canvases depicting immense stretches of wheat after the rain. Hirschig
+                  no. 30 canvases depicting immense stretches of wheat after the rain.</work> Hirschig
                   asked me to ask you please to order the attached list of colours for him from the
                   same colourman you send me. Tasset can send them directly to him, cash on
                   delivery, but then he would have to be given the 20%.</p>
@@ -41,13 +44,13 @@
                   landscape studies which are a little like the Konings at your place as regards
                   colour. It will become completely like that, perhaps, or like the things by
                   Voerman that we saw together.</p>
-            <p>More soon. Look after yourself, and good luck in business &amp;c. Warm regards to Jo,
+            <p>More soon. Look after yourself, and good luck in business . Warm regards to Jo,
                   and handshakes in thought.</p>
       </body><close>Yours truly, </close><sig>Vincent</sig><ps>
             <p> Daubigny’s garden </p>
-            <p> Foreground of green and pink grass, on the left a green and lilac bush and a stem of
+            <p> <work stage="finished" origin="existing">Foreground of green and pink grass, on the left a green and lilac bush and a stem of
                   plants with whitish foliage. In the middle a bed of roses. To the right a hurdle,
-                  a wall, and above the wall a hazel tree with violet foliage. </p>
+                  a wall, and above the wall a hazel tree with violet foliage.</work> </p>
             <p> Then a hedge of lilac, a row of rounded yellow lime trees. The house itself in the
                   background, pink with a roof of bluish tiles. A bench and 3 chairs, a dark figure
                   with a yellow hat, and in the foreground a black cat. Sky pale green.</p>

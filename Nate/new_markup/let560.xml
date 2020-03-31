@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Antwerp, on or about Tuesday, 9 February 1886.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I have to write to you one more time because the sooner we can take an outright decision
@@ -10,13 +12,13 @@
             unsightly tools or for dirty work, and I could also sleep there — and you in the studio
             alcove.</p>
         <p>It seems to me that such an arrangement or something similar would be perfectly
-            satisfactory for the first year. What I’m not sure about is whether we’ll get on
+            satisfactory for the first year. <stress reason="family">What I’m not sure about is whether we’ll get on
             personally, although I don’t despair of it — but it’ll be much more agreeable for you to
             come home to a workplace than to an ordinary room, which always has something gloomy
-            about it. And it’s that gloom that’s our worst enemy. When the doctor tells me that I
+            about it. And it’s that gloom that’s our worst enemy.</stress> When the doctor tells me that I
             have to take better care of myself, physically — well, who knows whether such a measure
-            mightn’t do you good too. For you’re also neither happy nor in good spirits — let’s not
-            mince words, you have too much worry and too little prosperity.</p>
+            mightn’t do you good too. <bad_health>For you’re also neither happy nor in good spirits — let’s not
+            mince words, you have too much worry and too little prosperity.</bad_health></p>
         <p>But perhaps it’s because of our policy that we’re each too much alone and our forces and
             resources are too divided, and in that form insufficient. So — unity is strength — would
             certainly be much better.</p>
@@ -25,9 +27,9 @@
         <p>Do you want a reason on which one can rely to preserve one’s serenity, even when one
             stands alone and isn’t understood and one’s material wellbeing has gone by the board?
             Well there’s still this — I believe — one feels instinctively that a tremendous amount
-            is changing, and everything will change. We’re in the last quarter of a century that
+            is changing, and everything will change. <stress reason="environment">We’re in the last quarter of a century that
             will end with another colossal revolution.But suppose we both yet see the beginning of
-            it at the end of our lives.</p>
+            it at the end of our lives.</stress></p>
         <p>We’ll certainly not experience the better times of clear air and refreshment of the whole
             of society after those great storms. All the same, it’s something not to be taken in by
             the falseness of one’s time, in so far as one detects in it the unhealthy closeness and
@@ -49,9 +51,9 @@
             encouraging unless one finds satisfaction in one’s work. I’m sending you that novel by
             De Goncourt specifically for the introduction above all — which contains a résumé of
             their works and aims.</p>
-        <p>You’ll see that these fellows haven’t been precisely happy, in the same way as Delacroix
+        <p>Y<bad_health>ou’ll see that these fellows haven’t been precisely happy, in the same way as Delacroix
             said about himself, I haven’t been happy at all in the sense in which I understood it /
-            wanted it in the past.</p>
+            wanted it in the past</bad_health>.</p>
         <p>Well, whether or not it comes soon — a moment will come for you, too, when you’ll be sure
             that material wellbeing has gone by the board, fatally and irrevocably. I’d safely dare
             say that, but adding this, that I think that at that same moment there will be a certain
@@ -72,9 +74,9 @@
             drawing in L’Ecole des BeauxArts or other studios I’ve heard about here.</p>
         <p>The ancients won’t prevent us from being realistic, come on — on the contrary. Of course
             I’m also desperately longing for French paintings.</p>
-        <p>Apropos, don’t you like this?Everything that is bad came from woman — Clouded Reason, an
+        <p><stress reason="love">Apropos, don’t you like this?Everything that is bad came from woman — Clouded Reason, an
             appetite for lucre, betrayal Golden cups in which wines are mixed with lees. Every
-            crime, every happy lie, every kind of madness</p>
+            crime, every happy lie, every kind of madness</stress></p>
         <p>Comes from her..... Adore her none the less, since the gods Made her... and — she is the
             best thing that they have made. After all, working has the secret of being able to give
             someone a second youth.</p>

@@ -1,12 +1,13 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>The Hague, Sunday, 29 September 1872.</head>
     <salutation>My dear brother </salutation>
     <body>
         <p>After a last discussion with Mr Peyron I obtained permission to pack my trunk, which I’ve
             sent by goods train. The 30 kilos of luggage one is allowed to take will allow me to
-            take a few frames, easel and some stretching frames &amp;c.</p>
-        <p>I’ll leave as soon as you’ve written to Mr Peyron, I feel calm enough, and I don’t think
-            that a mental upset could easily happen to me in the state I’m in.</p>
+            take a few frames, easel and some stretching frames.</p>
+        <p>I’ll leave as soon as you’ve written to Mr Peyron,<good_health> I feel calm enough, and I don’t think
+            that a mental upset could easily happen to me in the state I’m in.</good_health></p>
         <p>In any event, I hope to be in Paris before Sunday to spend the day, which you will have
             off, quietly with all of you. I really hope to see André Bonger too at the first
             opportunity.</p>
@@ -24,11 +25,11 @@
             way that I may make the journey on Friday or Saturday at the latest to spend Sunday with
             you. In doing so I’ll also lose the least time for my work, which is finished here for
             the moment.</p>
-        <p>In Paris, if I feel up to it, I’d immediately very much like to do a painting of a yellow
+        <p>In Paris, if I feel up to it, <work origin="new" stage="planned">I’d immediately very much like to do a painting of a yellow
             bookshop (gas effect), which I’ve had in my mind for so long. You’ll see that I’ll be at
-            work right from the day after my arrival. I tell you, as regards work, my mind feels
+            work right from the day after my arrival. </work><good_health>I tell you, as regards work, my mind feels
             absolutely serene and the brushstrokes come to me and follow each other very
-            logically.</p>
+            logically.</good_health></p>
         <p>Anyway until Sunday AT THE LATEST, I shake your hand firmly in the meantime, warm regards
             to Jo.</p>
     </body>
@@ -38,9 +39,9 @@
         <p>Probably the answer to Mr Peyron will already have left, which I hope. I was a little
             vexed that there were a few days’ delay, because that seems to me to be of no use for
             anything. For either I’d plunge into new works here, or it’s now that I have the leisure
-            for the journey. Spending days doing nothing, here or elsewhere, that’s what would make
-            me miserable in my current state of mind. Besides, Mr P. isn’t opposed to it, but
+            for the journey. <stress reason="environment">Spending days doing nothing, here or elsewhere, that’s what would make
+            me miserable in my current state of mind. </stress><unstress reason="friendship">Besides, Mr P. isn’t opposed to it, but
             naturally when you leave, your position is a little difficult with the rest of the
-            administration. But it’s going well, and we’ll part amicably. </p>
+            administration. But it’s going well, and we’ll part amicably.</unstress> </p>
     </ps>
 </letter>

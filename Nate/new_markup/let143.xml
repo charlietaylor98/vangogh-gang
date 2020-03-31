@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Wednesday, 3 April 1878.</head>
   <salutation/>
   <body>
     <p> I’ve been thinking about what we discussed, and I couldn’t help thinking of the words ‘we

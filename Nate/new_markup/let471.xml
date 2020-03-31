@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Nuenen, on or about Monday, 24 November 1884.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p><stress reason="family">I suppose you already know that Pa has turned down Helvoirt.</stress></p>

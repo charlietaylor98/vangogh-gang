@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Wasmes, Thursday, 26 December 1878.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> It’s time I write to you again, first of all to wish you happiness at the beginning of a new

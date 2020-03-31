@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Nuenen, on or about Saturday, 14 November 1885.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I came across the following sentence that you’d underlined in the article on Chardin in
@@ -25,8 +27,8 @@
             staying so for a long time — well, that isn’t here — that isn’t even in Arabia or Italy,
             although that is better there than here.And for my part, I’m of the opinion that one has
             the greatest chance of staying strong and renewing oneself — in today’s third estate.
-            Anyway. So I’m saying that I seek to find it in painting, without ulterior motives. But
-            — I’d do well, I think, to bear portrait painting in mind if I want to earn. I know it’s
+            Anyway. So I’m saying that I seek to find it in painting, without ulterior motives. <stress reason="money">But
+            — I’d do well, I think, to bear portrait painting in mind if I want to earn.</stress> I know it’s
             difficult to please people with a ‘likeness’, and I dare not say beforehand that I feel
             sure of my case. I certainly don’t consider it altogether impossible, though, because
             the people here will be much the same as people elsewhere. Well then, the peasants and
@@ -42,8 +44,8 @@
         <p>I’ve come by the addresses of 6 art dealers, so I’d want to take something with me and
             further, as to the work, I plan to paint a few views of the city as soon as I get there
             — reasonably large — — and show them straightaway too.</p>
-        <p>In other words concentrate everything on doing something there. And going there poor, at
-            any rate I can’t lose much.</p>
+        <p><stress reason="career">In other words concentrate everything on doing something there. And going there poor, at
+            any rate I can’t lose much.</stress></p>
         <p>Now as regards here — I know the area and the folk too well and love them too much to
             believe I’m going for good. I’ll see about renting a place to store my things, and then
             I’m also covered should I want to leave Antwerp for a while — or should become homesick
@@ -54,7 +56,7 @@
             as to that, in order to clear the whole thing up in my case — if I did ‘something on the
             side’, then the only thing would be that, if I knew either dealers or painters, I would
             possibly do something with paintings, for instance by going to England for them
-            (and);c.</p>
+           .</p>
         <p>Things like this, which are obviously directly related to painting, are an exception, but
             otherwise, as a rule, a painter must be wholly a painter.Don’t forget, either, that I’m
             not cut out to be a melancholic. The nickname I have around here is generally ‘the
@@ -64,8 +66,8 @@
             the things from here were liked, either now or later, then I would continue with them,
             and vary them with similar things from Drenthe.</p>
         <p>But the issue is that I can only do one thing at a time, that if I’m engaged in painting
-            peasants, I can’t occupy myself with business in town. The present moment is ideal for
-            breaking away, since I’ve had trouble getting models and am going to move in any case.
+            peasants, I can’t occupy myself with business in town. <stress reason="money">The present moment is ideal for
+            breaking away, since I’ve had trouble getting models and am going to move in any case.</stress>
             As to that, it’s to be expected that there would never be an end to it in this studio
             right next door to the priest and the sacristan. So I’m changing that.But anyway, it
             doesn’t make an absolute impression on people, and by renting another room and letting
@@ -76,10 +78,10 @@
             another reason, too — that it’s not absolutely impossible I might find an opportunity
             somewhere to paint from the nude.</p>
         <p>They wouldn’t want me at the academy, nor probably would I — but — with a sculptor, say,
-            there must surely be a few living there, one might readily find some sympathy. It goes
+            there must surely be a few living there, one might readily find some sympathy. <stress reason="money">It goes
             without saying that people with money can get as many models as they want, but it’s a
             difficult matter without it. All the same, there must be people there who use nude
-            models and with whom one could split the cost. I need it for many things.I received your
+            models and with whom one could split the cost. I need it for many things.</stress>I received your
             letter while I was writing to you. I’m willing to go to Van de Loo if need be, only you
             know that doctors sometimes don’t tell you everything, particularly in doubtful cases.
             You should also understand that what I said about her being rather in a fog will

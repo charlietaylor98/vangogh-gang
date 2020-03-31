@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Nuenen, on or about Monday, 22 June 1885.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p><unstress reason="money">Thanks for your letter and the enclosure, which is exactly what I meant and enables

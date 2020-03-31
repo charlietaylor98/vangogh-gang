@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Etten, Sunday, 30 December 1877.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> I wish you much happiness for the new year, may it be blessed for you in many ways.

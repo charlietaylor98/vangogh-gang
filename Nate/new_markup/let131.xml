@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Amsterdam, Tuesday, 18 September 1877.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> The time is approaching when you’ll go travelling for the Messrs Cie, and I’m already

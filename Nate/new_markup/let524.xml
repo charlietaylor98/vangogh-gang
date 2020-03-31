@@ -1,12 +1,14 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Nuenen, on or about Thursday, 6 August 1885.</head>
   <salutation>My dear Theo,</salutation>
   <body>
-    <p>What very much distresses me in our conversation is that when I say that I fear it will be
+    <p><stress reason="family">What very much distresses me in our conversation is that when I say that I fear it will be
       tight for you this year, you reply: ‘that you observe that I’d like to see that’, ‘that you
       see very well that you can’t rely on me’, ‘that you know very well that I would be returning
       you no thanks for your pains’. This is not so, and it distresses me that this is how you see
-      it.</p>
+      it.</stress><stress reason="money"></stress></p>
     <p>My suggestion has been this — don’t regard my little painting business as dead weight and
       don’t treat it harshly, for the reason that it could prove to be a little boat in a disaster
       when the big ship is lost. My suggestion is and remains — let’s at any rate keep that little
@@ -17,10 +19,10 @@
       ask that far from having the towrope cut, my little craft should be caulked and provisioned so
       that it may do better service in time of need.</p>
     <p>Should you doubt the good faith of this request, then for my part I can do nothing but repeat
-      it more emphatically. For I notice that on the side of the paint bill, my own little craft is
-      springing leaks here and there.</p>
-    <p>I’m plugging these leaks as much as I can, though, and am not yet losing my coolheadedness.
-      Am not desperate either. But since we’ll perhaps both be in the same storm, I speak
+      it more emphatically. <stress reason ="money">For I notice that on the side of the paint bill, my own little craft is
+      springing leaks here and there.</stress></p>
+    <p><good_health>I’m plugging these leaks as much as I can, though, and am not yet losing my coolheadedness.
+      Am not desperate either.</good_health> But since we’ll perhaps both be in the same storm, I speak
       emphatically and, I believe, in both our interests.</p>
     <p>I can sum up your answer to my question thus: ‘there may be a storm coming but, even in that
       case, don’t count on either caulking or provisions, and be aware that I may be compelled by
@@ -28,16 +30,16 @@
       in so far as it’s not accompanied by suspicion of my good faith.</p>
     <p>But — by means of this letter I cry out to you again that my request for reinforcement may
       prove to be in both our interests, and I’m not doing it just out of selfishness, as you
-      assume. That in the event of a storm, I in all events am willing but perhaps also able to be
+      assume. <stress reason="money">That in the event of a storm, I in all events am willing but perhaps also able to be
       of some use and service to you, but that this will be impossible in the event that my own
       craft fills with water (which I’m trying to prevent, though) before the moment in question.
       I’m trying to prevent that myself, though, but still I wouldn’t cry out to you without
       necessity. I’m not afraid in the face of danger either, but nonetheless I try to be prepared
-      in case disaster strikes.</p>
+      in case disaster strikes.</stress></p>
     <p>If it seems to you unfounded that I urge that we should gradually let my, but I would rather
       say our little painting business become the heart of a business that we could go on to
-      undertake together, for my part I insist that it can and will become something if we can
-      remain sufficiently united.If I don’t have the same ideas as you, don’t suspect me of bad
+      undertake together, <unstress reason="career">for my part I insist that it can and will become something if we can
+      remain sufficiently united.</unstress>If I don’t have the same ideas as you, don’t suspect me of bad
       faith or base intentions anyway, either towards you or towards those at home. I do nothing to
       those at home that I have no right to do, since I absolutely and always keep out of their
       affairs. Don’t ask for or urge advice, keep entirely to my own territory — and even keep my

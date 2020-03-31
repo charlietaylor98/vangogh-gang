@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Laken, on or about Wednesday, 13 and Friday, 15 or Saturday, 16 November 1878.</head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p> On the evening of the day we spent together, which for me passed as if in a twinkling, I

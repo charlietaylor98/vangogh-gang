@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Etten, Monday, 22 July 1878.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p> I’m enclosing a note in the letter from Pa and Ma; was glad to hear things are still

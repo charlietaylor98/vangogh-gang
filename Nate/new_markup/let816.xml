@@ -1,21 +1,23 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Saint-Rémy-de-Provence, on or about Sunday, 3 November 1889.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>Enclosed I’m sending you a list of colours I need as soon as possible.</p>
-            <p>You gave me very great pleasure by sending me those Millets, I’m working on them
-                  zealously. I was growing flabby by dint of never seeing anything artistic, and
-                  this revives me. I’ve finished The evening and am working on The diggers and the
-                  man who’s putting his jacket on, no. 30 canvases, and The sower, smaller. The
+            <p><good_health>You gave me very great pleasure by sending me those Millets</good_health>,<work origin="new" stage="middle"> I’m working on them
+                  zealously.</work> I was growing flabby by dint of never seeing anything artistic, and
+                  this revives me. <work stage="finished" origin="existing">I’ve finished The evening</work> and <work origin="new" stage="middle">am working on The diggers and the
+                  man who’s putting his jacket on, no. 30 canvases, and The sower, smaller.</work> The
                   evening is in a range of violets and soft lilacs, with light from the lamp pale
                   citron, then the orange glow of the fire and the man in red ochre. You will see
                   it. It seems to me that doing painting after these Millet drawings is much rather
                   to translate them into another language than to copy them. Apart from that I have
                   a rain effect on the go, and an evening effect with tall pines. And also a
                   leaffall.</p>
-            <p>My health is very good – except often a lot of melancholy however – but I feel much
-                  much better than when I came here, and even better than in Paris. Also, as for the
-                  work the ideas are becoming firmer, it seems to me. But then I don’t quite know if
+            <p><good_health>My health is very good</good_health> – <bad_health>except often a lot of melancholy however</bad_health> – <unstress reason="environment">but I feel much
+                  much better than when I came here, and even better than in Paris.</unstress><unstress reason="career"> Also, as for the
+                  work the ideas are becoming firmer, it seems to me.</unstress> But then I don’t quite know if
                   you’d like what I’m doing now. For despite what you say in your previous letter,
                   that the search for style often harms other qualities, the fact is that I feel
                   myself greatly driven to seek style, if you like, but I mean by that a more manly
@@ -29,7 +31,7 @@
                   then I really feel that if I went back to the north I would see it more clearly
                   than before.</p>
             <p>Health is a big thing, and a lot depends on it, as regards work too.</p>
-            <p>Fortunately those abominable nightmares no longer torment me.</p>
+            <p><good_health>Fortunately those abominable nightmares no longer torment me.</good_health></p>
             <p>I hope to go to Arles in the next few days.</p>
             <p>I’d very much like Jo to see The evening, I think that I’ll send you a consignment
                   shortly, but it’s drying very badly because of the dampness of the studio. Here
@@ -38,11 +40,11 @@
             <p>At home they’ll have moved by now, I’ll add 6 canvases for them to the next
                   consignment. Is it necessary to have them framed, perhaps not, for it isn’t worth
                   it. Above all, don’t frame the studies I send you from time to time, that can be
-                  done later, pointless for them to take up too much room. I’ve also done a canvas
-                  for Mr Peyron, a view of the house with a tall pine tree.</p>
+                  done later, pointless for them to take up too much room. <work stage="finished" origin="new">I’ve also done a canvas
+                  for Mr Peyron, a view of the house with a tall pine tree.</work></p>
             <p>I hope that your health and Jo’s continue to be good.</p>
-            <p>I’m so happy that you’re no longer alone, and that everything’s more normal than
-                  before.</p>
+            <p><unstress reason="family">I’m so happy that you’re no longer alone, and that everything’s more normal than
+                  before.</unstress></p>
             <p>Is Gauguin back, and what’s Bernard doing?</p>
             <p>More soon, I shake your hand firmly, and Jo’s, and our friends’, and believe me</p>
       </body>
@@ -59,7 +61,7 @@
                   his! For example the cliffs, and the very flowers you speak of sometimes. Bernard
                   really has found perfect things in there. Anyway, don’t be too swift to adopt a
                   prejudice against it. </p>
-            <p> Anyway, you’ll see that there’s already more character in a large landscape with
-                  pines, red ochre trunks defined by a black line than in the previous ones.</p>
+            <p> <work origin="new" stage="middle">Anyway, you’ll see that there’s already more character in a large landscape with
+                  pines, red ochre trunks defined by a black line than in the previous ones.</work></p>
       </ps>
 </letter>

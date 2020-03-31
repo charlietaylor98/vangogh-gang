@@ -1,6 +1,7 @@
 
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head> Nuenen, Monday, 6 July 1885.</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p><unstress reason="money">Thanks for the money,</unstress> your letter and Raffaëlli catalogue. I think the drawings in it
