@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>The Hague, on or about Monday, 10 April 1882.</head>
     <salutation>My dear Theo, </salutation>
     <body>
         <p>Today <work origin = "existing" stage = "finished">I sent you 1 drawing by post</work> which I’m sending to you as a<unstress reason = "friendship"> token of gratitude </unstress>for

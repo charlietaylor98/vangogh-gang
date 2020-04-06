@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Saturday.</head>
+      <head>The Hague, Saturday, 25 February 1882.</head>
 
       <salutation>My dear Theo,</salutation>
       <body>

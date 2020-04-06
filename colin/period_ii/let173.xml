@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Etten, beginning of October 1881</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>As a letter is going to you again, I’m enclosing a word in it. I sincerely hope that

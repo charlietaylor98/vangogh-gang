@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>The Hague, Saturday, 11 March 1882.</head>
     <salutation>My dear Theo. </salutation>
     <body>
         <p>You’ll perhaps find it rather harsh, what I wrote to you about Tersteeg. By no means do I

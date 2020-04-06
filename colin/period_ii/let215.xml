@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>April 82 </head>
+      <head>The Hague, on or about Thursday, 6 April 1882.</head>
       <salutation>My dear Theo, </salutation>
       <body>
             <p>It shouldn’t surprise you that I wrote to you: become a painter. For I myself am now
@@ -61,7 +61,7 @@
                   what really needs to be done. If I fill my portfolios with studies I’ll get my
                   money’s worth out of them later. And I’d rather earn a bit more later than now.
                   I’d rather see to it that I’m equal to my profession than rush to sell a drawing
-                  by the grace of God. The <work origin = "exisiting" stage="finished" >enclosed drawing was scratched after a larger study which
+                  by the grace of God. The <work origin = "existing" stage="finished" >enclosed drawing was scratched after a larger study which
                   has a more sombre expression</work>. There’s a poem by Tom Hood, I believe, in which he
                   tells of a great lady who can’t sleep at night because during the day, when she
                   went out to buy a frock, she saw the poor seamstresses pale, consumptive,
