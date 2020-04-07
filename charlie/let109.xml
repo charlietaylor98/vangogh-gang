@@ -1,4 +1,4 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
   <head>Dordrecht, 23 March 1877</head>
   <salutation>My dear Theo,</salutation>

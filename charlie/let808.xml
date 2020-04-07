@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear Theo,</salutation>
+      <head>5 October 1889</head><salutation>My dear Theo,</salutation>
       <body>
             <p>I was longing for your letter and so I was very happy to receive it, and to see from
                   it that you’re well, as are Jo and the friends you speak of.</p>

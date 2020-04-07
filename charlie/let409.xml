@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>6 December 1883</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>You’ll have been rather surprised that I dropped you a line that I would go home

@@ -1,4 +1,4 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
   <head>Holme Court, 8 July 1876</head>
   <salutation>My dear Theo,</salutation>

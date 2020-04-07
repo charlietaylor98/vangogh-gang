@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>9 Janurary 1889</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>Even before receiving (this very moment) your kind letter, I received a letter from your

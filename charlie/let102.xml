@@ -1,4 +1,4 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
   <head>7 and 8 February 1877</head>
   <salutation>My dear Theo,</salutation>

@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>11 November 1883</head>
   <salutation>Theo,</salutation>
   <body>
     <p>You once wrote to me about a certain difference in our respective physiognomies. Very well.

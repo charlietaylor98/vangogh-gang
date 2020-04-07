@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear Theo,</salutation>
+      <head>8 October 1889</head><salutation>My dear Theo,</salutation>
       <body>
             <p><work origin="existing" stage="finished">I’ve just brought back a canvas I’ve been working on for some time, once again of the
                   same field as the one of the reaper.</work> Now it’s mounds of earth and the background

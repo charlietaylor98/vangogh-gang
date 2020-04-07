@@ -1,51 +1,77 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>14 or 15 July 1889</head>
       <salutation>My dear Theo,</salutation>
-      <body><p>Tomorrow I’ll send you a roll of canvases by goods train. There are four of them, i.e. the
-            following</p>
-      <p><work origin="existing" stage="finished"> 1 View of Arles, orchards in blossom</work></p>
-      <p> <work origin="existing" stage="finished">2 The ivy</work></p>
-      <p> <work origin="existing" stage="finished">3 The lilacs</work></p>
-      <p> <work origin="existing" stage="finished">4 Pink chestnut trees in the botanical gardens in Arles</work></p>
-      <p>which will hold their own with the ones you already have, such as the red and green
-            Vineyard, The garden, The harvest, The starry sky.</p>
-      <p>I’m also enclosing another 7 studies which are dry but which are studies after nature
-            rather than subjects for paintings.</p>
-      <p>And that’s how it always is, you have to do several of them before you find a whole with
-            character. Now here are the subjects of these 7 studies.</p>
-      <p><work origin="new" stage="finished">The irises</work> – <work origin="new" stage="finished">View of the asylum at StRémy, no. 30 canvases.</work> <work origin="new" stage="finished">Peach trees in blossom (Arles),</work>
-            <work origin="new" stage="finished">Meadows (Arles),</work><work origin="new" stage="finished"> Olive trees (StRémy),</work> <work origin="new" stage="finished">Old willows (Arles),</work> <work origin="new" stage="finished">Orchard in blossom.</work></p>
-      <p><work mention="vague">Now the next consignment, which will follow shortly, will consist mainly of wheatfields and
-            olive groves.</work></p>
-      <p>As you can see, I’ve been to Arles to fetch these canvases. The orderly from here
-            accompanied me. We went to Mr Salles’s house, who had gone away on holiday for two
-            months, then to the hospital to see Mr Rey, whom I didn’t find either. So we spent the
-            day with my former neighbours, as well as my charwoman from those days and a few
-            others.</p>
-      <p><unstress reason="friendship">One becomes very attached to people one has seen while ill, and it did me a world of good
-            to see some people again who were kind and indulgent towards me then.</unstress> Someone told me
-            that Mr Rey had taken an examination and had been to Paris, but the porter at the
-            hospital said he didn’t know. I’m curious to know if you might have seen him, for he had
-            planned to go and see the exhibition and then pay you a visit. The doctor from here will
-            perhaps not go to Paris, he suffers a great deal from his gout.</p>
-      <p>I’ve also received the second consignment of canvases and colours, and I thank you very
-            much for them. <work origin="new" stage="finished">The latest canvas I’ve done is a view of mountains with a darkish hut
-            among olive trees at the bottom.</work></p>
-      <p><unstress reason="family">I imagine that you’ll be very absorbed by thoughts of the child to come, I’m very pleased
-            that this should be so, with time I dare believe that you’ll thus find much inner
-            serenity.</unstress> The fact that one takes on a kind of second nature in Paris, that moreover
-            preoccupations with business and art make one less strong than the peasants, doesn’t
-            prevent one, through the bonds of having wife and child, from reattaching oneself all
-            the same to that </p>
-      <p> simpler and truer nature whose ideal sometimes haunts us.</p>
-      <p>What a business, that Secrétan sale.</p>
-      <p>It always pleases me that the Millets are holding their own. But how I would like to see
-            more good reproductions of Millet. So that it can reach the common folk. The body of
-            work is above all sublime considered as a whole, and it will become more and more
-            difficult to form an idea of it when the paintings are dispersed.</p>
-      <p><work mention="vague">I’m sorry not to be able to add the Wheatfield with the reaper to this consignment.</work></p>
-      <p>Write me a line soon.</p>
-      <p>Handshake to you and Jo.</p></body>
+      <body>
+            <p>Tomorrow I’ll send you a roll of canvases by goods train. There are four of them,
+                  i.e. the following</p>
+            <p>
+                  <work origin="existing" stage="finished"> 1 View of Arles, orchards in
+                        blossom</work>
+            </p>
+            <p>
+                  <work origin="existing" stage="finished">2 The ivy</work>
+            </p>
+            <p>
+                  <work origin="existing" stage="finished">3 The lilacs</work>
+            </p>
+            <p>
+                  <work origin="existing" stage="finished">4 Pink chestnut trees in the botanical
+                        gardens in Arles</work>
+            </p>
+            <p>which will hold their own with the ones you already have, such as the red and green
+                  Vineyard, The garden, The harvest, The starry sky.</p>
+            <p>I’m also enclosing another 7 studies which are dry but which are studies after nature
+                  rather than subjects for paintings.</p>
+            <p>And that’s how it always is, you have to do several of them before you find a whole
+                  with character. Now here are the subjects of these 7 studies.</p>
+            <p><work origin="new" stage="finished">The irises</work> – <work origin="new"
+                        stage="finished">View of the asylum at StRémy, no. 30 canvases.</work>
+                  <work origin="new" stage="finished">Peach trees in blossom (Arles),</work>
+                  <work origin="new" stage="finished">Meadows (Arles),</work><work origin="new"
+                        stage="finished"> Olive trees (StRémy),</work>
+                  <work origin="new" stage="finished">Old willows (Arles),</work>
+                  <work origin="new" stage="finished">Orchard in blossom.</work></p>
+            <p>
+                  <work mention="vague">Now the next consignment, which will follow shortly, will
+                        consist mainly of wheatfields and olive groves.</work>
+            </p>
+            <p>As you can see, I’ve been to Arles to fetch these canvases. The orderly from here
+                  accompanied me. We went to Mr Salles’s house, who had gone away on holiday for two
+                  months, then to the hospital to see Mr Rey, whom I didn’t find either. So we spent
+                  the day with my former neighbours, as well as my charwoman from those days and a
+                  few others.</p>
+            <p><unstress reason="friendship">One becomes very attached to people one has seen while
+                        ill, and it did me a world of good to see some people again who were kind
+                        and indulgent towards me then.</unstress> Someone told me that Mr Rey had
+                  taken an examination and had been to Paris, but the porter at the hospital said he
+                  didn’t know. I’m curious to know if you might have seen him, for he had planned to
+                  go and see the exhibition and then pay you a visit. The doctor from here will
+                  perhaps not go to Paris, he suffers a great deal from his gout.</p>
+            <p>I’ve also received the second consignment of canvases and colours, and I thank you
+                  very much for them. <work origin="new" stage="finished">The latest canvas I’ve
+                        done is a view of mountains with a darkish hut among olive trees at the
+                        bottom.</work></p>
+            <p><unstress reason="family">I imagine that you’ll be very absorbed by thoughts of the
+                        child to come, I’m very pleased that this should be so, with time I dare
+                        believe that you’ll thus find much inner serenity.</unstress> The fact that
+                  one takes on a kind of second nature in Paris, that moreover preoccupations with
+                  business and art make one less strong than the peasants, doesn’t prevent one,
+                  through the bonds of having wife and child, from reattaching oneself all the same
+                  to that </p>
+            <p> simpler and truer nature whose ideal sometimes haunts us.</p>
+            <p>What a business, that Secrétan sale.</p>
+            <p>It always pleases me that the Millets are holding their own. But how I would like to
+                  see more good reproductions of Millet. So that it can reach the common folk. The
+                  body of work is above all sublime considered as a whole, and it will become more
+                  and more difficult to form an idea of it when the paintings are dispersed.</p>
+            <p>
+                  <work mention="vague">I’m sorry not to be able to add the Wheatfield with the
+                        reaper to this consignment.</work>
+            </p>
+            <p>Write me a line soon.</p>
+            <p>Handshake to you and Jo.</p>
+      </body>
       <close>Ever yours,</close>
       <sig>Vincent</sig>
 </letter>

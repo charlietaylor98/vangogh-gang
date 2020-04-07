@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>8 September 1883</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I’ve got so far with packing &amp;c. that I’ll leave as soon as I have the travel money.
