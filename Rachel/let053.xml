@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Paris, Thursday, 30 September 1875.</head>
     <salutation>My dear Theo,</salutation> 
     <body>
         <p>Herewith the book about Michel that I promised you, <work origin="new" stage="sketch">also an etching after the
@@ -9,7 +11,7 @@
     </body>
     <close>Ever,</close>
     <sig>Your loving brother Vincent</sig>
-    <p>Please keep the enclosed etching after Rembrandt, along with the photos of the Corot and
+    <ps><p>Please keep the enclosed etching after Rembrandt, along with the photos of the Corot and
     the Jules Breton sent previously, until Pa and Ma are comfortably settled in Etten, and send
-    them then, at the end of November for example. </p>
+    them then, at the end of November for example. </p></ps>
 </letter>

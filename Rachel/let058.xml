@@ -1,7 +1,9 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Paris, Monday, 15 November 1875.</head>
     <salutation>My dear Theo,</salutation> 
     <body>
-        Herewith a note for Uncle Haanebeek. I hadn’t written since Annet died, and
+        <p>Herewith a note for Uncle Haanebeek. I hadn’t written since Annet died, and
     felt the need to do so at last. Do you ever go there? In any case you’ll deliver the letter
     yourself, won’t you? My worthy Englishman now cooks barley porridge every morning; he got 25
     pounds of it from his father. How I wish you could try it sometime. <good_health>I’m really very glad to have
@@ -12,8 +14,8 @@
     follow them on life’s path. He now sees this clearly and, with some genuine sorrow in his heart,
     he has the courage and the desire to go on. Has Pa already said to you what he once said to me?
     Keep thy heart above all things; for out of it are the issues of life. Let us do that, then, and
-    with God’s help we shall succeed.
+    with God’s help we shall succeed.</p>
     </body> 
     <close>I wish you well, and believe me ever</close>
-    <sig>Your loving brother</sig>
-    Vincent</letter>
+    <sig>Your loving brother Vincent</sig>
+</letter>

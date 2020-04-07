@@ -1,9 +1,11 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Sunday, 18 March 1883.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>You’ve so often shown me a glimpse of Paris through your descriptions, this
       time I’m letting you have a look out of my window at the snow-covered yard. I’m adding a
-      glimpse of a corner of the house; <work origin="new" stage="sketcj">they’re two impressions of the same winter’s day.</work> Poetry
+      glimpse of a corner of the house; <work origin="new" stage="sketch">they’re two impressions of the same winter’s day.</work> Poetry
       surrounds us everywhere, but getting it onto paper is something that unfortunately doesn’t go
       as readily as looking. <work origin="new" stage="finished">I did a watercolour of the above after which this scratch is done;</work>
       however, I don’t think it lively or vigorous enough. I believe I’ve already written to you that

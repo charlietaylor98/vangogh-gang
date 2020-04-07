@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Paris, on or about Monday, 17 January 1876.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>In the first crate going to The Hague you’ll find various packages; be so good
@@ -26,4 +28,5 @@
       hand in thought.</p></body> 
       <close>Regards to everyone at the Rooses’ and if anyone else should ask after me, and believe me ever</close>
       <sig>Your loving brother Vincent.</sig>
-      <p>Give my regards again to my friend Borchers.</p></letter>
+      <ps><p>Give my regards again to my friend Borchers.</p></ps>
+</letter>

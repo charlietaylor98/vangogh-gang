@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+ <head>on or about Monday, 24 January 1876.</head>
   <salutation>My dear Theo,</salutation>
   <body><p>Thanks for your letter, write to me often, <stress reason="friendship">as I long for it these days.</stress> Write
   in more detail, too, and about everyday things; you see that I, too, am doing that more and more.
@@ -8,7 +10,7 @@
   say, ‘this is it’.</stress> But you, too, will already have started to notice that there’s a lot of
   self-deception behind this, and that this longing, if we were to surrender to it too much, would
   cause us to stray from the path.</p> 
-  There are words that keep haunting me these days, they are the
+  <p>There are words that keep haunting me these days, they are the
   text for today: ‘His children shall seek to please the poor.’ <stress reason= "friendship">And now for some news, namely that
   my friend Gladwell is going to move.</stress> One of the employees at the printer’s has persuaded him to
   come and live with him; he had already tried to do this before. Gladwell has done it, I believe,
@@ -16,9 +18,9 @@
   month. For a few days now we’ve had a mouse in our ‘cabin’; that’s what we call our room, you
   know. Every evening we put some bread out, and it already knows how to find it. I read the
   advertisements in the English newspapers and have already written to a couple, we’re hoping for a
-  godsend.</body> 
+  godsend.</p></body> 
  <close> And now, regards to everyone at the Rooses’ and to any others who might ask after me, and
   do write again soon. Adieu.</close> 
   <sig>Ever,Your loving brother Vincent</sig>
- <p> If Mr Tersteeg should speak to you about me, write and tell me. Give my regards to His Hon. every time I write to you.</p>
+ <ps><p> If Mr Tersteeg should speak to you about me, write and tell me. Give my regards to His Hon. every time I write to you.</p></ps>
 </letter>

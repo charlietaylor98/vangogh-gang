@@ -1,7 +1,9 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <saultation>My dear Theo,</saultation> 
+      <head>Sunday, 8 October 1882.</head>
+      <salutation>My dear Theo,</salutation> 
       <body>
-            <p><work origin="new" stage="sketch">Here’s a scratch of a <work origin="new" stage="finished">larger watercolour.</work></work> 
+            <p><work origin="new" stage="sketch">Here’s a scratch of a</work><work origin="new" stage="finished">larger watercolour.</work>
       <work origin="new" stage="middle">I’ve also started another one with
       many more figures — the last visitors to the seaside — an evening effect.</work> I don’t know whether
       I’ll be able to get them to a high enough standard, but we must do what we can and struggle on

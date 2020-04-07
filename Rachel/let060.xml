@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>9 Dec. 1875</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>This morning I heard from home what happened to you, and I wanted to write to you

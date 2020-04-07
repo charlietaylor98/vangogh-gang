@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Paris, on or about Thursday, 9 September 1875.</head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>You hadn’t expected to get this letter back again, had you? No, old boy, this
@@ -16,6 +18,6 @@
   way.</p></body> 
   <close>Let us hope and pray that we may come so far and believe me ever</close>
   <sig>Your loving brother Vincent</sig>
-  <p>I’m already a little bit further than you and already see, alas, that the expression
-  ‘childhood and youth are vanity’ are almost completely true. So remain steadfast, old chap; I heartily shake your hand. </p>
+  <ps><p>I’m already a little bit further than you and already see, alas, that the expression
+  ‘childhood and youth are vanity’ are almost completely true. So remain steadfast, old chap; I heartily shake your hand. </p></ps>
 </letter>

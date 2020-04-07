@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Friday, 10 December 1875.</head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>Herewith what I promised. You’ll like the book by Jules Breton. There’s one
@@ -18,6 +20,7 @@
   hearts.</unstress></p>
   </body> 
   <close>I wish you the very best, old boy, and believe me ever</close>
-  <signature>Your loving brother Vincent</signature>
-  <p>The packages of chocolate marked X are for you, the other two are for Mrs Roos. Smoke the cigarettes
-  with your housemates. Adieu.</p> </letter>
+  <sig>Your loving brother Vincent</sig>
+  <ps><p>The packages of chocolate marked X are for you, the other two are for Mrs Roos. Smoke the cigarettes
+  with your housemates. Adieu.</p></ps>
+</letter>

@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>on or about Monday, 11 December 1882.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>I just received your registered letter and thank you most cordially for it.
@@ -102,7 +104,7 @@
       prospectus, no doubt as a replacement for Heads of the people by Herkomer, Small and Ridley.
       Very well, but some people will not admire the Types of beauty, and will think back with
       melancholy to the old Heads of the people (a series which has been terminated). The Graphic
-      say they’ll make Chromos!!! Give us back Swain’s studio. You see, Theo, old chap, <stress reaon="environment">it truly
+      say they’ll make Chromos!!! Give us back Swain’s studio. You see, Theo, old chap, <stress reason="environment">it truly
       grieves me, the whole thing is going wrong.</stress> </p>
       <p>Listen, I would have counted it the greatest
       honour, an ideal, to have worked on what The Graphic started. What Dickens was as a writer,
@@ -118,9 +120,9 @@
       soul and more love and more heart. Rest assured that I will not and cannot shout out against
       it, that I will not oppose it. <bad_health>It’s just that it makes me sad, it takes away my pleasure, it
       upsets me, and I no longer know what I, for my part, should or should not do.</bad_health></p> 
-      What sometimes
+      <p><stress reason="career">What sometimes
       saddens me is this — in the past, when I began, I thought when I’ve got this or that far I’ll
-      get a position here or there, and I’ll be on a straight path and set for life. Now, though,
+      get a position here or there,</stress> and I’ll be on a straight path and set for life. Now, though,
       something else has come up, <stress reason="money">and I fear, or rather expect, a kind of guardhouse instead of
       employment</stress>. I expect things like: yes, this and that in your work is all right (I doubt
       whether they really mean it), but you must understand that the kind of work you do is
@@ -132,7 +134,7 @@
       light?’ Anyway, instead of dealing with a way of thinking, a feeling, a goal like Dickens’s
       (The Graphic was like that originally), one is presented with a mode of seeing and thinking
       like Obach’s. <bad_health>That saddens me, and then I feel powerless.</bad_health> Undertaking something oneself is
-      possible only if one encounters interest and cooperation.
+      possible only if one encounters interest and cooperation.</p>
       <p> This brings us to another area.
       Excuse me if I tell you my thoughts and continue to do so. If you don’t have time to write and
       don’t reply immediately, at least you’ll know when we meet again what preoccupies me, and
