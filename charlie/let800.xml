@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear brother,</salutation>
+      <head>5 and 6 September 1889</head><salutation>My dear brother,</salutation>
       <body>
             <p>Although I’ve already written to you, there are still many things you have told me
                   and to which I haven’t yet replied. <stress reason="money">First that you’ve

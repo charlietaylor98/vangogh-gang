@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Paris, Monday, 27 September 1875.</head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>‘The kingdom of God cometh not with observation: the

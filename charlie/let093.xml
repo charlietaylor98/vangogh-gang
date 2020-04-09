@@ -1,4 +1,4 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
   <head>Isleworth, 7 Oct. 1876.</head>
   <salutation>Dear Theo,</salutation>

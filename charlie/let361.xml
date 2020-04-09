@@ -1,6 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear Theo,</salutation>
+      <head>11 July 1883</head><salutation>My dear Theo,</salutation>
       <body>
             <p>I had already been looking out for your letter, more or less, and was again glad of
                   it. Thank you. I find what you write about the exhibition most interesting. What

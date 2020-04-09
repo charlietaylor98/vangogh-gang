@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <salutation>My dear Theo,</salutation>
+  <head>22 August 1889</head><salutation>My dear Theo,</salutation>
   <body><p><bad_health>I thank Jo very much for writing to me, and knowing that you wish me to write you a line I’m
     letting you know that it’s very difficult for me to write, so disturbed is my mind.</bad_health> So I’m
     taking advantage of an interval.</p>

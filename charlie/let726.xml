@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>18 December 1888</head>
       <salutation>My dear Theo,</salutation>
       <body><p>Yesterday Gauguin and I went to Montpellier to see the museum there, and especially the
             Bruyas room — there are many portraits of Bruyas, by Delacroix, by Ricard, by Courbet,

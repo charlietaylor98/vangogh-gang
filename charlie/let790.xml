@@ -1,6 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear Theo,</salutation>
+      <head>14 or 15 July 1889</head><salutation>My dear Theo,</salutation>
       <body><p><stress reason="friendship">If I’m writing to you again today it’s because I’m enclosing a few words that I’ve written
             to our friend Gauguin, feeling sufficient calm return to me these last few days for my
             letter not to be absolutely absurd, it seemed to me. Besides, there’s no proof that by

@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Etten, Tuesday, 8 or Wednesday, 9 November 1881.</head>
   <salutation>Old boy,</salutation>
   <body>
     <p>How you took my two previous letters isn’t yet apparent to me from your letter of today to Pa

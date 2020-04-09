@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Paris, Wednesday, 29 September 1875.</head>
     <salutation>My dear Theo,</salutation> 
     <body>
         <p>Be careful, old boy, don’t lose your resilience. See things as they are, and,
@@ -8,11 +10,11 @@
     </body> 
     <close>Warm regards and ever,</close>
     <sig>Your loving brother Vincent</sig> 
-    <p>Write again soon. <unstress reason="friendship">I advised you to go out quite a lot, but if you don’t like it, don’t do it. You know that I didn’t go out so very
+   <ps> <p>Write again soon. <unstress reason="friendship">I advised you to go out quite a lot, but if you don’t like it, don’t do it. You know that I didn’t go out so very
     much either, and that people often remarked upon it.</unstress> <unstress reason="environment">How much I’d like for us to be able to
     breakfast together or drink a cup of chocolate in my room.</unstress> Keep well, old chap. Don’t take
     things that don’t concern you directly too much to heart, and don’t let them weigh upon you too
     heavily. How is it going, eating bread? Have you tried it yet? In haste, I shake your hand
     heartily in thought. 
-    </p>
+    </p></ps>
 </letter>

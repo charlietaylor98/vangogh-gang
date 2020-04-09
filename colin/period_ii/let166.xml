@@ -1,5 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Etten, on or about Saturday, 30 April or Sunday, 1 May 1881.</head>
     <salutation> My dear Theo, </salutation>
     <body>
         <p>My sincere congratulations on your birthday. I think of your visit time and again, I’m

@@ -1,4 +1,4 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
   <head>Between 2 and 8 September 1876</head>
   <salutation>My dear Theo,</salutation>

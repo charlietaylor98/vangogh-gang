@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+  <head>Paris, Saturday, 25 September 1875.</head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>The way is narrow, so we must be careful. You know how others have arrived
@@ -13,7 +15,7 @@
   </body>
   <close>Keep well, old chap, and give my regards to all my acquaintances, and believe me</close>
   <sig>Your loving brother Vincent</sig>
-  <p>
+  <ps><p>
     <stress reason="money">I’ll send the money for the frames as soon as possible; when I write to Mr
   Tersteeg I’ll tell him that I don’t have much money at the moment, because I’ve asked our cashier
   to keep back part of my monthly wages as I’ll be needing a good deal of money around Christmas for
@@ -24,5 +26,5 @@
   the wisdom of men, but in the power of God. Matt. 7:14: ‘Want de poort is eng, en de weg is naauw’
   (Because strait is the gate, and narrow is the way).Pray and work (a Benedictine rule that has
   become a popular saying).
-  </p>
+  </p></ps>
 </letter>

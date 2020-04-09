@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>23 May 1889</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>Your letter which I’ve just received gives me great pleasure. You tell me that J.H.

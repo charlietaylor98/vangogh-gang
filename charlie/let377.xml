@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>20 August 1883</head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>You’ll understand that I’m rather eager to hear from you whether you’ve read my
@@ -103,11 +105,12 @@
                   when he became rich.</p>
             <p>As regards my work all my ideas are so ordered, so definite, that I believe you’d do
                   well to accept what I say: let me get on with it as I am; my drawings will become
-                  good if we stay on the normal footing with each other, <stress reason="money">but because the improvement
-                  depends a little on the money for my outgoings and expenses — and not only on my
-                  efforts — be as generous as you can with the money, and if you see a chance to add
-                  any help from another quarter, don’t let it slip.</stress> But in fact these few lines
-                  contain everything I have to say.</p>
+                  good if we stay on the normal footing with each other, <stress reason="money">but
+                        because the improvement depends a little on the money for my outgoings and
+                        expenses — and not only on my efforts — be as generous as you can with the
+                        money, and if you see a chance to add any help from another quarter, don’t
+                        let it slip.</stress> But in fact these few lines contain everything I have
+                  to say.</p>
             <p>You mustn’t let yourself be misguided as to my true character by my actions when I
                   left Goupil. If the firm had been for me then what art is for me now, I would have
                   acted more decisively then. But in fact I was unsure then about whether it was my
@@ -135,9 +138,9 @@
             <p>I could have said a great deal to refute that, though, if I had wanted, and indeed
                   things that I believe would have ensured that I could stay. I say this because I
                   don’t understand how you couldn’t know that it was a question not of dress but of
-                  very different matters. <unstress reason="career">Well — to you — I say what I don’t doubt is right to say
-                  now, given that my profession is my profession and I don’t doubt that I should
-                  stay in it.</unstress></p>
+                  very different matters. <unstress reason="career">Well — to you — I say what I
+                        don’t doubt is right to say now, given that my profession is my profession
+                        and I don’t doubt that I should stay in it.</unstress></p>
             <p>So I say this to you: not only do I wish to keep things between us as they are, but
                   I’m really so grateful for our relationship that I only enquire about poorer or
                   richer, more or less difficult, taking nothing for granted, that I’m content with
@@ -145,8 +148,9 @@
             <p>But I desire only that you shouldn’t doubt me with respect to good will, application
                   — and grant me a little common sense so that you don’t suspect me of doing silly
                   things, and so quietly let me carry on working in my normal way.</p>
-            <p><stress reason="money">Of course I must seek in order to find, and not everything will come off by a long
-                  way, but in the end the work will be good.</stress></p>
+            <p><stress reason="money">Of course I must seek in order to find, and not everything
+                        will come off by a long way, but in the end the work will be
+                  good.</stress></p>
             <p>Patience until it’s good, not letting go until it’s good, not doubting, is what I
                   would like you and I to have together and to hold on to. If we hold onto that, I
                   don’t know to what extent we’ll benefit financially, but I do believe that — on
@@ -169,11 +173,12 @@
                   people.</p>
             <p>A few friends I’ll have later will, believe me, take me as I am. I think you’ll
                   understand this letter, and understand that it isn’t a case of me getting angry
-                  when something is said to me about clothes. <good_health>No, inside I’m becoming ever more calm
-                  and concentrated, and something very different would be needed to make me angry.</good_health>
-                  Wherever I went, I would be roughly the same — perhaps really making a bad
-                  impression everywhere in the beginning. But I doubt whether that would remain for
-                  ever with the people I talked to about it face to face.</p>
+                  when something is said to me about clothes. <good_health>No, inside I’m becoming
+                        ever more calm and concentrated, and something very different would be
+                        needed to make me angry.</good_health> Wherever I went, I would be roughly
+                  the same — perhaps really making a bad impression everywhere in the beginning. But
+                  I doubt whether that would remain for ever with the people I talked to about it
+                  face to face.</p>
             <p>Well, from this moment on I’m again completely absorbed in the work. Do for me what
                   can be done, think yourself about what could be useful or help us to get somewhere
                   more quickly. I don’t doubt your good will or friendship. Regards, enjoy your

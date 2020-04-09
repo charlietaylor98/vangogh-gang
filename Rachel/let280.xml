@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Sunday, 5 November 1882.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>Your letter and its contents were very welcome. A point that will perhaps be
@@ -103,7 +105,7 @@
       </body>
       <close>Adieu, with a handshake.</close> 
       <sig>Ever yours, Vincent.</sig>
-      <p>Do you know the effects one sees here early in the morning
+      <ps><p>Do you know the effects one sees here early in the morning
       these days? It’s splendid — it’s what Brion painted in the painting in the Luxembourg, The end
       of the flood, namely that band of red light on the horizon with rain-clouds above. This brings
       me to the landscape painters. Compare those of Brion’s time with now. Is it better now than
@@ -151,5 +153,5 @@
       although the studies I have for now may please you — precisely because I was more successful
       with them than with many others. It would be really suitable, I believe, for the Vie Moderne.
       If I get the paper, I already have one of the figures, for example, to do as a trial. But it
-      must become a little troop of women, a small caravan.</p> 
+      must become a little troop of women, a small caravan.</p></ps> 
 </letter>

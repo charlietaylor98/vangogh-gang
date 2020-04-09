@@ -1,6 +1,8 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Monday, 10 January 1876.</head>
     <salutation>My dear Theo,</salutation> 
-    <body>I haven’t written to you since we saw each other; in the meantime something
+    <body><p>I haven’t written to you since we saw each other; in the meantime something
     has happened that didn’t come as a total surprise to me. When I saw Mr Boussod again I asked if
     His Hon. indeed thought it a good thing for me to go on working in the firm this year, since His
     Hon. had never had any very serious complaints against me. The latter was indeed the case,
@@ -11,6 +13,6 @@
     old boy, <stress reason= "environment">so far I’m really rather in the dark about what I should do,</stress> but we must try and keep
     hope and courage alive. Be so good as to let Mr Tersteeg read this letter, His Hon. may know it,
     but I believe it’s better that you speak to no one else of it for the time being, and behave as
-    if nothing is going on.</body> 
+    if nothing is going on.</p></body> 
     <close>Do write again soon, and believe me ever,</close>
     <sig>Your loving brother Vincent.</sig> </letter>

@@ -1,6 +1,9 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>on or about Wednesday, 11 April 1883.</head>
     <salutation>Dear brother,</salutation> 
-    <body><p>Thank you for your letter and the 50 francs enclosed, which were very welcome
+    <body>
+        <p>Thank you for your letter and the 50 francs enclosed, which were very welcome
     as always, both the former and the latter. I read what you write about your patient with
     interest. I understand that you’re in two minds over the matter of posing a certain question —
     which I shan’t further define here — now or later. And the change of circumstances brought about

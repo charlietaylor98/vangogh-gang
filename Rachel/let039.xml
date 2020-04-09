@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>Paris, Saturday, 24 July 1875.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>A couple of days ago we got a painting by De Nittis, a view of London on a

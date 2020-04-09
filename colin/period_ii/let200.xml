@@ -1,13 +1,13 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-
+      <head> The Hague, on or about Saturday, 14 January 1882.</head>
       <salutation>Dear brother, </salutation>
       <body>
             <p>As I’ve often done, I sent you an answer in my last letter that was brief and to the
                   point about one thing and another, yet in harsh words that nevertheless truly
-                  express what I think about things, but you mustn’t think that<stess reason = "family"> I’m always in a
+                  express what I think about things, but you mustn’t think that<stress reason = "family"> I’m always in a
                   gruff, cold-hearted mood which Mauve would perhaps call a yellow soap mood or
-                  saltwater mood</stess>. But even if I had written a yellow soap letter or a saltwater
+                  saltwater mood</stress>. But even if I had written a yellow soap letter or a saltwater
                   letter, <stress reason = "family">surely that’s no worse than taking things too sentimentally</stress>. You say,
                   ‘you’ll truly regret it some day’. Old chap, I believe that I’ve had many such
                   regrets &amp;c. before now. I saw it coming and tried to nip it in the bud, well
@@ -24,7 +24,7 @@
                   and that about other subjects, I haven’t time for that now, and think it better to
                   write to you again about drawing. </p>
             <p>In addition to <work origin = "new" stage = "planned">a couple of small watercolours</work>, I’ve just started <work origin = "new" stage = "planned">a large one</work>, at
-                  least as large as <work origin = "exsiting" stage = "finished">one of those figure studies I made at Etten</work>. Naturally it
+                  least as large as <work origin = "existing" stage = "finished">one of those figure studies I made at Etten</work>. Naturally it
                   doesn’t automatically go well and easily straightaway. Mauve himself says that
                   I’ll ruin at least 10 drawings or so before I know how to handle the brush a
                   little. But it will lead to a brighter future, so I work on with as much

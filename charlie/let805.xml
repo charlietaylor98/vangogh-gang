@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <salutation>My dear Theo,</salutation>
+      <head>20 Spetember 1889</head><salutation>My dear Theo,</salutation>
       <body>
             <p>Thanks very much for your letter. First, it gives me very great pleasure that you,
                   for your part, had also already thought of père Pissarro.</p>

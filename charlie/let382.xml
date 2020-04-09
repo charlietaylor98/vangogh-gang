@@ -1,5 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>6 September 1883</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I couldn’t yet go into detail about my plans in my last letter, but now I can in some

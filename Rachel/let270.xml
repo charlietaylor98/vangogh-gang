@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>The Hague, on or about Sunday, 1 October 1882.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>Just a word to say that your letter arrived in good order, I thank you
@@ -13,12 +15,12 @@
       and their waiting expression — struck me, and it took on a larger, deeper meaning for me while
       I was working on it than in the first moment. It becomes more meaningful, I believe, if one
       thinks of it as the poor and money.</p> 
-            That, in fact, applies to nearly all figure groups: one
+            <p>That, in fact, applies to nearly all figure groups: one
       occasionally has to think about them for a while before one understands what one is seeing.
       The curiosity and delusion about the lottery seem more or less childish to us, but it becomes
       serious when one thinks about the other side: misery and forlorn attempts by these poor souls
       to be saved, so they think, by buying a lottery ticket, paid for with pennies saved by going
-      without food. <work origin="new" stage="middle">Be that as it may, I’m working on a large watercolour of it.</work> 
+      without food. <work origin="new" stage="middle">Be that as it may, I’m working on a large watercolour of it.</work> </p>
             <p><work origin="new" stage="middle">I’m also working on
       one of a church pew that I saw in a small church in the Geest district where the almsmen go</work>
       (they’re known here very expressively as ORPHAN men and orphan women). The way things are
@@ -40,7 +42,7 @@
       greatly enjoy it — that I’ll come to things like that of my own accord, by continuing to do
       types of figures. Then later it will come naturally from the studies from the model, either in
       this or another form, but with the same sentiment.</p> 
-            I’m becoming more and more aware of how
+            <p>I’m becoming more and more aware of how
       useful and very necessary it is to keep studies from the model. Though they have less value
       for others, the person who has made them recognizes the model in them, and things are brought
       vividly to mind again. When there’s an opportunity, remember to send some of the old studies
@@ -51,10 +53,10 @@
       boots contrasting with pale faces or ones weathered by the elements. And that’s where painting
       or watercolouring comes in. Well, I’m toiling away at it. I count on you to write again, of
       course, but thank you again for sending the money in good time, which is badly needed if I’m
-      to carry on vigorously.</body> 
+      to carry on vigorously.</p></body> 
       <close>Adieu, old chap, accept a hearty handshake in thought, and believe
       me</close>
       <sig>Ever yours, Vincent</sig>
-      <p>There’s a little more foreground in the watercolour — here the figures are too far forward and one’s eye doesn’t grasp the 
-      foreground enough.</p> 
+      <ps><p>There’s a little more foreground in the watercolour — here the figures are too far forward and one’s eye doesn’t grasp the 
+      foreground enough.</p></ps> 
 </letter>

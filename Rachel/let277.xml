@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Sunday, 29 October 1882.</head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>It’s Sunday again, and again as rainy as usual. On top of that we’ve had a

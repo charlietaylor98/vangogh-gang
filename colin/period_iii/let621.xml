@@ -1,0 +1,38 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head>Arles, Tuesday, 5 or Wednesday, 6 June 1888.</head>
+
+
+    <salutation>My dear Theo —</salutation>
+    <body>
+        <p>If Gauguin wants to accept, and if the only obstacle to going into business would be the
+            travel, it’s better not to keep him waiting. So I’ve written, although I hardly had the
+            time, having two canvases on the easel. If you think the letter’s clear enough, send it,
+            if not, it would be better for us, too, to abstain when in doubt. And the things you
+            would do for him shouldn’t upset the plan to bring our sisters over, and especially not
+            our needs, yours and mine. Because if we ourselves don’t keep ourselves in a state of
+            vigour, how can we claim the right to get involved in other people’s troubles? But at
+            present we’re on the way to remaining vigorous, and so let’s do the possible, what’s
+            right in front of us.<work stage="sketch" origin = "new"> I’m sending you enclosed herewith canvas sample for Tasset</work>;
+            however, I don’t know if we should go on with his canvas.</p>
+        <p>If you send me the next letter by Sunday morning, I’ll probably go off to Saintes-Maries
+            again at 1 o’clock that day and spend the week there. I’m reading a book about Wagner
+            which I’ll send you afterwards — what an artist — one like that in painting, now that
+            would be something. It will come. Do you know that at 6 rue Coëtlogon, rue de Rennes, on
+            7 and 8 June from 1 to 7 o’clock there’s an exhibition of paintings and drawings by
+            Régamey that could be very interesting; now there’s two who’ve travelled all over the
+            place, he and his brother.</p>
+        <p>Handshake.</p>
+    </body>
+
+    <close>Ever yours, </close>
+    <sig>Vincent.</sig>
+
+
+    <ps>
+        <p>I believe in the victory of Gauguin and other artists — but — between then and now
+            there’s a long time, and even if he had the good fortune to sell one or two canvases —
+            it would be the same story. While waiting, Gauguin could peg out like Meryon,
+            discouraged. It’s bad that he’s not working — well, we’ll see his reply. </p>
+    </ps>
+</letter>

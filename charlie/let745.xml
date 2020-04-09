@@ -1,17 +1,22 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>3 February 1889</head>
       <salutation>My dear Theo,</salutation>
       <body>
-            <p><stress reason="money">I would have preferred to reply to you immediately about the very kind letter
-                  containing 100 francs,</stress> <bad_health>but as I was very tired at that precise moment, and as the
-                  doctor had absolutely ordered me to go for walks without mental work, because of
-                  that it’s only today that I write to you.</bad_health> As for work, the month hasn’t been bad
-                  after all, and the work distracts me, or rather keeps me in order, so I don’t
-                  deprive myself of it.</p>
-            <p><work origin="existing" stage="finished">I’ve done the Berceuse three times, now since Mrs Roulin was the model and I was only
-                  the painter, I let her choose between the three, her and her husband,</work> <work origin="existing" stage="middle">only on
-                  condition that I’d do a repetition for myself of the one she took, which I’m
-                  working on at present.</work></p>
+            <p><stress reason="money">I would have preferred to reply to you immediately about the
+                        very kind letter containing 100 francs,</stress>
+                  <bad_health>but as I was very tired at that precise moment, and as the doctor had
+                        absolutely ordered me to go for walks without mental work, because of that
+                        it’s only today that I write to you.</bad_health> As for work, the month
+                  hasn’t been bad after all, and the work distracts me, or rather keeps me in order,
+                  so I don’t deprive myself of it.</p>
+            <p>
+                  <work origin="existing" stage="finished">I’ve done the Berceuse three times, now
+                        since Mrs Roulin was the model and I was only the painter, I let her choose
+                        between the three, her and her husband,</work>
+                  <work origin="existing" stage="middle">only on condition that I’d do a repetition
+                        for myself of the one she took, which I’m working on at present.</work>
+            </p>
             <p>You ask me if I’ve read Mistral’s Mireille – I’m like you, I can only read it in
                   fragments of the translation. But have you heard it yet, for perhaps you know that
                   Gounod has set it to music. I think so anyway. Naturally I don’t know this music,
@@ -28,12 +33,15 @@
             <p>Now Rivet, if he saw the population, would certainly be sorry at times, saying over
                   and over, ‘you’re all sick’ – as he says of us. But if you catch the local
                   sickness, my word, afterwards you won’t be able to catch it again.</p>
-            <p><good_health>This is to tell you that as for myself, I don’t have any illusions. It’s going very,
-                  very well and I’ll do everything that the doctor says</good_health> but...</p>
-            <p><bad_health>When I came out of the hospital with good Roulin I fancied that I hadn’t had
-                  anything, only afterwards did I have the feeling that I’d been ill. What can you
-                  say, I have moments when I’m twisted by enthusiasm or madness or prophecy like a
-                  Greek oracle on her tripod.</bad_health> </p>
+            <p><good_health>This is to tell you that as for myself, I don’t have any illusions. It’s
+                        going very, very well and I’ll do everything that the doctor
+                        says</good_health> but...</p>
+            <p>
+                  <bad_health>When I came out of the hospital with good Roulin I fancied that I
+                        hadn’t had anything, only afterwards did I have the feeling that I’d been
+                        ill. What can you say, I have moments when I’m twisted by enthusiasm or
+                        madness or prophecy like a Greek oracle on her tripod.</bad_health>
+            </p>
             <p>Then I have a great presence of mind in words and talk like the Arlésiennes, but I
                   feel so weak with all that. Especially when my physical powers return. But I’ve
                   already told Rey that at the slightest serious symptom I’d come back and then
@@ -43,11 +51,14 @@
             <p>Our ambition has sunk so low. So let’s work very calmly, look after ourselves as much
                   as we can and not wear ourselves out in sterile efforts at reciprocal
                   generosity.</p>
-            <p><stress reason="family">You’ll do your duty and I’ll do mine, as far as that’s concerned both of us have
-                  already paid for it other than in words and, at the end of the road, possibly
-                  we’ll see each other calmly again.</stress> <bad_health>But myself, whereas in my delirium all things I
-                  love so much are in turmoil, I can’t accept that as reality and am not acting the
-                  false prophet.</bad_health></p>
+            <p>
+                  <stress reason="family">You’ll do your duty and I’ll do mine, as far as that’s
+                        concerned both of us have already paid for it other than in words and, at
+                        the end of the road, possibly we’ll see each other calmly again.</stress>
+                  <bad_health>But myself, whereas in my delirium all things I love so much are in
+                        turmoil, I can’t accept that as reality and am not acting the false
+                        prophet.</bad_health>
+            </p>
             <p>Sickness or mortality, my word, that doesn’t surprise me, but ambition isn’t
                   compatible, fortunately for us, with the professions we follow. </p>
             <p>Besides, there are so many people who think this way, in several categories of
@@ -57,33 +68,43 @@
                   have screwed your wife in advance? Anyway, that’s part of the customs of the
                   north, and I’m not the one to say they don’t have good customs in the north.</p>
             <p>It will come back, really.</p>
-            <p><stress reason="money">But as for me without a sou, in this case I still say that money is one kind of
-                  currency and painting another.</stress> <work mention="vague">And I’m already able to send you a consignment in
-                  the sense mentioned in the previous writings. But it will get bigger if my
-                  strength comes back to me.</work></p>
-            <p><work mention="vague">So I would like only, should Gauguin, who has a complete infatuation with my
-                  sunflowers, take these two paintings from me, that he gives your fiancée or you
-                  two of his paintings, not mediocre ones but better than mediocre.</work> And if he takes
-                  a version of the Berceuse all the more reason why he should also give something
-                  good on his part.</p>
+            <p>
+                  <stress reason="money">But as for me without a sou, in this case I still say that
+                        money is one kind of currency and painting another.</stress>
+                  <work mention="vague">And I’m already able to send you a consignment in the sense
+                        mentioned in the previous writings. But it will get bigger if my strength
+                        comes back to me.</work>
+            </p>
+            <p><work mention="vague">So I would like only, should Gauguin, who has a complete
+                        infatuation with my sunflowers, take these two paintings from me, that he
+                        gives your fiancée or you two of his paintings, not mediocre ones but better
+                        than mediocre.</work> And if he takes a version of the Berceuse all the more
+                  reason why he should also give something good on his part.</p>
             <p>Without that I couldn’t complete this series I was telling you about, which must be
                   able to go into the same little shop window we’ve looked into so often. </p>
             <p>The value of a painting in a case like this doesn’t come into it and I declare that
                   I’m no expert. It remains that my social position may be as dear to me as yours as
                   a good employee is to you.</p>
-            <p><stress reason="money">And let me say just this, I attach as much importance as you do to a brotherly
-                  honesty as regards Boussod’s money. We have never served it ill. And we’ve worn
-                  ourselves out too much to do the right thing to be able to get angry at being
-                  called thieves or incompetents, what’s more, I won’t go on about it.</stress></p>
-            <p> For the Independents, it seems to me that six paintings is too many by half. <work mention="vague">To my
-                  taste the harvest and the white orchard are enough, with the little Provençal girl
-                  or the sower if you want.</work> But it’s all the same to me. I just really want one day
-                  to give you a more consolatory impression in our trade of painting in which we
-                  work, by means of a collection of around 30 more serious studies.</p>
+            <p>
+                  <stress reason="money">And let me say just this, I attach as much importance as
+                        you do to a brotherly honesty as regards Boussod’s money. We have never
+                        served it ill. And we’ve worn ourselves out too much to do the right thing
+                        to be able to get angry at being called thieves or incompetents, what’s
+                        more, I won’t go on about it.</stress>
+            </p>
+            <p> For the Independents, it seems to me that six paintings is too many by half. <work
+                        mention="vague">To my taste the harvest and the white orchard are enough,
+                        with the little Provençal girl or the sower if you want.</work> But it’s all
+                  the same to me. I just really want one day to give you a more consolatory
+                  impression in our trade of painting in which we work, by means of a collection of
+                  around 30 more serious studies.</p>
             <p>In any case, that will prove to our real friends like Gauguin, Guillaumin, Bernard
                   &amp;c. that we’re engaged in the work of production. </p>
-            <p><unstress reason="money">Ah well, as for the little yellow house, when I paid my rent the landlord’s agent was
-                  very nice and behaved like an Arlesian, treating me as an equal.</unstress></p>
+            <p>
+                  <unstress reason="money">Ah well, as for the little yellow house, when I paid my
+                        rent the landlord’s agent was very nice and behaved like an Arlesian,
+                        treating me as an equal.</unstress>
+            </p>
             <p> So I told him that I had no need of a lease, nor of a written statement of intent,
                   preferably in writing, and that in the case of illness I would only pay by
                   friendly agreement.</p>
@@ -101,17 +122,28 @@
             <p>That doesn’t mean to say that I won’t have considerable periods of respite.</p>
             <p>But once you’re seriously ill you well know that you can’t catch the sickness twice,
                   being healthy or sick is the same thing as being young or old.</p>
-            <p><good_health>Only be well aware of the fact that like you, I’m doing what the doctor tells me as
-                  much as I can. And that I consider that as a part of the work and the duty one has
-                  to carry out.</good_health></p>
-            <p><unstress reason="friendship">I must say this, that the neighbours &amp;c. are particularly kind towards me,
-                  everyone here suffering either from fever or hallucinations or madness, we get
-                  along like members of the same family.</unstress></p>
-            <p><unstress reason="love">Yesterday I went back to see the girl I went to when I went out of my mind. I was
-                  told there that things like that aren’t at all surprising around here. She had
-                  suffered from it and had fainted but had regained her composure. And what’s more,
-                  people say good things of her.</unstress></p>
-            <p><bad_health>But as to considering myself completely healthy, we shouldn’t do it.</bad_health> </p>
+            <p>
+                  <good_health>Only be well aware of the fact that like you, I’m doing what the
+                        doctor tells me as much as I can. And that I consider that as a part of the
+                        work and the duty one has to carry out.</good_health>
+            </p>
+            <p>
+                  <unstress reason="friendship">I must say this, that the neighbours &amp;c. are
+                        particularly kind towards me, everyone here suffering either from fever or
+                        hallucinations or madness, we get along like members of the same
+                        family.</unstress>
+            </p>
+            <p>
+                  <unstress reason="love">Yesterday I went back to see the girl I went to when I
+                        went out of my mind. I was told there that things like that aren’t at all
+                        surprising around here. She had suffered from it and had fainted but had
+                        regained her composure. And what’s more, people say good things of
+                        her.</unstress>
+            </p>
+            <p>
+                  <bad_health>But as to considering myself completely healthy, we shouldn’t do
+                        it.</bad_health>
+            </p>
             <p>The local people who are ill like me indeed tell me the truth. You can live to be old
                   or young, but you’ll always have moments when you lose your head.</p>
             <p>So I don’t ask you to say of me that there’s nothing wrong with me, or won’t be.</p>

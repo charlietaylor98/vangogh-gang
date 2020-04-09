@@ -1,5 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>30 April 1889</head>
       <salutation>My dear Theo,</salutation>
       <body><p>On the occasion of the first of May I wish you not too bad a year, and above all good
             health.</p>

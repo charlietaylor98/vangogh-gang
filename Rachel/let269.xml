@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+    <head>Monday, 25 September 1882.</head>
     <salutation>My dear Theo,</salutation> 
     <body>
         <p>Your latest letter with the enclosure reached me in good order, and I thank
@@ -32,7 +34,7 @@
     be content and shall carry on in good heart. If you’re disappointed, remember that I started
     only a short time ago; if you’re pleased, so much the better for me, for I would so much like to
     be able in time to send you something that gave you pleasure.</p>
-    <p>Now I must tell you that <unstress reason="love'">I had a very unexpected and very pleasing visit from Pa,</unstress> 
+    <p>Now I must tell you that <unstress reason="love">I had a very unexpected and very pleasing visit from Pa,</unstress> 
     who came to my house and to the studio, which I believe is infinitely better than his only hearing about me through reports 
     from others. If people visit me, then at least their impression is original, but I don’t like opinions based on
     what people say. <good_health>It really gave me great pleasure to see Pa and talk to him.</good_health> I’ve again heard a
@@ -42,14 +44,13 @@
     caught the colour of the sea better, and so I’m waiting until a later one is thoroughly dry.
     Recently, though, I’ve painted considerably more than in the original plan we discussed. But
     perhaps it’s necessary to continue doing this if it’s at all possible.</p> 
-    <p>I received a letter from
-    <p>Rappard the other day. I wish he lived a little closer. And rest assured that I’m truly glad to
+    <p>I received a letter from Rappard the other day. I wish he lived a little closer. And rest assured that I’m truly glad to
     hear your comments, just as they come into your mind. I often feel a desire and need to seek
     advice from someone on various questions, but after what happened with Mauve I don’t give in to
     that, and I don’t discuss my work with painters. However brilliant someone may be, what good is
     it to me if he argues differently from the way he works? I would rather M. had spoken to me
     about the use of body-colour instead of saying: ‘Above all, you mustn’t use body-colour’, while
-    he himself and all the others, so to speak, nearly always use it, and to the best effect.</p> 
+    he himself and all the others, so to speak, nearly always use it, and to the best effect. 
     Well, in many cases one can gradually find out things by looking for oneself as well, and I’m doing
     that as best I can.</p> 
     <p>Yes — if it were so that I could do exactly what I wanted, I would take up
@@ -68,11 +69,11 @@
     </body> 
     <close>Well, regards again, and believe me</close>
     <sig>Ever yours, Vincent</sig>
-    <p>If this arrives safely, then this is an easy way of sending you things
+    <ps><p>If this arrives safely, then this is an easy way of sending you things
     occasionally. I don’t know whether one can send drawings or paintings by post as printed matter.
     Another thing, you understand that I could do some things differently, for example some branches
     &amp;c., if I painted them again — but I think that one shouldn’t tinker with studies if they’re
     to be of any use. They should be hung up in the studio just as they come out of the woods. For
     some they may be less pleasing, but there’s more of his impression in them for the painter
-    himself.</p> 
+    himself.</p></ps> 
 </letter>

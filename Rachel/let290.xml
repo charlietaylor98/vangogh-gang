@@ -1,4 +1,6 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
+      <head>The Hague, on or about Sunday, 3 December 1882.</head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>Accept my cordial thanks for your registered letter and for the roll. In it I
@@ -84,7 +86,7 @@
       </body>
       <close>With a handshake.</close>
       <sig>Ever yours, Vincent</sig>
-      <p>I’m re-reading your last letter as I write to you. In particular what you say
+      <ps><p>I’m re-reading your last letter as I write to you. In particular what you say
       about format. I’d like to give you an example of a draughtsman you know: Théophile Schuler,
       who illustrated the works of Erckmann-Chatrian. One clearly sees from those small
       illustrations that he could work excellently on a small scale. One sees it even better in
@@ -139,5 +141,5 @@
       and only mention them in case they may be lying around somewhere. And if you consider it
       advisable to keep them with you in case you want to talk to someone about them, I have nothing
       against that, except that I wish you could perhaps make a new selection from the whole lot for
-      that purpose.</p> 
+      that purpose.</p></ps> 
 </letter>
