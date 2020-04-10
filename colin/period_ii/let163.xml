@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Brussels, Feb. 1881</head>
+    <head><location>Brussels</location>, <date>February 1881</date></head>
 
     <salutation>Dear Pa and Ma,</salutation>
     <body>

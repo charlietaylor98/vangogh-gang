@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Cuesmes, between about Tuesday, 22 and Thursday, 24 June 1880.</head>
+    <head><location>Cuesmes</location>, <date>between about Tuesday, 22 and Thursday, 24 June 1880.</date></head>
     <salutation>My dear Theo, </salutation>
     <body>
         <p><stress reason = "family">It’s with some reluctance that I write to you</stress>, not having done so for so long, and that

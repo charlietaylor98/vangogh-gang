@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>To Theo van Gogh. The Hague, Thursday, 6 July 1882. </head>
+    <head><location>The Hague</location>, <date>Thursday, 6 July 1882.</date> </head>
 
 
     <salutation>Dear brother,</salutation>

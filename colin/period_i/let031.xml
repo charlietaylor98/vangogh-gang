@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>6 April 1875</head>
+    <head><location>London</location><date>6 April 1875</date></head>
 
     <salutation>My dear Theo,</salutation>
     <body>

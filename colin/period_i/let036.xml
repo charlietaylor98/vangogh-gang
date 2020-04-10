@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Paris, 29 June 1875</head>
+  <head><location>Paris</location>, <date>29 June 1875</date></head>
 
   <salutation>My dear Theo,</salutation>
   <body>

@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head> The Hague, on or about Saturday, 14 January 1882.</head>
+      <head> <location>The Hague</location>, <date>on or about Saturday, 14 January 1882.</date></head>
       <salutation>Dear brother, </salutation>
       <body>
             <p>As I’ve often done, I sent you an answer in my last letter that was brief and to the

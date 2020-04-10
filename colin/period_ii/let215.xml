@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>The Hague, on or about Thursday, 6 April 1882.</head>
+      <head><location>The Hague</location>,<date> on or about Thursday, 6 April 1882.</date></head>
       <salutation>My dear Theo, </salutation>
       <body>
             <p>It shouldn’t surprise you that I wrote to you: become a painter. For I myself am now

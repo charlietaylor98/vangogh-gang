@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>London, between Monday, 4 January and Friday, 5 March 1875.</head>
+    <head><location>London</location>,<date>between Monday, 4 January and Friday, 5 March 1875.</date></head>
     <salutation>My dear Theo,</salutation>
 
     <body>

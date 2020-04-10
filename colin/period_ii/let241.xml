@@ -1,5 +1,6 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>1 July 1882</head>
+      <head><location>The Hague</location>, <date>1 July 1882</date></head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>I’ve been back in my studio for a few hours and am writing to you immediately. <good_health>I
@@ -25,7 +26,7 @@
                   you forget all the catheters and probes and instillations... until you see the
                   doctor approaching with them again. And that isn’t a very pleasant moment. Well,
                   such are the petty troubles of life. But what one might call a ‘great trouble’ is
-                  pregnancy and delivery — <stress reason = "frienship">the latest letter from Sien was very melancholy</stress>. She
+                  pregnancy and delivery — <stress reason = "friendship">the latest letter from Sien was very melancholy</stress>. She
                   hadn’t yet given birth but was expecting to at any hour, and I feel very worried,
                   because this waiting has been going on for days. It was chiefly to be able to
                   visit her that I asked the doctor to change the walks in the garden into a short

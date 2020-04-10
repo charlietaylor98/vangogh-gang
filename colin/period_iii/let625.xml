@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Arles, on or about Friday, 15 and Saturday, 16 June 1888.</head>
+      <head><location>Arles</location>, <date>on or about Friday, 15 and Saturday, 16 June 1888.</date></head>
 
 
       <salutation>My dear Theo, </salutation>

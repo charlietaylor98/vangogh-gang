@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head> 26 July 1882. Wednesday morning</head>
+  <head><location> The Hague </location><date>26 July 1882. Wednesday morning</date></head>
 
   <salutation>My dear Theo, </salutation>
   <body>
@@ -95,7 +95,7 @@
   <ps>
 
     <p>By quietly carrying on with my work I have every hope I’ll gradually acquire a new circle of
-      friends to make up for the <stress reason = "frienship">loss of the friendliness of Mauve, HGT and others</stress>. But I’ll take no
+      friends to make up for the <stress reason = "friendship">loss of the friendliness of Mauve, HGT and others</stress>. But I’ll take no
       steps to bring that about, none at all, for it must come through the work. What has happened
       to me with H.G.T. is nothing out of the ordinary; everyone experiences things like that in
       life. It’s impossible to say exactly what the cause is. But in the case of H.G.T. it’s an old

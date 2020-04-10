@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>2/4-81 72 blvd du Midi Bruxelles</head>
+  <head> <location>72 blvd du Midi Bruxelles</location> <date>February 4 1881</date></head>
 
   <salutation>My dear Theo, </salutation>
   <body>
@@ -186,7 +186,7 @@
   <sig>Vincent</sig>
 
   <ps>
-    <p>I’m sending you <work origin="new">three scratches that are still awkward</work>, but from which I hope you’ll
+    <p>I’m sending you <work origin="new" stage = "sketch">three scratches that are still awkward</work>, but from which I hope you’ll
       nonetheless see that there’s gradual improvement. You must remember that I haven’t been
       drawing for long, even if I did sometimes make little sketches as a boy. And also that this
       winter the most important thing for me was to make strict anatomical studies and not my own

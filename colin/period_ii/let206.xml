@@ -1,12 +1,12 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>The Hague, Saturday, 25 February 1882.</head>
+      <head><location>The Hague</location>, <date>Saturday, 25 February 1882.</date></head>
 
       <salutation>My dear Theo,</salutation>
       <body>
             <p>I received your last letter with the 100 francs enclosed in good order, and I
                   sincerely thank you for sending it. I’d have sent you news of its safe receipt
-                  immediately, but I’ve been very busy with a <work meniton = "unnamed">couple of drawings</work> for which I had a
+                  immediately, but I’ve been very busy with a <work mention = "unnamed">couple of drawings</work> for which I had a
                   model. For I’ll have you know that if you’re busy, so am I, and will be so more
                   and more, because I’m getting more of an eye for my work, and so can tear myself
                   away from it only with a great effort in order to write or to go and visit someone

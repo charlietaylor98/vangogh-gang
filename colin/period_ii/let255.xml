@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>The Hague, Thursday, 10 and Friday, 11 August 1882.</head>
+      <head><location>The Hague</location>, <date>Thursday, 10 and Friday, 11 August 1882.</date></head>
 
 
       <salutation>My dear Theo, </salutation>

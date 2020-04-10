@@ -1,6 +1,6 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>The Hague, 9 May 1873</head>
+    <head><location>The Hague</location>, <date>9 May 1873</date></head>
 
     <salutation>My dear Theo,</salutation>
     <body>

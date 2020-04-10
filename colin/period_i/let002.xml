@@ -1,5 +1,5 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<letter><head>The Hague, 13 December 1872.</head>
+<letter><head><location>The Hague</location>, <date>13 December 1872.</date></head>
 
 <salutation>My dear Theo,</salutation>
 <body><p>That was good news that I just read in Pa’s letter. My hearty congratulations.

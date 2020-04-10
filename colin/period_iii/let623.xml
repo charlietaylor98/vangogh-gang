@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Arles, Tuesday, 12 June 1888.</head>
+    <head><location>Arles</location>, Tuesday, 12 June 1888.<date></date></head>
 
 
 

@@ -1,6 +1,6 @@
 <?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>The Hague, Saturday, 27 May 1882.</head>
+      <head><location>The Hague</location>, <date>Saturday, 27 May 1882.</date></head>
       
       <salutation>My dear Theo,</salutation>
       <body>
@@ -41,7 +41,7 @@
                   or grumble about something that isn’t going well, she often manages to calm me
                   down, which I couldn’t do mysel</unstress>f. And she’s thrifty and accepts our piece of black
                   bread if need be, without becoming despondent. And so do I, as long as we get by.
-                  I hope that you’ve received <work origin = "existing" stage = "completed">the drawings I sent around 10 May, I think, two dozen
+                  I hope that you’ve received <work origin = "existing" stage = "finished">the drawings I sent around 10 May, I think, two dozen
                   in a portfolio</work>. I’ve heard nothing about it yet. I do wish there were a few more
                   people I could do work for on the same sort of conditions as for C.M. And above
                   all that C.M. perseveres, for these drawings are much better than the first, and
