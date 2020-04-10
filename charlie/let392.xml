@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>3 October 1883</head>
+      <head><location>Nieuw-Amsterdam</location><date>3 October 1883</date></head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>This time I’m writing to you from the very back of beyond in Drenthe, where I arrived

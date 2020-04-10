@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>6 July 1889</head>
+    <head><location>Saint-Rémy-de-Provence</location><date>6 July 1889</date></head>
     <salutation>Dear brother and sister.</salutation>
     <body>
         <p><unstress reason="family">Jo’s letter tells me a very great piece of news this morning, I congratulate you on it,

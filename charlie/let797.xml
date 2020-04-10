@@ -1,45 +1,55 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>22 August 1889</head><salutation>My dear Theo,</salutation>
-  <body><p><bad_health>I thank Jo very much for writing to me, and knowing that you wish me to write you a line I’m
-    letting you know that it’s very difficult for me to write, so disturbed is my mind.</bad_health> So I’m
-    taking advantage of an interval.</p>
-  <p>Dr Peyron is really kind to me and really patient. <bad_health>You can imagine that I’m very deeply
-    distressed that the attacks have recurred when I was already beginning to hope that it wouldn’t
-    recur.</bad_health></p>
-  <p>You’ll perhaps do well to write a line to Dr Peyron to say that working on my paintings is
-    quite necessary to me for my recovery.</p>
-  <p><bad_health>For these days, without anything to do and without being able to go into the room he had
-    allocated me for doing my painting, are almost intolerable to me.</bad_health></p>
-  <p>I’ve received catalogue of the Gauguin, Bernard, Schuffenecker &amp;c. exhibition, which I find
-    interesting. <unstress reason="friendship">G. also wrote me a kind letter, still a little vague and obscure, but anyway I must
-    say that I think they’re quite right to have exhibited among themselves.</unstress></p>
-  <p><bad_health>For many days I’ve been absolutely distraught, as in Arles, just as much if not worse, and it’s
-    to be presumed that these crises will recur in the future, it is ABOMINABLE. I haven’t been able
-    to eat for 4 days, as my throat is swollen.</bad_health> It’s not in order to complain too much, I hope, if I
-    tell you these details, but to prove to you that I’m not yet in a fit state to go to Paris or to
-    PontAven unless it were to Charenton.</p>
-  <p><bad_health>It appears that I pick up filthy things and eat them, although my memories of these bad moments
-    are vague, and it appears to me that there’s something shady about it, still for the same reason
-    that they have I don’t know what prejudice against painters here.</bad_health></p>
-  <p>I no longer see any possibility for courage or good hope, but anyway it wasn’t yesterday that
-    we found out that this profession isn’t a happy one.</p>
-  <p><good_health>All the same it gives me pleasure that you’ve received that consignment from here, the
-    landscapes.</good_health> Thank you above all for that etching after Rembrandt. It’s surprising, and yet it
-    makes me think again of the man with the staff in the La Caze gallery. If you want to do me a
-    very, very great pleasure, then </p>
-  <p> send a copy of it to Gauguin. Then the Rodin and Claude Monet brochure is really
-    interesting.</p>
-  <p><work origin="new" stage="finished">This new crisis, my dear brother, came upon me in the fields, and when I was in the middle of
-    painting on a windy day. I’ll send you the canvas, which I nevertheless finished.</work> And it was
-    precisely a more sober attempt, matt in colour without looking impressive, broken greens, reds
-    and rusty ochre yellows, as I told you that from time to time I felt a desire to begin again
-    with a palette like the one in the north.</p></body>
-  <close>I’ll send you that canvas as soon as I can. Goodday, thank you for all your kindnesses, good
-    handshake to you and to Jo, and naturally to Cor if he’s still there.</close>
+  <head><location>Saint-Rémy-de-Provence</location><date>22 August 1889</date></head>
+  <salutation>My dear Theo,</salutation>
+  <body>
+    <p><bad_health>I thank Jo very much for writing to me, and knowing that you wish me to write you
+        a line I’m letting you know that it’s very difficult for me to write, so disturbed is my
+        mind.</bad_health> So I’m taking advantage of an interval.</p>
+    <p>Dr Peyron is really kind to me and really patient. <bad_health>You can imagine that I’m very
+        deeply distressed that the attacks have recurred when I was already beginning to hope that
+        it wouldn’t recur.</bad_health></p>
+    <p>You’ll perhaps do well to write a line to Dr Peyron to say that working on my paintings is
+      quite necessary to me for my recovery.</p>
+    <p><bad_health>For these days, without anything to do and without being able to go into the room
+        he had allocated me for doing my painting, are almost intolerable to me.</bad_health></p>
+    <p>I’ve received catalogue of the Gauguin, Bernard, Schuffenecker &amp;c. exhibition, which I
+      find interesting. <unstress reason="friendship">G. also wrote me a kind letter, still a little
+        vague and obscure, but anyway I must say that I think they’re quite right to have exhibited
+        among themselves.</unstress></p>
+    <p><bad_health>For many days I’ve been absolutely distraught, as in Arles, just as much if not
+        worse, and it’s to be presumed that these crises will recur in the future, it is ABOMINABLE.
+        I haven’t been able to eat for 4 days, as my throat is swollen.</bad_health> It’s not in
+      order to complain too much, I hope, if I tell you these details, but to prove to you that I’m
+      not yet in a fit state to go to Paris or to PontAven unless it were to Charenton.</p>
+    <p><bad_health>It appears that I pick up filthy things and eat them, although my memories of
+        these bad moments are vague, and it appears to me that there’s something shady about it,
+        still for the same reason that they have I don’t know what prejudice against painters
+        here.</bad_health></p>
+    <p>I no longer see any possibility for courage or good hope, but anyway it wasn’t yesterday that
+      we found out that this profession isn’t a happy one.</p>
+    <p><good_health>All the same it gives me pleasure that you’ve received that consignment from
+        here, the landscapes.</good_health> Thank you above all for that etching after Rembrandt.
+      It’s surprising, and yet it makes me think again of the man with the staff in the La Caze
+      gallery. If you want to do me a very, very great pleasure, then </p>
+    <p> send a copy of it to Gauguin. Then the Rodin and Claude Monet brochure is really
+      interesting.</p>
+    <p><work origin="new" stage="finished">This new crisis, my dear brother, came upon me in the
+        fields, and when I was in the middle of painting on a windy day. I’ll send you the canvas,
+        which I nevertheless finished.</work> And it was precisely a more sober attempt, matt in
+      colour without looking impressive, broken greens, reds and rusty ochre yellows, as I told you
+      that from time to time I felt a desire to begin again with a palette like the one in the
+      north.</p>
+  </body>
+  <close>I’ll send you that canvas as soon as I can. Goodday, thank you for all your kindnesses,
+    good handshake to you and to Jo, and naturally to Cor if he’s still there.</close>
   <sig>Vincent</sig>
-  <ps><p><unstress reason="family">Mother and Wil have also written me a very nice letter.</unstress></p>
-  <p><work origin="new" stage="finished">Whilst not liking Rod’s book excessively, I’ve nevertheless done a canvas of that passage in
-    which he speaks of the darkish mountains and huts.</work></p>
-  <p><unstress reason="family">(Our friend Roulin has written to me too.)</unstress></p></ps>
+  <ps>
+    <p><unstress reason="family">Mother and Wil have also written me a very nice
+      letter.</unstress></p>
+    <p><work origin="new" stage="finished">Whilst not liking Rod’s book excessively, I’ve
+        nevertheless done a canvas of that passage in which he speaks of the darkish mountains and
+        huts.</work></p>
+    <p><unstress reason="family">(Our friend Roulin has written to me too.)</unstress></p>
+  </ps>
 </letter>

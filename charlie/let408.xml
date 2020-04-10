@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>1 December 1883</head>
+    <head><location>Nieuw-Amsterdam</location><date>1 December 1883</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>Thanks for your letter and the enclosure. Your letter explains your silence to me.</p>

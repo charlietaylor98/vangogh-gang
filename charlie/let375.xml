@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>18 August 1883</head>
+    <head><location>The Hague</location><date>18 August 1883</date></head>
     <salutation>Dear brother,</salutation>
     <body>
         <p>Coming home just now, the first thing I feel I have to do is to make a request of you — a

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Etten, 31 December 1876</head>
+    <head><location>Etten,</location><date> 31 December 1876</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I sincerely wish you the best in the new year, I wish you well and may you be blessed in

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth, 25 Nov. 1876</head>
+  <head><location>Isleworth,</location><date> 25 Nov. 1876</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Thanks for your last letter, which I received at the same time as one from Etten. So you’re

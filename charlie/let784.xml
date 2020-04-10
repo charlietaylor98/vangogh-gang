@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>2 July 1889</head>
+      <head><location>Saint-Rémy-de-Provence</location><date>2 July 1889</date></head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p>Enclosed I’m sending you a letter from Mother, naturally you know all the news it

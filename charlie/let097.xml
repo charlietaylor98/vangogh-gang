@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth, 10 November 1876.</head>
+  <head><location>Isleworth</location><date>10 November 1876.</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>I feel the need to enclose a few words to you. You’ll be having pleasant days at home, I

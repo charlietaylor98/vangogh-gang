@@ -1,7 +1,8 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>7 August 1883</head><salutation>My dear Theo,</salutation>
+    <head><location>The Hague</location><date>7 August 1883</date></head>
+    <salutation>My dear Theo,</salutation>
     <body>
         <p><stress reason="family">Pending your arrival there’s hardly a moment that I’m not with
                 you in my thoughts.</stress>

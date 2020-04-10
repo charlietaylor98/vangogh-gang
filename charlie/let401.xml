@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>31 October 1883</head>
+  <head><location>Nieuw-Amsterdam</location><date>31 October 1883</date></head>
   <salutation>My dear brother —</salutation>
   <body>
     <p>I cannot count the grains of corn in a sack of corn just by smelling it — I cannot see

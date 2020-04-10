@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Ramsgate, 28 April 1876</head>
+    <head><location>Ramsgate,</location><date> 28 April 1876</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>Many happy returns; my hearty congratulations on this day, may our love for one another

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Dordrecht, 23 March 1877</head>
+  <head><location>Dordrecht,</location><date> 23 March 1877</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Want to make sure you receive a letter on your trip. <unstress reason="family">What a good day we spent together in

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>7 and 8 February 1877</head>
+  <head><location>Dordrecht</location><date>7 and 8 February 1877</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Adam Bede costs 2.60 guilders, so herewith you get back 1.40 guilders. Now I only hope that

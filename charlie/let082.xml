@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Ramsgate, 12 May 1876</head>
+    <head><location>Ramsgate,</location><date> 12 May 1876</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>Thanks for your letter; I also like ‘Tell me the old, old story’ very much. I first heard

@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>8 December 1883</head>
+    <head><location>Nuenen</location><date>8 December 1883</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>It’s still early; I wanted to add a word or two to my letter of yesterday in order to try

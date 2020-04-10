@@ -1,6 +1,7 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>10 Spetember 1889</head><salutation>My dear Theo,</salutation>
+      <head><location>Saint-Rémy-de-Provence</location><date>10 Spetember 1889</date></head>
+      <salutation>My dear Theo,</salutation>
       <body>
             <p>I think your letter is really good, what you say about Rousseau and artists like
                   Bodmer, that they are men in any case, and of such a kind that one would wish the

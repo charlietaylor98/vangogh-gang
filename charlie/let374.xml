@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>17 August 1883</head>
+  <head><location>The Hague</location><date>17 August 1883</date></head>
   <salutation>Dear brother.</salutation>
   <body>
     <p>I wish you could understand that I must be consistent in various things. </p>

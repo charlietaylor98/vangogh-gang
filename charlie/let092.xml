@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>3 October 1876</head>
+  <head><location>Isleworth</location><date>3 October 1876</date></head>
   <salutation>Dear Theo,</salutation>
   <body>
     <p>I heard from home that you were ill. How much I’d like to be with you, my boy. Yesterday

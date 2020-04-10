@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>26 September 1883</head>
+    <head><location>Hoogeveen</location><date>26 September 1883</date></head>
     <salutation>Dear brother,</salutation>
     <body>
         <p><bad_health>Because I have a need to speak frankly, I can’t hide from you that I’m

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth, 7 Oct. 1876.</head>
+  <head><location>Isleworth,</location><date> 7 Oct. 1876.</date></head>
   <salutation>Dear Theo,</salutation>
   <body>
     <p>It’s Saturday again, and I’m writing a few words once more. <stress reason="family">I’m

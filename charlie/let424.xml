@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>17 January 1884</head>
+    <head><location>Nuenen</location><date>17 January 1884</date></head>
     <salutation>My dear brother,</salutation>
     <body><p>There’s something I have to tell you in a word or two.</p>
     <p><stress reason="family">Ma hurt her leg getting out of the train — at Helmond — high up near the pelvis — in what’s

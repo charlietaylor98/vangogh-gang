@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>12 October 1883</head>
+    <head><location>Hoogeveen</location><date>12 October 1883</date></head>
     <salutation>Dear brother,</salutation>
     <body>
         <p>I just received your letter. I read and reread it with interest, and something that I’ve

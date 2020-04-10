@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>18 February 1889</head>
+    <head><location>Arles</location><date>18 February 1889</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p><bad_health>As long as my mind was so out of sorts it would have been fruitless to try and write to

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Dordrecht, 28 February 1877</head>
+  <head><location>Dordrecht,</location><date> 28 February 1877</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Write again soon if you can find a moment, remain steadfast, be of good heart, and He shall

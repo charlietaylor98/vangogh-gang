@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>[Letterhead: Goupil The Hague (crossed out)]Ramsgate, 17 April 1876.</head>
+  <head>[Letterhead: Goupil The Hague (crossed out)]<location>Ramsgate,</location><date> 17 April 1876.</date></head>
   <salutation>Dear Father and Mother,</salutation>
   <body><p>By now you’ve no doubt received the telegram, but will be wanting to know more particulars. I
     wrote down a few things in the train and am sending you that, so you can see how my trip

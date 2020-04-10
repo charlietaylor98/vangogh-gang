@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Between 31 May and 6 June 1889</head>
+      <head><location>Saint-Rémy-de-Provence</location><date>Between 31 May and 6 June 1889</date></head>
       <salutation>My dear Theo,</salutation>
       <body>
             <p><stress reason="money">I still have to ask you to send me a few ordinary brushes as soon as possible, of

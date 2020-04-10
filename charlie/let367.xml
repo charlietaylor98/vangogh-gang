@@ -1,7 +1,8 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>25 July 1883</head><salutation>My dear Theo,</salutation>
+    <head><location>The Hague</location><date>25 July 1883</date></head>
+    <salutation>My dear Theo,</salutation>
     <body>
         <p>A man comes to me this morning who had repaired the lamp for me 3 weeks ago, and from
             whom at the same time I bought some earthenware that he himself pressed me to take. </p>

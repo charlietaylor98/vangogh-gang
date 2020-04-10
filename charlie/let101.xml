@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Dordrecht, 21 January 1877</head>
+  <head><location>Dordrecht,</location><date> 21 January 1877</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>You’ll have expected a letter sooner; <good_health>things are going rather well in the shop, and it’s so

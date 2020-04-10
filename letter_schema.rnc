@@ -1,6 +1,8 @@
 start = letter
 letter = element letter {head, salutation*, body, close, sig, ps*}
-head = element head {text}
+head = element head {mixed{location, date}}
+location = element location {text}
+date = element date {text}
 salutation = element salutation {text}
 body = element body {p+}
 p = element p {mixed {(good_health|bad_health|stress|unstress|work)*}}

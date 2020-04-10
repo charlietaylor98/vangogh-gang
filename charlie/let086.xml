@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Holme Court, 8 July 1876</head>
+  <head><location>Holme Court,</location><date> 8 July 1876</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Your letter and the prints came as a wonderful surprise this morning while I was weeding the

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Welwyn, 17 June 1876</head>
+  <head><location>Welwyn,</location><date> 17 June 1876</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Last Monday I left Ramsgate for London. That’s a long walk indeed, and when I left it was

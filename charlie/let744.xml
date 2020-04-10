@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>30 January 1889</head>
+    <head><location>Arles</location><date>30 January 1889</date></head>
     <salutation>My dear Theo,</salutation>
     <body><p><unstress reason="friendship">Although I have nothing very, very unexpected to tell you I still want to let you know that
         last Monday I saw our friend Roulin again.</unstress> There was good reason for it too — the whole of

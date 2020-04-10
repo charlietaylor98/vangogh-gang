@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth, 18 Aug. 1876</head>
+  <head><location>Isleworth,</location><date> 18 Aug. 1876</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Yesterday I went to see Gladwell, who’s home for a few days. <stress reason="friendship">Something very sad happened to

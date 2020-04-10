@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>12 or 13 October 1883</head>
+    <head><location>Nieuw-Amsterdam</location><date>12 or 13 October 1883</date></head>
     <body>
         <p><work origin="new" stage="sketch">I’m sending you the enclosed scratches to give you some
                 idea of so many diverse things that the seemingly monotonous countryside has to

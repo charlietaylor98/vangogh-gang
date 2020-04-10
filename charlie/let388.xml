@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>21 September 1883</head>
+  <head><location>Hoogeveen</location><date>21 September 1883</date></head>
   <salutation>Dear brother,</salutation>
   <body>
     <p>I’ve just received your letter and thank you right heartily for it. And want to write to you

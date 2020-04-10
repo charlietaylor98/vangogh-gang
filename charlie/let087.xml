@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Isleworth, 2 August 1876</head>
+  <head><location>Isleworth,</location><date> 2 August 1876</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>I heard from home that you’d be coming home for a day while Anna and Lies were still there;

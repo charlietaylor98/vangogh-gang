@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Dordrecht, 23 April 1877</head>
+  <head><location>Dordrecht,</location><date> 23 April 1877</date></head>
   <salutation>My dear Theo,</salutation>
   <body><p>I received your letter of 21 April, thanks for writing so quickly – <good_health>and that letter gave me a
     feeling of joy such as the woman must have had who found the piece of silver she had lost,</good_health>

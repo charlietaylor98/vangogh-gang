@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>15 October 1883</head>
+      <head><location>Nieuw-Amsterdam</location><date>15 October 1883</date></head>
       <salutation>My dear Theo,</salutation>
       <body><p>Now I’ve already written about it once, I’ve thought about it again since then, out on the
             heath. The same thing I’ve already thought about many times.</p>

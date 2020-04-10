@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Ramsgate, 17 April 1876.</head>
+    <head><location>Ramsgate,</location><date> 17 April 1876.</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p>I arrived here safe and sound yesterday afternoon at 1 o’clock, and one of my first

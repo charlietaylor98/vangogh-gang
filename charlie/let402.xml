@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>2 November 1883</head>
+    <head><location>Nieuw-Amsterdam</location><date>2 November 1883</date></head>
     <salutation>Dear brother,</salutation>
     <body>
         <p>Just wanted to tell you about a trip to Zweeloo, the village where Liebermann stayed for
