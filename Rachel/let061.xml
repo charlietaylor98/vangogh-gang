@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Friday, 10 December 1875.</head>
+  <head><location>Paris,</location> <date>Friday, 10 December 1875.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>Herewith what I promised. You’ll like the book by Jules Breton. There’s one

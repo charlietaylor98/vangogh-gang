@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Saturday, 8 September 1888.</head>
+      <head><location>Arles,</location> <date>Saturday, 8 September 1888.</date></head>
       <salutation>My dear Theo,</salutation> 
       <body><p>Thank you a thousand times for your kind letter
       and the 300 francs it contained — <unstress reason="environment">after some weeks of worries I’ve just had a much better one.</unstress>

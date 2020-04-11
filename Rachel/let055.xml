@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Paris, Monday, 11 October 1875.</head>
+  <head><location>Paris,</location> <date>Monday, 11 October 1875.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>Thanks for your letter of this morning. This time I’d like to write to you as

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Paris, Sunday, 12 September 1875.</head>
+  <head><location>Paris,</location> <date>Sunday, 12 September 1875.</date></head>
   <salutation>My dear Theo,</salutation>
   <body>
     <p>Wings, wings above life! Wings over the grave and death! That’s what we need,

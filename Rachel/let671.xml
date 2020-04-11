@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Wednesday, 29 or Thursday, 30 August 1888.</head> 
+    <head><location>Arles,</location> <date>Wednesday, 29 or Thursday, 30 August 1888.</date></head> 
     <salutation>My dear Theo,</salutation>
    <body> <p><stress reason="money">On 1 September I’ll have my rent to
     pay,</stress> and if you could send me the money for the week the same day as you receive yours for the

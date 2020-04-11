@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Monday, 6 August 1888.</head>
+  <head><location>Arles,</location> <date>Monday, 6 August 1888.</date></head>
   <salutation>My dear Theo,</salutation> 
  <body> 
    <p>It seems to me that you did well to go to our uncle’s funeral, as our mother

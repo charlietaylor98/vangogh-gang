@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Wednesday, 2 February 1876.</head>
+  <head><location>Paris,</location> <date>Wednesday, 2 February 1876.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>Would you do me a great favour? You know that 15-cent edition of ‘Andersen’s

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Paris, Monday, 15 November 1875.</head>
+    <head><location>Paris,</location> <date>Monday, 15 November 1875.</date></head>
     <salutation>My dear Theo,</salutation> 
     <body>
         <p>Herewith a note for Uncle Haanebeek. I hadn’t written since Annet died, and

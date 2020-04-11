@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Thursday, 23 March 1876.</head>
+    <head><location>Paris,</location> <date>Thursday, 23 March 1876.</date></head>
     <salutation>My dear Theo,</salutation> 
     <body><p>Herewith the book by Longfellow, it will no doubt become a friend of yours.
     Today I responded to two more advertisements, <stress reason= "environment">I’ll go on doing it, even though most of my

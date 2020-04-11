@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Paris, on or about Thursday, 9 September 1875.</head>
+  <head><location>Paris,</location> <date>on or about Thursday, 9 September 1875.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>You hadn’t expected to get this letter back again, had you? No, old boy, this

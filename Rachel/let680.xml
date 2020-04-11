@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Tuesday, 11 September 1888.</head> 
+      <head><location>Arles,</location> <date>Tuesday, 11 September 1888.</date></head> 
       <salutation>My dear Theo,</salutation> 
      <body> <p>When Gauguin comes to work with me, and when for
       his part he shows himself a little bit generous as far as his paintings are concerned — Well,

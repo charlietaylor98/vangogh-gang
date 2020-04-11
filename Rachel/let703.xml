@@ -1,6 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Saturday, 13 October 1888.</head> 
+      <head><location>Arles,</location> <date>Saturday, 13 October 1888.</date></head> 
       <salutation>My dear Theo,</salutation> 
      <body> <p>I had hardly dared hope so soon for your new
       50-franc money order, for which I thank you very much. I have many expenses, <stress reason="money">and it sometimes
@@ -61,5 +62,6 @@
       Railway bridge</work> <work origin="new" stage="finished">1 ,, the house</work> <work origin="new" stage="finished">1 ,, the Tarascon diligence</work>
       <work origin="new" stage="finished">1 ,, the starry night</work> 
       <work origin="new" stage="finished">1 ,, the
-      furrows</work> <work origin="new" stage=""finished>1 ,, The vineyard.</work></p></ps> 
+      furrows</work>
+            <work origin="new" stage="finished">1 ,, The vineyard.</work></p></ps> 
 </letter>

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Paris, 15 July 1875</head>
+    <head><location>Paris</location> <date>15 July 1875</date></head>
     <salutation>My dear Theo,</salutation>
     <body>
         <p><unstress reason="friendship">Uncle Vincent was here again, we were together quite a lot and

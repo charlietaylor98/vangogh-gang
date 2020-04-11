@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Sunday, 29 July 1888.</head>
+  <head><location>Arles,</location> <date>Sunday, 29 July 1888.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body><p>Many thanks for your kind letter. If you recall, mine ended with: we’re
   getting old, that’s what is and the rest is imagination and doesn’t exist. Now, I said that even

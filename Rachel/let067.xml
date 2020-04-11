@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
- <head>on or about Monday, 24 January 1876.</head>
+ <head><location>Paris,</location> <date>on or about Monday, 24 January 1876.</date></head>
   <salutation>My dear Theo,</salutation>
   <body><p>Thanks for your letter, write to me often, <stress reason="friendship">as I long for it these days.</stress> Write
   in more detail, too, and about everyday things; you see that I, too, am doing that more and more.

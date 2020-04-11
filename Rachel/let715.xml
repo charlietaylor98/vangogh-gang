@@ -1,6 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Monday, 29 October 1888.</head> 
+      <head><location>Arles,</location> <date>Monday, 29 October 1888.</date></head> 
       <salutation>My dear Theo,</salutation>
       <body><p>As for ill, I already told you I didn’t think I was,
       but I would have become so if my expenses had had to continue. <stress reason="family">Since I was in a state of

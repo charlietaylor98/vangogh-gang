@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>Monday, 13 December 1875.</head>
+    <head><location>Paris,</location> <date>Monday, 13 December 1875.</date></head>
     <salutation>My dear Theo,</salutation> 
     <body><p>I’d been longing to receive your letter of this morning, <good_health>and am very glad that
     you’re getting better again.</good_health> The parcel for you was sent only today; the little book by Jules

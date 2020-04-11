@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>on or about Monday, 10 September 1888.</head> 
+  <head><location>Arles,</location> <date>on or about Monday, 10 September 1888.</date></head> 
   <salutation>My dear Theo,</salutation> 
   <body><p>Enclosed herewith letter from Gauguin,
   which arrived at the same time as a letter from Bernard. <stress reason="money">At last, it’s the cry of distress.... my

@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-    <head>on or about Wednesday, 11 April 1883.</head>
+    <head><location>The Hague,</location> <date>on or about Wednesday, 11 April 1883.</date></head>
     <salutation>Dear brother,</salutation> 
     <body>
         <p>Thank you for your letter and the 50 francs enclosed, which were very welcome

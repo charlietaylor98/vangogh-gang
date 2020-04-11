@@ -1,7 +1,7 @@
 
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Wednesday, 21 November 1888.</head> 
+      <head><location>Arles,</location> <date>Wednesday, 21 November 1888.</date></head> 
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>Thanks for your kind letter and for the 100-franc

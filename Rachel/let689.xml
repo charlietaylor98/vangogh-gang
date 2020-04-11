@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Wednesday, 26 September 1888.</head> 
+  <head><location>Arles,</location> <date>Wednesday, 26 September 1888.</date></head> 
   <salutation>My dear Theo,</salutation> 
   <body><p>I’m well aware that I wrote to you only
   yesterday, <unstress reason="environment">but the day has been so beautiful again.</unstress> My great sorrow is that you can’t see what I

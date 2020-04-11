@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>on or about Monday, 11 December 1882.</head>
+      <head><location>The Hague,</location> <date>on or about Monday, 11 December 1882.</date></head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>I just received your registered letter and thank you most cordially for it.

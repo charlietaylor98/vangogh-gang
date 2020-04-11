@@ -1,6 +1,7 @@
-<?xml-model href="../../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Saturday, 27 or Sunday, 28 October 1888.</head>
+  <head><location>Arles,</location> <date>Saturday, 27 or Sunday, 28 October 1888.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>Thank you for your money order for 50

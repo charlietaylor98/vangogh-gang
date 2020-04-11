@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Sunday, 9 September 1888.</head> 
+  <head><location>Arles,</location> <date>Sunday, 9 September 1888.</date></head> 
   <salutation>My dear Theo,</salutation>
   <body><p>I’ve just put <work origin="new" stage="sketch">the croquis</work> of <work origin="new" stage="finished">the new painting, the
   ‘Night café’,</work> in the post — <work origin="existing" stage="finished">as well as another one that I did some time ago.</work> I’ll perhaps end up

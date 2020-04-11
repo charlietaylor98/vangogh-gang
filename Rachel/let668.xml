@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Thursday, 23 or Friday, 24 August 1888.</head> 
+      <head><location>Arles,</location> <date>Thursday, 23 or Friday, 24 August 1888.</date></head> 
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>Would you ask Tasset his opinion on

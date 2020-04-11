@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-      <head>Tuesday, 20 or Wednesday, 21 February 1883.</head>
+      <head><location>The Hague,</location> <date>Tuesday, 20 or Wednesday, 21 February 1883.</date></head>
       <salutation>My dear Theo,</salutation> 
       <body>
             <p>I wanted to write to you on Sunday but I waited because I was busy with

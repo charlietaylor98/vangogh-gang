@@ -1,6 +1,6 @@
 <?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
-  <head>Paris, Saturday, 25 September 1875.</head>
+  <head><location>Paris,</location> <date>Saturday, 25 September 1875.</date></head>
   <salutation>My dear Theo,</salutation> 
   <body>
     <p>The way is narrow, so we must be careful. You know how others have arrived
