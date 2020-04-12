@@ -1,0 +1,27 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+  <head><location>Paris,</location> <date>between Monday, 16 August and Wednesday, 1 September 1875.</date></head>
+  <salutation>My dear Theo,</salutation> 
+  <body>
+    <p>Thanks for your last letter and for the poem by Rückert. On Sunday I went
+  again to Mr Bersier, his sermon was based on the text ‘It is not lawful for thee’, he concluded
+  with ‘Happy are they for whom life has all its thorns’. Here are some words which I know Uncle
+  Vincent is very fond of: ‘Rejoice, young man, in thy youth; and let thy heart cheer thee in the
+  days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know
+  thou, that for all these things God will bring thee into judgement. Remove sorrow from thy heart,
+  and put away evil from thy flesh: for childhood and youth are vanity. Remember now thy Creator in
+  the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say,
+  I have no pleasure in them.’ <unstress reason="environment">Yet I find even more beautiful</unstress>: ‘Fear God, and keep his commandments:
+  for this is the whole duty of man.’ And ‘Thy will be done’ and ‘Lead us not into temptation, but
+  deliver us from evil’.</p> 
+    <p>Herewith a note for Mr Tersteeg, asking him if he would frame 2 engravings,
+  ‘Good Friday’ and ‘St Augustine’, which you’ll find in the next crate. And will you please be so
+  kind as to send them to Helvoirt around 10 Sept. I’d really like them to be from both of us, so
+  that you pay 2.50 guilders towards the frames. I told Mr Tersteeg that you’d write and tell me
+  what they cost and then I’d send him the money. You can give me the 2.50 guilders when we see each
+  other. That probably won’t be before Christmas; I believe it’s better not to ask for any time off
+  before then. <unstress reason="friendship">This evening I’m going to dine with Mr Hamman</unstress>.</p>
+  </body> 
+  <close>Adieu, write again soon, and believe me</close>
+  <sig>Your loving brother Vincent</sig>
+</letter>

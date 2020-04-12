@@ -1,0 +1,32 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>Paris</location>,<date> 31 May 1875</date></head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Thanks for your letter of this morning. Yesterday I saw the Corot exhibition. It included
+            a painting of the ‘Mount of Olives’; I’m glad he painted that.</p>
+        <p>On the right, a group of olive trees, dark against the darkening blue sky; in the
+            background hills covered with shrubs and a couple of tall trees, above them the evening
+            star. There are 3 Corots at the Salon, very beautiful, the most beautiful one, painted
+            shortly before his death, ‘Women cutting wood’, will probably appear as a woodcut in
+            L’Illustration or Le Monde Illustré. I’ve also seen the Louvre and the Luxembourg, as
+            you can imagine.</p>
+        <p>The Ruisdaels in the Louvre are magnificent, especially ‘The bush’, ‘The breakwater’ and
+            ‘The ray of sunlight’. I wish you could see the small Rembrandts there, the ‘Supper at
+            Emmaus’, and two pendants, ‘The philosophers’. I recently saw Jules Breton with his wife
+            and two daughters. Physically he reminded me of J. Maris, though he has dark hair. When
+            I have the chance I’ll send you a book of his, ‘Les champs et la mer’, which contains
+            all his poems. He has a beautiful painting at the Salon, ‘The feast of St John’, peasant
+            girls dancing on a summer evening round the St John’s bonfire, in the background the
+            village with its church and the moon above it. </p>
+        <p>Dance, young maidens, dance, As you sing your songs of love! Tomorrow, at break of day,
+            You’ll go, hastening to ply your sickles.</p>
+        <p> There are now 3 paintings by him in the Luxembourg. ‘Procession through a cornfield’,
+            ‘Women gleaning’ and ‘Alone’.</p>
+    </body>
+    <close>Adieu</close>
+
+    <sig>Vincent</sig>
+
+</letter>

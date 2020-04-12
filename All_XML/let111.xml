@@ -1,0 +1,37 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+  <head><location>Dordrecht</location><date>15 April 1877</date></head>
+  <salutation>My dear Theo,</salutation>
+  <body>
+    <p>Thanks for your letter of yesterday, which I answer today, having an hour of time.</p>
+    <p>Remembered that when we were at the Van der Hoop Museum we talked about the book by Bürger,
+      which you’ll be receiving in the post, in it you’ll also find a woodcut after G. Doré, Judith
+      and Holofernes, and one after Brion &amp;c. for your scrapbook. Do go on with it, because
+      you’ll turn it into something beautiful in time.</p>
+    <p>Do accept my small contribution, I need so much to commune with you by way of such trifles;
+      <unstress reason="family">when I come back to my room I’m reminded of you again and again by the illustrations on the
+      wall.</unstress></p>
+    <p>The love between brothers is a great support in life, that is an ageold truth, let us seek
+      that support, let the fire of love between us not be extinguished, but let instead the
+      experience of life make that bond ever stronger, let us remain upright and candid with each
+      other, let there be no secrets – as things stand today.</p>
+    <p>Thanks for your last letter. ‘It’s not over yet’, you say – no, it cannot be over yet. Your
+      heart will need to trust itself and to pour forth – you’ll be torn between the two – her and
+      my Father – I think that our Father loves you more than she does – that his love is worth more
+      – these words are ‘fine gold’:The child puts great faith in his Father</p>
+    <p>As befits the father’s worth.</p>
+    <p>For who is closer than thy Father, is he nearer</p>
+    <p>In Heaven or on earth? By all means go there again if things get to be too much for you.</p>
+    <p><stress reason="family">This week I got a letter from Uncle Vincent, who wrote that he thought it unnecessary to
+      continue the correspondence, that he cannot help me in this matter.</stress> A letter came at the same
+      time from Mr Gladwell, in which he wrote about Harry – who must have endured much anguish,
+      being very hard pressed to make him act as he did.</p>
+    <p>Mr Görlitz is in Etten today to talk to Pa about the vacancy for a teaching post at Leur. I
+      sincerely hope he’ll get it. Today was the first early sermon, which I attended, the sermon
+      was very beautiful, about Jesus showing himself to the disciples at the sea of Tiberias, John
+      21. Herewith a few poems by Uhland which I found moving. Do write soon, old boy, give my warm
+      regards to your housemates, and accept a handshake in thought from</p>
+  </body>
+  <close>Your loving brother,</close>
+  <sig>Vincent</sig>
+</letter>

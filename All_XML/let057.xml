@@ -1,0 +1,21 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>Paris,</location> <date>Tuesday, 9 November 1875.</date></head>
+    <salutation>My dear Theo,</salutation> 
+    <body>
+        <p>It’s time you heard from me again, though this will only be a short note, for
+    I haven’t much time. Thanks for what you sent me, <good_health>I’m glad to have it.</good_health> I’m glad that you were in
+    Etten on the day of the induction, for Pa and Ma’s sake as well as yours. You must write and
+    tell me what it was like. Uncle Vincent and Aunt left yesterday. I went to see them quite often.
+    <stress reason= "friendship">I’m sorry I didn’t see them at the train yesterday when they left.</stress> </p>
+       <p> Herewith a letter, give it to Uncle when you see him, it explains why we didn’t see each other at the station. Autumn is
+    really here, you’ll be going for walks fairly often. Do you get up early? I do regularly, it’s
+    good to make a habit of it. <unstress reason= "environment">It’s precious and already very dear to me, that early morning
+    twilight.</unstress> I usually go to bed early in the evening. Every morning my worthy Englishman cooks
+    barley porridge; how I’d like you to be here in the morning sometime. Anna seems to get up early
+    as well. She doesn’t have it easy, and she certainly makes herself very useful. Well, more soon,
+    probably. Do write again soon, and freely.</p>
+    </body> 
+    <close>I shake your hand in thought, and am ever</close> 
+    <sig>Your loving brother Vincent</sig> 
+</letter>

@@ -1,0 +1,74 @@
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+      <head><location>Amsterdam</location>, Sunday, <date>10 February 1878</date>.</head>
+      <salutation>My dear Theo,</salutation>
+      <body>
+            <p> It’s Sunday evening, and I want to write a few words again, for I also really long
+                  to get another letter from you, do write again soon, I am with you so often in
+                  thought. I sincerely hope that you’ve had a good Sunday. </p>
+            <p> <good_health>As you know, Pa was here and I’m very glad of it, we went together to Mendes, Uncle
+                  Stricker, Uncle Cor, Vos and Kee and both Meijjes families, and the most pleasant
+                  memory of Pa’s visit is that morning we spent together in my study, looking over
+                  my work and talking about all sorts of things.</good_health> You can imagine that those days
+                  flew by and when, after bringing Pa to the station and watching the train or even
+                  only the smoke for as long as it was in sight, <bad_health>I came back to my room and Pa’s
+                  chair was standing there by the little desk on which the books and notebooks were
+                  still lying from the day before, even though I know that we’ll see each other
+                  again quite soon, I broke down and cried like a child.</bad_health> </p>
+            <p> You’ll already have heard that Mendes made a favourable impression on Pa as well. In
+                  the evening, at Uncle Cor’s, we saw drawings and books, including Doré’s Bible and
+                  Bida’s Le livre de Ruth and Histoire de Joseph. </p>
+            <p> <unstress reason="friendship">Was in the English church this morning and met Wierda upon leaving the church, who
+                  had been there too. We went for a walk together and he asked me if I’d like to
+                  come and see his room,</unstress> he lives in Weteringstraat, about 10 minutes from
+                  Leidsestraat. I told him that for a long time I had wanted to see his room and
+                  where and how he lived, so <unstress reason="friendship">I went along and after drinking coffee I stayed till
+                  around 3 o’clock and saw his books and heard a thing or two about his life, where
+                  he had been previously and so on</unstress>, first he was in Bolsward, then in Haarlem and
+                  then here. He has worked hard in his life and will probably continue to do so and
+                  not give it up easily. Afterwards, at home, translated a passage from Caesar, and
+                  this afternoon to Uncle Stricker’s, I go there rather often now that Uncle is out
+                  of town and now that it’s lonely again here in the house since Pa left. This
+                  evening they went to see Vos, who isn’t any better. </p>
+            <p> I still have to congratulate you on Pa’s birthday, even though it’s already been and
+                  gone, it will have been a good day, with Anna there too, I’m longing for a letter
+                  from home to hear how they celebrated that day. Anna was slightly indisposed and
+                  hadn’t yet recovered completely, she wrote in a letter that Pa received here.
+                  Perhaps Pa read Ma’s letter aloud to you, which she wrote while Pa was here, it
+                  told about a visit to a sick person which sounded like something out of Adam
+                  Bede.It’s foggy here today, fortunately Pa had good weather so that we could walk
+                  quite a lot. </p>
+            <p> I’m reminding you of that piece by Jules Breton, not that there’s any hurry, but try
+                  and remember it sometime. </p>
+            <p> Because in March you’ll probably make the trip again, won’t you, and also come here
+                  again? </p>
+            <p> Uncle Jan will most likely come back on Tuesday. </p>
+            <p> You’ll certainly have a lot to do at the beginning of the year, like most people.
+                  Wierda, too, unburdened himself on that score this morning. </p>
+            <p> <stress reason="career">For me, too, things are beginning to get more and more serious as the exam
+                  approaches.</stress> <good_health>I’ll be glad when it grows light a bit earlier in the morning and
+                  we’re already beginning to get used to it.</good_health> </p>
+            <p> Did Pa remember to give you the photograph of the Maris? The woodcut after Van
+                  Goyen, Dordrecht, is hanging in its place. Went recently to see that painting
+                  again here in the museum, it is good through and through. The next time you come
+                  here I’d like to look through the etchings by Dürer here in the museum again, as
+                  we did with Rembrandt’s last time. </p>
+            <p> It’s no doubt beautiful in Scheveningen on these grey days, do you still go there
+                  quite often? Perhaps it’s like that painting by Ruisdael in the museum in The
+                  Hague. Do you have the lithograph of it that was once in the Kunstkronijk? It’s
+                  really good. </p>
+            <p> How are things going at Mauve’s? Very well, I hope. Have you been there recently? </p>
+            <p> I’m currently taking lessons from Uncle Stricker once or twice a week, that is a
+                  bonus. Uncle is an expert in it, and I’m glad he could find the time to do it. </p>
+            <p> Now, old boy, a hearty handshake in thought, I’ll set to work, give my regards to
+                  your housemates, and also to Mauve if you run into him, I wish you the very best,
+                  write soon, also congratulations on Anna’s birthday, even though it’s still to
+                  come, and believe me ever</p>
+      </body>
+      <close>Your loving brother </close>
+      <sig>Vincent</sig>
+      <ps>
+            <p>Goodnight, old boy, I sat up writing till 12 o’clock, a handshake in thought.</p>
+      </ps>
+</letter>

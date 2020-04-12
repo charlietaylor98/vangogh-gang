@@ -1,0 +1,21 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>The Hague</location>, <date>9 May 1873</date></head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>On Monday morning I’ll leave Helvoirt for Paris, passing through Brussels at 2:07. Do
+            come to the station if you can; it would give me great pleasure. Before I forget,
+            yesterday I showed your portrait to Mrs Tersteeg, and she would like very much to have
+            one. Would you have a chance to get another one and send it to me? If you can’t do it
+            now, try to think of it some other time.</p>
+        <p>Theo, you have no idea how <unstress reason = "environment">kind to me they all are here</unstress>; you can imagine how sorry I am
+            to have to part from so many friends.</p>
+    </body>
+
+    <close>Adieu, old chap, give my warm regards to Uncle and Aunt. Goodbye for now. </close>
+    <sig>Vincent. </sig>
+    <ps>
+        <p>Find out whether you have to be at the Station du Nord or du Midi.</p>
+    </ps>
+</letter>

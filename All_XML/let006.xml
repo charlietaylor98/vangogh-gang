@@ -1,0 +1,16 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>The Hague</location>, <date>24 March 1873</date></head>
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Would you mind checking whether a painting by Schotel is still in Brussels? It was sent
+            from here on consignment on 6 May 1870, but perhaps Uncle has already sent it back to
+            Paris. If that isn’t the case, however, see that it’s sent here immediately. We have
+            every chance of selling it, but time is of the essence. I saw it last summer in your
+            gallery, and imagine it’s probably still there.</p>
+        <p>Bid good-day to Uncle and Aunt and Mr Schmidt and Eduard for me. You’ll have received my
+            letter by now.</p>
+    </body>
+    <close>Adieu, I wish you well.</close>
+    <sig>Vincent</sig>
+</letter>

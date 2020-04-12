@@ -1,0 +1,21 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>The Hague</location>, <date>5 May 1873</date></head>
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>You mustn’t take it amiss, old chap, that I didn’t remember your birthday. Many
+            congratulations; I hope that things will continue to go well for you this year, and that
+            you’ll take more and more pleasure in your work. </p>
+        <p>My time is drawing to a close. On Saturday I’ll go home and take my leave, and then on
+            Sunday on to Paris. I’m afraid it’ll end up being Monday, however, and that on Sunday
+            I’ll still be in Helvoirt. I hope I’ll be able to write to you in time about when I’ll
+            be passing through Brussels, but it’s quite possible that I won’t be able to, as I don’t
+            yet know for sure when I have to be in Paris at the latest. </p>
+        <p>How are Uncle and Aunt? Have they moved yet? Be sure to write to me soon about that, I’ll
+            give you my address below. <stress reason  = "career">I’m writing in haste, as you can imagine I’m busy</stress>. Adieu, I
+            wish you well. Give my warm regards to Uncle and Aunt, also to Mr Schmidt and
+            Eduard.</p>
+    </body>
+    <close>Ever your loving brother</close>
+    <sig>Vincent.</sig>
+</letter>

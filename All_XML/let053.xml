@@ -1,0 +1,17 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>Paris,</location> <date>Thursday, 30 September 1875.</date></head>
+    <salutation>My dear Theo,</salutation> 
+    <body>
+        <p>Herewith the book about Michel that I promised you, <work origin="new" stage="sketch">also an etching after the
+    Margaret by Scheffer and a lithograph after Corot</work>, and a package of chocolate. I do know that
+    things aren’t easy for you at the moment, old chap, but remain steadfast and be brave; ‘Not to
+    dream, not to sigh’ is also necessary sometimes. You know ‘that you are not alone but that the
+    Father is with you’. <unstress reason="friendship">I shake your hand heartily in thought.</unstress></p>
+    </body>
+    <close>Ever,</close>
+    <sig>Your loving brother Vincent</sig>
+    <ps><p>Please keep the enclosed etching after Rembrandt, along with the photos of the Corot and
+    the Jules Breton sent previously, until Pa and Ma are comfortably settled in Etten, and send
+    them then, at the end of November for example. </p></ps>
+</letter>

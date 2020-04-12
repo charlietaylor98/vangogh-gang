@@ -1,0 +1,65 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+      <head><location>Arles</location><date>18 December 1888</date></head>
+      <salutation>My dear Theo,</salutation>
+      <body><p>Yesterday Gauguin and I went to Montpellier to see the museum there, and especially the
+            Bruyas room — there are many portraits of Bruyas, by Delacroix, by Ricard, by Courbet,
+            by Cabanel, by Couture, by Verdier, by Tassaert, by others too. After that there are
+            paintings by Delacroix, Courbet, Giotto, Paul Potter, Botticelli, T. Rousseau, very
+            fine.</p>
+      <p>Bruyas was a benefactor to artists, and this is all I’ll say to you: in the Delacroix
+            portrait, he’s a gentleman with a beard, red hair, who looks damnably like you or me,
+            and who made me think of that poem by Musset... everywhere I touched the earth, an
+            unfortunate man dressed in black came to sit beside us, a man who looked at us like a
+            brother. It would have the same effect on you, I’m sure.</p>
+      <p> I’d really ask you to go and see, at that bookshop where they sell lithographs of ancient
+            and modern artists, if you could manage to get the lithograph after Delacroix’s ‘Tasso
+            in the madhouse’ without great expense, since it would seem to me that this figure (by
+            Delacroix) must have some relationship to this fine Bruyas portrait. </p>
+      <p>They have other Delacroixs there, a study of a mulatto woman (which Gauguin once copied),
+            the Odalisques, Daniel in the lions’ den.</p>
+      <p>By Courbet, first, The village girls, magnificent, a nude woman seen from the back, another
+            on the ground, in a landscape. Second, The woman spinning (superb), and a whole load
+            more Courbets. Anyway, you must know that this collection exists, or else know people
+            who have seen it, and consequently be able to talk about it. So I shan’t insist on the
+            museum (except for the Barye drawings and bronzes!)</p>
+      <p>Gauguin and I talk a lot about Delacroix, Rembrandt &amp;c.</p>
+      <p><unstress reason="friendship">The discussion is excessively electric. We sometimes emerge from it with tired minds, like
+            an electric battery after it’s run down.</unstress></p>
+      <p>We’ve been right in the midst of magic, for as Fromentin says so well, Rembrandt is above
+            all a magician and Delacroix a man of God, of God’s thunder and bugger off in the name
+            of God. </p>
+      <p>I’m writing this to you with reference to our friends, the Dutchmen De Haan and Isaäcson,
+            who have so sought and loved Rembrandt, in order to encourage you to pursue the
+            researches.</p>
+      <p>One mustn’t get discouraged about that. You know the strange and superb portrait of a man
+            by Rembrandt at the La Caze gallery, I told Gauguin that, for me, I saw in it a certain
+            family or racial resemblance to Delacroix, or to him, Gauguin.</p>
+      <p>I don’t know why, but I always call that portrait ‘the traveller’ or ‘the man coming from
+            far away’.</p>
+      <p>That’s an equivalent and parallel idea to what I’ve already told you, always to look at the
+            portrait of old Six. The fine portrait with the glove for your future, and the Rembrandt
+            etching, Six reading by a window in a ray of sunlight, for your past and your
+            present.</p>
+      <p>That’s the stage we’re at.</p>
+      <p><unstress reason="friendship">Gauguin said to me this morning, when I asked him how he felt: ‘that he could feel his old
+            self coming back’, which gave me great pleasure.</unstress></p>
+      <p><bad_health>As for me, coming here last winter, tired and almost fainting mentally, I too suffered a
+            little inside before I was able to begin to remake myself.</bad_health></p>
+      <p>How I’d like you to see that museum in Montpellier some day, there are some really
+            beautiful things there!</p>
+      <p>Say so to Degas, that Gauguin and I have been to see the portrait of Bruyas by Delacroix at
+            Montpellier, for we must boldly believe that what is, is, and the portrait of Bruyas by
+            Delacroix resembles you and me like a new brother.</p>
+      <p>As regards setting up a life with painters as pals, you see such odd things and I’ll end
+            with what you always say, time will tell.</p>
+      <p>You can tell all this to our friends Isaäcson and De Haan, and even boldly read them this
+            letter, I would already have written to them if I’d felt the necessary electric
+            force.</p>
+      <p>On behalf of Gauguin as well as myself, a good, hearty handshake to you all.</p></body>
+      <close>Ever yours,</close>
+      <sig>Vincent</sig>
+      <ps><p>If you think that Gauguin or I have a facility in our work, the work isn’t always
+            accommodating. And for the Dutchmen not to get discouraged in their difficulties any
+            more than we do, that’s what I wish for them, and for you too.</p></ps>
+</letter>

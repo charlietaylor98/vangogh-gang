@@ -1,0 +1,51 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+
+  <head><location>Ramsgate,</location><date> 31 May 1876</date></head>
+  <salutation>My dear Theo,</salutation>
+  <body>
+    <p>Bully for you, being in Etten on 21 May, happily there were 4 of the 6 at home. Pa wrote to
+      me in detail about everything that happened that day. Thanks, too, for your last letter.</p>
+    <p>Have I already written to you about the storm I saw recently? The sea was yellowish,
+      especially close to the beach; a streak of light on the horizon and, above this, tremendously
+      huge dark grey clouds from which one saw the rain coming down in slanting streaks. The wind
+      blew the dust from the small white path on the rocks into the sea and tossed the blossoming
+      hawthorn bushes and wallflowers that grow on the rocks.</p>
+    <p><unstress reason="environment">On the right, fields of young green wheat, and, in the
+        distance, the town with its towers, mills, slate roofs and houses built in Gothic style,
+        and, below, the harbour between the 2 jetties running out into the sea, looking like the
+        cities Albrecht Dürer used to etch. I also saw the sea last Sunday night, everything was
+        dark grey, but day was beginning to break on the horizon. It was still very early, and yet a
+        lark was already singing. And the nightingales in the gardens on the seafront. In the
+        distance the light of the lighthouse, the guardship &amp;c.</unstress></p>
+    <p>That same night I looked out of the window of my room onto the roofs of the houses one sees
+      from there and the tops of the elms, dark against the night sky. Above those roofs, one single
+      star, but a nice, big friendly one. <stress reason="family">And I thought of us all, and I
+        thought of the years of my life that had already passed, and of our home, and the words and
+        feeling came to me, ‘Keep me from being a son that causeth shame, give me Your blessing, not
+        because I deserve it, but for my Mother’s sake. Thou art Love, beareth all things. Without
+        your constant blessing we can do nothing.’</stress></p>
+    <p>Herewith a little drawing of the view from the school window where the boys stand and watch
+      their parents going back to the station after a visit. Many a boy will never forget the view
+      from that window. <unstress reason="environment">You should have seen it this week when we had rainy days, especially in the
+      twilight when the streetlamps are being lit and their light is reflected in the wet
+      street.</unstress></p>
+    <p>Mr Stokes was sometimes moody during those days, and when the boys were too boisterous for
+      him it sometimes happened that they didn’t get their bread and tea in the evening. You should
+      have seen them then, standing at the window looking out, it was really rather sad. They have
+      so little apart from their food and drink to look forward to and to get them through the day.
+      I’d also like you to see them going down the dark stairs and small corridor to table. On that,
+      however, the friendly sun shines.</p>
+    <p><unstress reason="environment">Another extraordinary place is the room with the rotten floor where there are 6 basins at
+      which they wash themselves, with only a feeble light falling onto the washstand through a
+      window with broken panes. It’s quite a melancholy sight, to be sure. How I’d like to spend or
+      to have spent a winter with them, to know what it’s like.</unstress></p>
+    <p>The youngsters are making an oil stain on your little drawing, forgive them. Herewith a few
+      words for Uncle Jan. </p>
+    <p>And now goodnight, if anyone should ask after me bid them goodday. Do you still visit
+      Borchers once in a while? Give him my regards if you see him, and also Willem Valkis and
+      everyone at the Rooses’. A handshake in thought from</p>
+  </body>
+  <close>Your loving</close>
+  <sig>Vincent</sig>
+</letter>

@@ -1,0 +1,27 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>Paris,</location> <date>Monday, 13 December 1875.</date></head>
+    <salutation>My dear Theo,</salutation> 
+    <body><p>I’d been longing to receive your letter of this morning, <good_health>and am very glad that
+    you’re getting better again.</good_health> The parcel for you was sent only today; the little book by Jules
+    Breton is in it. I’m longing for Christmas and to see you, old boy, but now we’ll be there soon
+    enough. I’ll probably be leaving here Thursday week, in the evening. Do everything you can to
+    get as long a holiday as possible. One more thing, though, please forgive my saying it. <stress reason="environment">You and
+    I both liked the poems by Heine and Uhland, but watch out, old boy, it’s pretty dangerous stuff.
+    The illusion won’t last long, don’t surrender to it.</stress> Shouldn’t you get rid of those little books
+    I wrote in for you? Those books by Heine and Uhland will fall into your hands again later on,
+    and then you’ll read them with different feelings and with a calmer heart. </p>
+    <p>I like Erckmann-Chatrian very much, you know that. Do you know L’ami Fritz? To return again to Heine.
+    Take the portrait of Father and Mother and take ‘Farewells’ by Brion, and then read Heine with
+    those three before your eyes; then you’ll see what I mean. But, old chap, surely you know that
+    I’m not lecturing you or preaching a moralizing sermon. I know you have in your heart what I
+    have in mine, that’s why I sometimes talk to you so seriously. But in any event try this test
+    sometime.</p> 
+   <p> And now, get well soon and do write again soon. How is Willem Valkis? Give my regards
+    to him and to all your housemates and to all who know me, also Van Iterson. We have a beautiful
+    painting by Schreyer here at present, a wagon with horses in an autumnal landscape at sunset.
+    Also a splendid Jacque, a sombre landscape with sheep. What do you think of that small Jacque,
+    ‘Ploughing’, which has been in The Hague for some time?</p></body> 
+    <close>I sincerely wish you the best and, again, a speedy recovery. </close>
+    <sig>Ever Your loving brother. Vincent</sig>
+</letter>

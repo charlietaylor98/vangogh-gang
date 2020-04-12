@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="640" width="220">
+   <g transform="translate(100, 590)">
+      <line x1="-100" x2="100" y1="0" y2="0"/>
+      <line x1="100" x2="100" y1="0" y2="-540"/>

@@ -1,0 +1,77 @@
+
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+  <head><location>Amsterdam</location>, Monday, <date>19 November 1877</date>.</head>
+  <salutation>My dear Theo,</salutation>
+  <body>
+    <p> I feel the need to write to you again, because I often think of you and long so much for
+      Christmas, when we hope to see each other again. Well, the dark days before Christmas are
+      already in sight, and behind them lies Christmas, just like the kindly light from the houses
+      behind the rocks and the water that breaks against them on a dark evening. </p>
+    <p> The Christmas celebration was always a bright spot for us, and may it remain so. </p>
+    <p> <stress reason="career">An entrance exam has been held at the university here for the first time — it’s here in the
+      city that I’ll sit the exam as well. In addition to the usual 4 subjects of Latin, Greek,
+      algebra and geometry, they also tested history, geography and Dutch.</stress> </p>
+    <p> Have taken pains to find a teacher of Algebra and Geometry and have succeeded, namely a
+      cousin of Mendes, Teixeira de Mattos, a teacher at the Jewish School for the Poor. He gives me
+      hope that we’ll have met the requirements by around October of next year. If I should then
+      pass the exam, things will have gone very well indeed.<stress reason="career">Because when I started they said that 2
+      years would be necessary for the first 4 subjects mentioned, whereas if I should pass in
+      October, I’ll have done more in an even shorter time. May God give me the wisdom I need and
+      grant me my heart’s desire, namely to complete my studies as soon as possible and to be
+      inducted into a living and the practical duties of a minister. Doing that work, and being
+      devoted to it, I believe one would be doing what God wants one to do.</stress>  </p>
+    <p> The preparatory studies (i.e. those preceding the actual theological study and practice in
+      preaching and speaking) more or less comes down to the history, languages and geography of
+      Greece, Asia Minor (which can be taken to include Palestine) and Italy. <stress reason="career">So I have to study
+      these just as diligently as a dog gnaws a bone</stress>, and similarly I should like to know the
+      languages, history and geography of the northern countries, i.e. those around the North Sea
+      and the English Channel. </p>
+    <p> Have finally succeeded in making a map of Asia Minor, Greece and Italy, fairly large (which
+      now includes Paul’s travels as well), and also one of England which finally has something of
+      what I wanted it to have, at least Mendes sees it in it, namely that it was not drawn without
+      feeling and love. (I put in the names from a map in the Atlas Antiquus of SprunerMenke that
+      Mendes has, because it’s one to be used for history.) Come on, do your best to take a look at
+      that atlas sometime, likewise the one by Stieler in particular. Because it is artistry.
+      (SprunerMenke, Atlas Antiquus.)On Sunday I heard the Rev. Ten Kate on John XIV:16 (In my
+      Father’s house are many mansions: Whosoever says that, what our Father’s house holds in
+      memories for us, what it promises us). He ended with: The hour is coming in which the dead
+      shall hear the voice of the Son of the people and shall stand up, they that have done good,
+      unto the Resurrection of the Eternal Life. Blessed are the homesick, for they shall come home.
+      The church was so packed that I stood. </p>
+    <p> Spent two evenings at Uncle Cor’s, once to look at old books (including volumes of
+      L’Illustration in which I found many old acquaintances, that is really an interesting
+      magazine, among other things an old portrait of Dickens and a woodcut by De Lemud, ‘The cup of
+      coffee’, a young man with rather severe and sharp features and a serious expression who looks
+      exactly as though he were thinking about that passage from The imitation, On the monastic
+      life, or as though he were contemplating some difficult but good work or plan, as only a soul
+      in need can. Such work isn’t always the worst, but what one does in sorrow, as it were, lives
+      on. Happy the man who is instructed by Truth itself, not by signs and passing words, but as it
+      is in itself, are good words). </p>
+    <p> Then I was also at Uncle Cor’s on Aunt’s birthday, i.e. last Friday, they played cards that
+      evening, and because I can’t I sat there reading A. Gruson, Histoire des croisades (Panthéon
+      classique 50 cmes). That’s a very beautiful little book, I would almost say that here and
+      there it was written with the sentiment of Thijs Maris (herewith, among other things, a page
+      that struck me), such as when he paints an old castle on a rock with autumnal woods at
+      twilight, with the black fields with a peasant ploughing with a white horse in the foreground,
+      and it also made me think of Michelet and Carlyle. </p>
+    <p> I should like so much for Pa to know that etching of A young citizen of the year V. Do you
+      approve of giving it on Pa’s birthday or before then, along with some small photos of the
+      Revolution, so that it forms a whole from which Pa can see what we often think about? </p>
+    <p> Perhaps you already know that there have been sad tidings today from Brussels, that Pa has
+      already gone there. Uncle Jan, who received a telegram containing this news from Ma,
+      telegraphed Pa and received the answer ‘Condition unchanged don’t come yet I’m here’. Uncle
+      Jan and Uncle Cor were already set to go there together, now they’re awaiting further notice
+      from faithful Pa. Will there then finally be an end to that long and terrible suffering? </p>
+    <p> Goodbye Theo, write soon, old boy, if you can, may God preserve our health and give us the
+      clarity of mind and the strength and vigour we need every day. Uncle Jan, Uncle Cor and the
+      Stricker family send you their regards, and accept a hearty handshake in thought from </p>
+  </body>
+  <close>Your loving brother</close>
+  <sig>Vincent</sig>
+  <ps>
+    <p> That news about Uncle Hein comes while I’m writing this.Paul Stricker will in all likelihood
+      have to return to Holland because of his health. A good letter from Johan van Gogh, and Willem
+      is also doing relatively well, but does have to look after himself and be careful.</p>
+  </ps>
+</letter>

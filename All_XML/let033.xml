@@ -1,0 +1,32 @@
+<?xml-model href="../../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>London</location>,<date> 8 May 1875</date></head>
+
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Thanks for your last letter. How is the patient? I’d already heard from Pa that she was
+            ill, but I didn’t know that it was as bad as you said. Write to me about this soon, if
+            you will. Yes, old boy, ‘what shall we say?’ C.M. and Mr Tersteeg were here and left
+            again last Saturday. In my opinion they went a little too often to the Crystal Palace
+            and other places that didn’t concern them. It seems to me they could also have come and
+            seen where I lived. You ask about Anna, but we’ll discuss that another time. </p>
+
+        <p>I hope and believe that I’m not what many think me to be at present, we’ll see, we have
+            to give it time; people will probably say the same about you in a couple of years; at
+            least if you continue to be what you are: my brother in two senses of the word. Regards,
+            and my regards to the patient.</p>
+    </body>
+    <close>With a handshake, </close>
+    <sig>Vincent</sig>
+
+
+    <ps>
+        <p>To act on the world<stress reason = "environment"> one must die to oneself</stress>. The people that makes itself the missionary
+            of a religious thought has no other country henceforth than that thought. Man is not
+            placed on the earth merely to be happy; nor is he placed here merely to be honest, he is
+            here to accomplish great things through society, to arrive at nobleness, and to outgrow
+            the <stress reason = "love">vulgarity in which the existence of almost all individuals drags on</stress>. </p>
+        <p>Renan</p>
+    </ps>
+
+</letter>

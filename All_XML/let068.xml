@@ -1,0 +1,18 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+  <head><location>Paris,</location> <date>Wednesday, 2 February 1876.</date></head>
+  <salutation>My dear Theo,</salutation> 
+  <body>
+    <p>Would you do me a great favour? You know that 15-cent edition of ‘Andersen’s
+  vertellingen van de maan’, translated by the Rev. Ten Kate. Could you send me a copy of it when
+  you get the chance? It’s only tomorrow that a crate will be going to The Hague in which I’ll
+  enclose the packages in question. The one for Pa can no longer arrive at Etten in time, but send
+  it as soon as possible anyway. <stress reason= "friendship">I still haven’t had a reply to various letters I wrote in response
+  to advertisements. Nor did Uncle Vincent answer me.</stress> I asked Mr Obach whether any people desiring
+  information about me could apply to him, and His Hon. replied with a very kind letter. At any
+  rate, old boy, we can only continue quietly with our eyes on Him whom we think of when we say ‘Who
+  will shew us any good?’</p> 
+  </body>
+  <close>Adieu, regards to anyone who might ask after me, and ever</close>
+  <sig>Your loving brother. Vincent</sig>
+</letter>

@@ -1,0 +1,18 @@
+<?xml-model href="../letter_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <head><location>Isleworth</location><date>Between 16 and 22 September 1876</date></head>
+    <salutation>My dear Theo,</salutation>
+    <body>
+        <p>Van Iterson just came and surprised me, I think it’s nice that he came, but it’s as
+            though he were a person from another world, so much lies between the time when we were
+            in the firm together and now.</p>
+        <p>Herewith the ‘Wijde wijde wereld’ and another little book, give one of them to
+            Caroline.</p>
+        <p>How much I’d like you to be able to see it here.</p>
+        <p>I hope to walk to London on Saturday morning at 4 o’clock to visit Gladwell and others. I
+            wish you could walk along with me.</p>
+        <p>A hearty handshake in thought. Adieu, believe me,</p>
+    </body>
+    <close>Your most loving brother</close>
+    <sig>Vincent</sig>
+</letter>
