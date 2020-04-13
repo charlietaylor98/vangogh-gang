@@ -6,8 +6,9 @@
     <xsl:output method="xml" indent="yes"/>
     <xsl:template name="xsl:initial-template">
         <letters>
-            <xsl:for-each select="collection('All_XML')">                               
-                <xsl:copy-of select="letter"/>                               
+            <xsl:for-each select="collection('All_XML')">
+                <xsl:sort select="base-uri()"/>
+                <xsl:copy-of select="letter"/>
             </xsl:for-each>
         </letters>
     </xsl:template>
