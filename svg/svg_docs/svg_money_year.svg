@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="722" width="840">
-   <g transform="translate(370, 100)">
-      <line x1="-320" x2="320" y1="0" y2="0" stroke="black"/>
+<svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+   <g transform="translate(350, 100)">
+      <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
       <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
-      <text x="160"
+      <text x="150"
             y="-50"
             font-size="16"
             text-anchor="middle"
             font-weight="300">Count: "Un-Stressed"</text>
-      <text x="-160"
+      <text x="-150"
             y="-50"
             font-size="16"
             text-anchor="middle"
@@ -26,84 +26,84 @@
             x2="0"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="64" font-size="13" text-anchor="middle">8</text>
-      <line y1="-15" y2="0" x1="64" x2="64" stroke="black"/>
+      <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+      <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="64"
-            x2="64"
+            x1="60"
+            x2="60"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="128" font-size="13" text-anchor="middle">16</text>
-      <line y1="-15" y2="0" x1="128" x2="128" stroke="black"/>
+      <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+      <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="128"
-            x2="128"
+            x1="120"
+            x2="120"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="192" font-size="13" text-anchor="middle">24</text>
-      <line y1="-15" y2="0" x1="192" x2="192" stroke="black"/>
+      <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+      <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="192"
-            x2="192"
+            x1="180"
+            x2="180"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="256" font-size="13" text-anchor="middle">32</text>
-      <line y1="-15" y2="0" x1="256" x2="256" stroke="black"/>
+      <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+      <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="256"
-            x2="256"
+            x1="240"
+            x2="240"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="320" font-size="13" text-anchor="middle">40</text>
-      <line y1="-15" y2="0" x1="320" x2="320" stroke="black"/>
+      <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+      <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="320"
-            x2="320"
+            x1="300"
+            x2="300"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="-320" font-size="13" text-anchor="middle">40</text>
-      <line y1="-15" y2="0" x1="-320" x2="-320" stroke="black"/>
+      <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+      <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="-320"
-            x2="-320"
+            x1="-300"
+            x2="-300"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="-256" font-size="13" text-anchor="middle">32</text>
-      <line y1="-15" y2="0" x1="-256" x2="-256" stroke="black"/>
+      <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+      <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="-256"
-            x2="-256"
+            x1="-240"
+            x2="-240"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="-192" font-size="13" text-anchor="middle">24</text>
-      <line y1="-15" y2="0" x1="-192" x2="-192" stroke="black"/>
+      <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+      <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="-192"
-            x2="-192"
+            x1="-180"
+            x2="-180"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="-128" font-size="13" text-anchor="middle">16</text>
-      <line y1="-15" y2="0" x1="-128" x2="-128" stroke="black"/>
+      <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+      <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="-128"
-            x2="-128"
+            x1="-120"
+            x2="-120"
             stroke="black"
             opacity=".5"/>
-      <text y="-20" x="-64" font-size="13" text-anchor="middle">8</text>
-      <line y1="-15" y2="0" x1="-64" x2="-64" stroke="black"/>
+      <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+      <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
       <line y1="0"
             y2="522"
-            x1="-64"
-            x2="-64"
+            x1="-60"
+            x2="-60"
             stroke="black"
             opacity=".5"/>
       <rect x="0"
@@ -113,7 +113,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="18" text-anchor="middle" font-size="12">1872</text>
+      <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
       <rect x="0"
             width="0"
             y="36"
@@ -121,7 +121,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="45" text-anchor="middle" font-size="12">1873</text>
+      <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
       <rect x="0"
             width="0"
             y="63"
@@ -129,7 +129,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="72" text-anchor="middle" font-size="12">1874</text>
+      <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
       <rect x="0"
             width="0"
             y="90"
@@ -137,7 +137,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="99" text-anchor="middle" font-size="12">1875</text>
+      <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
       <rect x="0"
             width="0"
             y="117"
@@ -145,7 +145,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="126" text-anchor="middle" font-size="12">1876</text>
+      <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
       <rect x="0"
             width="0"
             y="144"
@@ -153,7 +153,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="153" text-anchor="middle" font-size="12">1877</text>
+      <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
       <rect x="0"
             width="0"
             y="171"
@@ -161,7 +161,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="180" text-anchor="middle" font-size="12">1878</text>
+      <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
       <rect x="0"
             width="0"
             y="198"
@@ -169,7 +169,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="207" text-anchor="middle" font-size="12">1879</text>
+      <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
       <rect x="0"
             width="0"
             y="225"
@@ -177,47 +177,47 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="234" text-anchor="middle" font-size="12">1880</text>
+      <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
       <rect x="0"
-            width="8"
+            width="5"
             y="252"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="261" text-anchor="middle" font-size="12">1881</text>
+      <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
       <rect x="0"
-            width="8"
+            width="5"
             y="279"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="288" text-anchor="middle" font-size="12">1882</text>
+      <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
       <rect x="0"
-            width="88"
+            width="55"
             y="306"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="315" text-anchor="middle" font-size="12">1883</text>
+      <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
       <rect x="0"
-            width="32"
+            width="20"
             y="333"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="342" text-anchor="middle" font-size="12">1884</text>
+      <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
       <rect x="0"
-            width="24"
+            width="15"
             y="360"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="369" text-anchor="middle" font-size="12">1885</text>
+      <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
       <rect x="0"
             width="0"
             y="387"
@@ -225,7 +225,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="396" text-anchor="middle" font-size="12">1886</text>
+      <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
       <rect x="0"
             width="0"
             y="414"
@@ -233,23 +233,23 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="423" text-anchor="middle" font-size="12">1887</text>
+      <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
       <rect x="0"
-            width="24"
+            width="15"
             y="441"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="450" text-anchor="middle" font-size="12">1888</text>
+      <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
       <rect x="0"
-            width="24"
+            width="15"
             y="468"
             height="18"
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="477" text-anchor="middle" font-size="12">1889</text>
+      <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
       <rect x="0"
             width="0"
             y="495"
@@ -257,7 +257,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="345" y="504" text-anchor="middle" font-size="12">1890</text>
+      <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
       <rect x="-0"
             width="0"
             y="9"
@@ -279,22 +279,22 @@
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-8"
-            width="8"
+      <rect x="-5"
+            width="5"
             y="90"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-8"
-            width="8"
+      <rect x="-5"
+            width="5"
             y="117"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-8"
-            width="8"
+      <rect x="-5"
+            width="5"
             y="144"
             height="18"
             fill="#f0d946"
@@ -314,8 +314,8 @@
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-16"
-            width="16"
+      <rect x="-10"
+            width="10"
             y="225"
             height="18"
             fill="#f0d946"
@@ -328,36 +328,36 @@
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-176"
-            width="176"
+      <rect x="-110"
+            width="110"
             y="279"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-280"
-            width="280"
+      <rect x="-175"
+            width="175"
             y="306"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-200"
-            width="200"
+      <rect x="-125"
+            width="125"
             y="333"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-208"
-            width="208"
+      <rect x="-130"
+            width="130"
             y="360"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-40"
-            width="40"
+      <rect x="-25"
+            width="25"
             y="387"
             height="18"
             fill="#f0d946"
@@ -370,22 +370,22 @@
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-160"
-            width="160"
+      <rect x="-100"
+            width="100"
             y="441"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-216"
-            width="216"
+      <rect x="-135"
+            width="135"
             y="468"
             height="18"
             fill="#f0d946"
             stroke-width="1"
             stroke="black"/>
-      <rect x="-16"
-            width="16"
+      <rect x="-10"
+            width="10"
             y="495"
             height="18"
             fill="#f0d946"
