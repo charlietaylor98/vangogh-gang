@@ -1,0 +1,92 @@
+.graph 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left:50px;
+  padding-right:50px;
+  background-color:#aaddbb;
+}
+
+.graphLoc
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left:175px;
+  padding-right:175px;
+  background-color:#aaddbb;
+}
+
+.buttons
+{
+     border: 1px solid;
+     display:flex;
+     justify-content:center;
+     margin:20px auto;
+     background-color: #dddd99;
+     width: 50%;
+}
+
+#careerYear
+{
+    display:none;
+}
+
+#careerLocation
+{
+    display:none;
+}
+
+#moneyYear
+{
+    display:none;
+}
+
+#moneyLocation
+{
+    display:none;
+}
+
+#familyYear
+{
+    display:none;
+}
+
+#familyLocation
+{
+    display:none;
+}
+
+#friendshipYear
+{
+    display:none;
+}
+
+#friendshipLocation
+{
+    display:none;
+}
+
+#loveYear
+{
+    display:none;
+}
+
+#loveLocation
+{
+    display:none;
+}
+
+#healthYear
+{
+    display:none;
+}
+
+#healthLocation
+{
+    display:none;
+}
+
