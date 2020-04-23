@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Topic Models</title>
+        <link rel="stylesheet" type="text/css" href="vangogh.css" />
+        <link rel="stylesheet" type="text/css" href="results.css" />
+        <link rel = "shorcut icon" type="image/ico" href="favicon.ico"/>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.xhtml">Home</a>
+            <a href="about.xhtml">About</a>
+            <a class="active" href="results.xhtml">Results</a>
+            <a href="conclusion.xhtml">Conclusion</a>
+        </div>
+        <h1 class="header">Results</h1>
+        <section class="byYear">
+            <div class="buttons">
+                <button onclick='showByYear("environmentYear")' class="center">Environment</button>
+                <button onclick='showByYear("careerYear")' class="center">Career</button>
+                <button onclick='showByYear("moneyYear")' class="center">Money</button>
+                <button onclick='showByYear("familyYear")' class="center">Family</button>
+                <button onclick='showByYear("friendshipYear")' class="center">Friendship</button>
+                <button onclick='showByYear("loveYear")' class="center">Love</button>
+                <button onclick='showByYear("healthYear")' class="center">Health</button>
+            </div>
+            
+            <div class="graph" id="environmentYear">
+               
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Surroundings/Environment by Year: "Stessed" vs.
+                            "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="10" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="30" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="25" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="50" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="160" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="110" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="30" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="10" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="10" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="70" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="150" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="5" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="15" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="10" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="105" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="75" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="10" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-35" width="35" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-70" width="70" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-35" width="35" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graph" id="careerYear">
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Career by Year: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="5" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="5" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="5" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="25" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="5" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="35" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="40" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="5" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="25" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="5" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="20" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="45" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="5" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-115" width="115" y="144" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-25" width="25" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-50" width="50" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-65" width="65" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-60" width="60" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-50" width="50" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-75" width="75" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="graph" id="moneyYear">
+
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Personal Finance by Year: "Stessed" vs.
+                            "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="0" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="0" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="5" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="5" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="55" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="20" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="15" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="15" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="15" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="0" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-110" width="110" y="279" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-175" width="175" y="306" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-125" width="125" y="333" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-130" width="130" y="360" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-25" width="25" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-100" width="100" y="441" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-135" width="135" y="468" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-10" width="10" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graph" id="familyYear">
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Family by Year: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="5" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="5" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="5" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="20" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="50" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="0" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="10" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="35" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="20" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="5" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="5" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="80" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="5" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-60" width="60" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-255" width="255" y="306" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-80" width="80" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-45" width="45" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graph" id="friendshipYear">
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Love by Year: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="0" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="0" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="5" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="5" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="10" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="35" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="10" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="0" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="5" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="0" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-85" width="85" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graph" id="loveYear">
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Love by Year: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="0" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="0" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="5" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="5" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="10" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="35" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="10" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="0" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="5" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="0" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-85" width="85" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graph" id="healthYear">
+                <svg xmlns="http://www.w3.org/2000/svg" height="722" width="800">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="522" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: Good Health</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: Bad Health</text>
+                        <text x="0" y="572" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Mental Health by Year: Good vs. Bad</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="522" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="522" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="522" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="522" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="522" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="522" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="522" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="522" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="522" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="522" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="522" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="0" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+                        <rect x="0" width="20" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+                        <rect x="0" width="15" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+                        <rect x="0" width="20" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+                        <rect x="0" width="70" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+                        <rect x="0" width="155" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+                        <rect x="0" width="35" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+                        <rect x="0" width="10" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+                        <rect x="0" width="0" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+                        <rect x="0" width="0" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+                        <rect x="0" width="45" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+                        <rect x="0" width="85" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+                        <rect x="0" width="35" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+                        <rect x="0" width="30" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+                        <rect x="0" width="35" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+                        <rect x="0" width="175" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+                        <rect x="0" width="20" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+                        <rect x="-0" width="0" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-40" width="40" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-60" width="60" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-45" width="45" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-110" width="110" y="279" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-160" width="160" y="306" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-20" width="20" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-190" width="190" y="468" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-25" width="25" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+            </div>
+
+           
+
+        </section>
+        <section class="byLocation">
+            
+            <div class="buttons">
+                <button onclick='showByLocation("environmentLocation")' class="center"
+                    >Environment</button>
+                <button onclick='showByLocation("careerLocation")' class="center">Career</button>
+                <button onclick='showByLocation("moneyLocation")' class="center">Money</button>
+                <button onclick='showByLocation("familyLocation")' class="center">Family</button>
+                <button onclick='showByLocation("friendshipLocation")' class="center"
+                    >Friendship</button>
+                <button onclick='showByLocation("loveLocation")' class="center">Love</button>
+                <button onclick='showByLocation("healthLocation")' class="center">Health</button>
+            </div>
+
+            <div class="graphLoc" id="environmentLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Environment by Location: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="125" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="45" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="50" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="55" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="5" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="95" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="25" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="45" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="75" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="0" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="15" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="5" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="35" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="75" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="25" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="10" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="110" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="80" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-85" width="85" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-60" width="60" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-50" width="50" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="careerLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Career by Location: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="60" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="10" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="20" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="10" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="0" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="0" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="0" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="10" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="10" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="30" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="5" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="30" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="40" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-90" width="90" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-115" width="115" y="279" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-110" width="110" y="495" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-5" width="5" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-70" width="70" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-65" width="65" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="moneyLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Personal Finance by Location: "Stessed" vs.
+                            "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="20" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="0" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="5" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="0" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="0" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="0" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="15" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="25" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="35" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="0" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="20" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="10" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-185" width="185" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-280" width="280" y="495" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-25" width="25" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-165" width="165" y="549" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-75" width="75" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="familyLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Family by Location: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="30" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="5" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="20" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="10" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="35" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="5" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="0" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="5" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="20" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="25" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="0" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="20" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="70" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-85" width="85" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-35" width="35" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-65" width="65" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-80" width="80" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-135" width="135" y="495" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-20" width="20" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-30" width="30" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="friendshipLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Friendship by Location: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="75" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="5" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="60" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="5" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="5" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="5" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="10" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="25" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="0" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="10" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="5" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="5" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="0" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="55" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="55" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-85" width="85" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-45" width="45" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-30" width="30" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-75" width="75" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="loveLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Un-Stressed"</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: "Stressed"</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Love by Location: "Stessed" vs. "Un-Stressed"</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="40" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="0" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="0" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="0" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="0" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="0" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="0" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="10" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="0" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="5" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="5" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="0" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="0" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="5" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="0" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="0" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="5" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="0" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="0" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-55" width="55" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-25" width="25" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-30" width="30" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-20" width="20" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="576" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            <div class="graphLoc" id="healthLocation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="830" width="850">
+                    <g transform="translate(350, 100)">
+                        <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+                        <line x1="0" x2="0" y1="0" y2="630" stroke="black"/>
+                        <text x="150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: Good Health</text>
+                        <text x="-150" y="-50" font-size="16" text-anchor="middle" font-weight="300"
+                            >Count: Bad Health</text>
+                        <text x="0" y="680" font-size="18" text-anchor="middle" font-weight="300"
+                            >Mentions of Mental Health by Location: Good vs. Bad</text>
+                        <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+                        <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+                        <line y1="0" y2="630" x1="0" x2="0" stroke="black" opacity=".5"/>
+                        <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+                        <line y1="0" y2="630" x1="60" x2="60" stroke="black" opacity=".5"/>
+                        <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+                        <line y1="0" y2="630" x1="120" x2="120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+                        <line y1="0" y2="630" x1="180" x2="180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+                        <line y1="0" y2="630" x1="240" x2="240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+                        <line y1="0" y2="630" x1="300" x2="300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+                        <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+                        <line y1="0" y2="630" x1="-300" x2="-300" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+                        <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+                        <line y1="0" y2="630" x1="-240" x2="-240" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+                        <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+                        <line y1="0" y2="630" x1="-180" x2="-180" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+                        <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+                        <line y1="0" y2="630" x1="-120" x2="-120" stroke="black" opacity=".5"/>
+                        <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+                        <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+                        <line y1="0" y2="630" x1="-60" x2="-60" stroke="black" opacity=".5"/>
+                        <rect x="0" width="95" y="9" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+                        <rect x="0" width="30" y="36" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+                        <rect x="0" width="0" y="63" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+                        <rect x="0" width="25" y="90" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+                        <rect x="0" width="5" y="117" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+                        <rect x="0" width="5" y="144" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+                        <rect x="0" width="5" y="171" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+                        <rect x="0" width="45" y="198" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+                        <rect x="0" width="20" y="225" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+                        <rect x="0" width="40" y="252" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+                        <rect x="0" width="125" y="279" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+                        <rect x="0" width="10" y="306" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+                        <rect x="0" width="10" y="333" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+                        <rect x="0" width="0" y="360" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+                        <rect x="0" width="0" y="387" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+                        <rect x="0" width="0" y="414" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+                        <rect x="0" width="25" y="441" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+                        <rect x="0" width="15" y="468" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="477" text-anchor="start" font-size="12"
+                            >Nieuw-Amsterdam</text>
+                        <rect x="0" width="65" y="495" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+                        <rect x="0" width="0" y="522" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+                        <rect x="0" width="60" y="549" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+                        <rect x="0" width="165" y="576" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="585" text-anchor="start" font-size="12"
+                            >Saint-Rémy-de-Provence</text>
+                        <rect x="0" width="5" y="603" height="18" fill="#88c5db" stroke-width="1"
+                            stroke="black"/>
+                        <text x="325" y="612" text-anchor="start" font-size="12"
+                            >Auvers-sur-Oise</text>
+                        <rect x="-185" width="185" y="9" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="36" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="63" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="90" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="117" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="144" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-10" width="10" y="171" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-5" width="5" y="198" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="225" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="252" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="279" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="306" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="333" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="360" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="387" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-0" width="0" y="414" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="441" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-15" width="15" y="468" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-40" width="40" y="495" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-55" width="55" y="522" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-90" width="90" y="549" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                        <rect x="-140" width="140" y="576" height="18" fill="#f0d946"
+                            stroke-width="1" stroke="black"/>
+                        <rect x="-10" width="10" y="603" height="18" fill="#f0d946" stroke-width="1"
+                            stroke="black"/>
+                    </g>
+                </svg>
+
+            </div>
+
+            
+
+        </section>
+        
+        <script>
+            function showByYear(id) {
+            
+            var environment = document.getElementById("environmentYear");
+            environment.style.display = "none";
+            
+            var career = document.getElementById("careerYear");
+            career.style.display = "none";
+            
+            var money = document.getElementById("moneyYear");
+            money.style.display = "none";
+            
+            var family = document.getElementById("familyYear");
+            family.style.display = "none";
+            
+            var friendship = document.getElementById("friendshipYear");
+            friendship.style.display = "none";
+            
+            var love = document.getElementById("loveYear");
+            love.style.display = "none";
+                      
+            var health = document.getElementById("healthYear");
+            health.style.display = "none";
+             
+            var x = document.getElementById(id);
+            x.style.display = "block";
+             
+           }//end showByYear()
+           
+           function showByLocation(id) {
+            
+            var environment = document.getElementById("environmentLocation");
+            environment.style.display = "none";
+            
+            var career = document.getElementById("careerLocation");
+            career.style.display = "none";
+            
+            var money = document.getElementById("moneyLocation");
+            money.style.display = "none";
+            
+            var family = document.getElementById("familyLocation");
+            family.style.display = "none";
+            
+            var friendship = document.getElementById("friendshipLocation");
+            friendship.style.display = "none";
+            
+            var love = document.getElementById("loveLocation");
+            love.style.display = "none";
+                      
+            var health = document.getElementById("healthLocation");
+            health.style.display = "none";
+             
+            var x = document.getElementById(id);
+            x.style.display = "block";
+             
+           }//end showByLocation()
+           
+        </script>
+        <footer style="font-size:12px">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img
+                    alt="Creative Commons License" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work
+            is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                Attribution-NonCommercial 4.0 International License</a>.</footer>
+    </body>
+</html>
