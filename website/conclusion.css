@@ -1,0 +1,28 @@
+.conclusion
+{
+      border: 1px solid;
+      display:flex;
+      justify-content:center;
+      margin:20px auto;
+      background-color: #dddd99;
+      margin-bottom: 30px;
+      width: 70%;
+      
+}
+
+.format
+{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+p
+{
+    margin-bottom:45px;
+}
+
+h2
+{
+    margin-top:20px;
+    margin-bottom:10px;
+}

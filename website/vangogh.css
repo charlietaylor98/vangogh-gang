@@ -28,6 +28,7 @@ hr
 div
 {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
 }
 
 .topnav
@@ -36,7 +37,9 @@ div
   overflow: hidden;
   position: fixed;
   top: 0;
-  width:98.7%;
+  display: inline-block;
+  width:1333px;
+  max-width:1333px;
 }
 
 /* links inside the navigation bar */
@@ -48,7 +51,7 @@ div
   padding: 12px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
+  display: inline-block;
   width:301.2px;
 }
 
@@ -71,7 +74,8 @@ div
     text-align:center;
     font-size:45px;
     margin:40px;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .center 
