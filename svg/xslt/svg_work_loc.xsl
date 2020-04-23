@@ -15,7 +15,7 @@
     
     <!--Axes-->
     <xsl:template match="/">
-        <svg height="{$max_height + 200}" width="{$max_width + 225}">
+        <svg height="{$max_height + 200}" width="{$max_width + 200}">
             <g transform="translate(50, 100)">
                 <line x1="0" x2="{$max_width}" y1="0" y2="0" stroke="black"/>
                 <line x1="0" x2="0" y1="0" y2="{$max_height}" stroke="black"/>
@@ -25,8 +25,8 @@
                     font-weight="300">
                     <xsl:text>Count</xsl:text>
                 </text>
-                <text x="{$max_width div 2}" y="{$max_height + 50}" font-size="18" text-anchor="middle"
-                    font-weight="300">
+                <text x="{$max_width div 2}" y="{$max_height + 50}" font-size="18"
+                    text-anchor="middle" font-weight="300">
                     <xsl:text>Mentions of Artistic Production by Location</xsl:text>
                 </text>
                 
@@ -39,24 +39,35 @@
                     <line y1="-15" y2="0" x1="{$pos}" x2="{$pos}" stroke="black"/>
                     <line y1="0" y2="{$max_height}" x1="{$pos}" x2="{$pos}" stroke="black"
                         opacity=".5"/>
-                </xsl:for-each>               
-                    
-                    <!-- generate bars-->
+                </xsl:for-each>
+                <!-- generate lines n points-->
                 
-                <xsl:apply-templates select="letters/location"/>
+                <xsl:apply-templates select="letters/location" mode="work"/>
+                
             </g>
         </svg>
     </xsl:template>
-    <xsl:template match="location">
-        <xsl:variable name="length" as="xs:double"
-            select="sum(descendant::work/count(.))"/>
+    <xsl:template match="location" mode="work">
+        <xsl:variable name="length" as="xs:double" select="sum(descendant::work/count(.))"/>
+        <xsl:variable name="previouslength" as="xs:double"
+            select="sum(preceding-sibling::location[1]/descendant::work/count(.))"/>
         <xsl:variable name="ypos" as="xs:double"
-            select="$spacing + (position() - 1) * ($bar_height + $spacing)"/>
+            select="$bar_height + (position() - 1) * ($bar_height + $spacing)"/>
+        <xsl:variable name="previousypos" as="xs:double"
+            select="$bar_height + (position() - 2) * ($bar_height + $spacing)"/>
+        <xsl:if test="@id != 'The_Hague'">
+            <xsl:for-each select=".">
+                <circle cx="{$length * $xscale}" cy="{$ypos}" r="3" fill="#fc5a03"/>
+                <line x1="{$previouslength * $xscale}" x2="{$length * $xscale}" y1="{$previousypos}"
+                    y2="{$ypos}" stroke="#fc5a03" stroke-width="2"/>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="@id = 'The_Hague'">
+            <circle cx="{$length * $xscale}" cy="{$ypos}" r="3" fill="#fc5a03"/>
+        </xsl:if>
         <xsl:for-each select=".">
-            <rect x="0" width="{$length * $xscale}" y="{$ypos}" height="{$bar_height}"
-                fill="#88c5db" stroke-width="1" stroke="black"/>
             <text x="{$max_width + 25}" y="{$ypos + $spacing}" text-anchor="start" font-size="12">
-                <xsl:value-of select="@id"/>
+                <xsl:value-of select="@id/translate(., '_', ' ')"/>
             </text>
         </xsl:for-each>
     </xsl:template>
