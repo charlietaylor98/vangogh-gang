@@ -8,7 +8,6 @@ body
 p
 {
    padding: 0 15px 0 15px;
-   text-align:center;
    font-size:15px;
 }
 
@@ -52,7 +51,7 @@ div
   text-decoration: none;
   font-size: 17px;
   display: inline-block;
-  width:301.2px;
+  width:200px;
 }
 
 /* color of links on hover */

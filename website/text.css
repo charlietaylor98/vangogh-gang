@@ -1,0 +1,11 @@
+.letter
+{
+      border: 1px solid;
+      display:flex;
+      justify-content:center;
+      margin:20px auto;
+      background-color: #dddd99;
+      margin-bottom: 30px;
+      width: 70%;
+      
+}
