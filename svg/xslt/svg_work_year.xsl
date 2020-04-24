@@ -55,6 +55,13 @@
             select="$bar_height + (position() - 1) * ($bar_height + $spacing)"/>
         <xsl:variable name="previousypos" as="xs:double"
             select="$bar_height + (position() - 2) * ($bar_height + $spacing)"/>
+        <xsl:for-each select=".">
+            <text x="{$max_width + 25}" y="{$ypos + $spacing}" text-anchor="middle" font-size="12">
+                <xsl:value-of select="@id"/>
+            </text>
+            <line x1="0" x2="{$max_width}" y1="{$ypos}" y2="{$ypos}" stroke="black"
+                opacity=".5" stroke-dasharray="5,5"/>
+        </xsl:for-each>
         <xsl:if test="@id != '1872'">
             <xsl:for-each select=".">
                 <circle cx="{$length * $xscale}" cy="{$ypos}" r="3" fill="#fc5a03"/>
@@ -64,11 +71,6 @@
         </xsl:if>
         <xsl:if test="@id = '1872'">
             <circle cx="{$length * $xscale}" cy="{$ypos}" r="3" fill="#fc5a03"/>
-        </xsl:if>
-        <xsl:for-each select=".">
-            <text x="{$max_width + 25}" y="{$ypos + $spacing}" text-anchor="middle" font-size="12">
-                <xsl:value-of select="@id"/>
-            </text>
-        </xsl:for-each>
+        </xsl:if>       
     </xsl:template>
 </xsl:stylesheet>

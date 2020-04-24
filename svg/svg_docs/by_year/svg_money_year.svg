@@ -106,6 +106,13 @@
             x2="-60"
             stroke="black"
             opacity=".5"/>
+      <line x1="-300"
+            x2="300"
+            y1="18"
+            y2="18"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="9"
@@ -113,7 +120,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="18" text-anchor="middle" font-size="12">1872</text>
+      <text x="325" y="21" text-anchor="middle" font-size="12">1872</text>
+      <line x1="-300"
+            x2="300"
+            y1="45"
+            y2="45"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="36"
@@ -121,7 +135,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="45" text-anchor="middle" font-size="12">1873</text>
+      <text x="325" y="48" text-anchor="middle" font-size="12">1873</text>
+      <line x1="-300"
+            x2="300"
+            y1="72"
+            y2="72"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="63"
@@ -129,7 +150,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="72" text-anchor="middle" font-size="12">1874</text>
+      <text x="325" y="75" text-anchor="middle" font-size="12">1874</text>
+      <line x1="-300"
+            x2="300"
+            y1="99"
+            y2="99"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="90"
@@ -137,7 +165,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="99" text-anchor="middle" font-size="12">1875</text>
+      <text x="325" y="102" text-anchor="middle" font-size="12">1875</text>
+      <line x1="-300"
+            x2="300"
+            y1="126"
+            y2="126"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="117"
@@ -145,7 +180,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="126" text-anchor="middle" font-size="12">1876</text>
+      <text x="325" y="129" text-anchor="middle" font-size="12">1876</text>
+      <line x1="-300"
+            x2="300"
+            y1="153"
+            y2="153"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="144"
@@ -153,7 +195,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="153" text-anchor="middle" font-size="12">1877</text>
+      <text x="325" y="156" text-anchor="middle" font-size="12">1877</text>
+      <line x1="-300"
+            x2="300"
+            y1="180"
+            y2="180"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="171"
@@ -161,7 +210,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="180" text-anchor="middle" font-size="12">1878</text>
+      <text x="325" y="183" text-anchor="middle" font-size="12">1878</text>
+      <line x1="-300"
+            x2="300"
+            y1="207"
+            y2="207"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="198"
@@ -169,7 +225,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="207" text-anchor="middle" font-size="12">1879</text>
+      <text x="325" y="210" text-anchor="middle" font-size="12">1879</text>
+      <line x1="-300"
+            x2="300"
+            y1="234"
+            y2="234"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="225"
@@ -177,7 +240,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="234" text-anchor="middle" font-size="12">1880</text>
+      <text x="325" y="237" text-anchor="middle" font-size="12">1880</text>
+      <line x1="-300"
+            x2="300"
+            y1="261"
+            y2="261"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="5"
             y="252"
@@ -185,7 +255,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="261" text-anchor="middle" font-size="12">1881</text>
+      <text x="325" y="264" text-anchor="middle" font-size="12">1881</text>
+      <line x1="-300"
+            x2="300"
+            y1="288"
+            y2="288"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="5"
             y="279"
@@ -193,7 +270,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="288" text-anchor="middle" font-size="12">1882</text>
+      <text x="325" y="291" text-anchor="middle" font-size="12">1882</text>
+      <line x1="-300"
+            x2="300"
+            y1="315"
+            y2="315"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="55"
             y="306"
@@ -201,7 +285,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="315" text-anchor="middle" font-size="12">1883</text>
+      <text x="325" y="318" text-anchor="middle" font-size="12">1883</text>
+      <line x1="-300"
+            x2="300"
+            y1="342"
+            y2="342"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="20"
             y="333"
@@ -209,7 +300,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="342" text-anchor="middle" font-size="12">1884</text>
+      <text x="325" y="345" text-anchor="middle" font-size="12">1884</text>
+      <line x1="-300"
+            x2="300"
+            y1="369"
+            y2="369"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="15"
             y="360"
@@ -217,7 +315,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="369" text-anchor="middle" font-size="12">1885</text>
+      <text x="325" y="372" text-anchor="middle" font-size="12">1885</text>
+      <line x1="-300"
+            x2="300"
+            y1="396"
+            y2="396"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="387"
@@ -225,7 +330,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="396" text-anchor="middle" font-size="12">1886</text>
+      <text x="325" y="399" text-anchor="middle" font-size="12">1886</text>
+      <line x1="-300"
+            x2="300"
+            y1="423"
+            y2="423"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="414"
@@ -233,7 +345,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="423" text-anchor="middle" font-size="12">1887</text>
+      <text x="325" y="426" text-anchor="middle" font-size="12">1887</text>
+      <line x1="-300"
+            x2="300"
+            y1="450"
+            y2="450"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="15"
             y="441"
@@ -241,7 +360,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="450" text-anchor="middle" font-size="12">1888</text>
+      <text x="325" y="453" text-anchor="middle" font-size="12">1888</text>
+      <line x1="-300"
+            x2="300"
+            y1="477"
+            y2="477"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="15"
             y="468"
@@ -249,7 +375,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="477" text-anchor="middle" font-size="12">1889</text>
+      <text x="325" y="480" text-anchor="middle" font-size="12">1889</text>
+      <line x1="-300"
+            x2="300"
+            y1="504"
+            y2="504"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="495"
@@ -257,7 +390,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="504" text-anchor="middle" font-size="12">1890</text>
+      <text x="325" y="507" text-anchor="middle" font-size="12">1890</text>
       <rect x="-0"
             width="0"
             y="9"

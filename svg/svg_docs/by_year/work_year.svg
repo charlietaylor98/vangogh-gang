@@ -61,8 +61,23 @@
             x2="800"
             stroke="black"
             opacity=".5"/>
-      <circle cx="0" cy="18" r="3" fill="#fc5a03"/>
       <text x="825" y="27" text-anchor="middle" font-size="12">1872</text>
+      <line x1="0"
+            x2="800"
+            y1="18"
+            y2="18"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
+      <circle cx="0" cy="18" r="3" fill="#fc5a03"/>
+      <text x="825" y="54" text-anchor="middle" font-size="12">1873</text>
+      <line x1="0"
+            x2="800"
+            y1="45"
+            y2="45"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="45" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="0"
@@ -70,7 +85,14 @@
             y2="45"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="54" text-anchor="middle" font-size="12">1873</text>
+      <text x="825" y="81" text-anchor="middle" font-size="12">1874</text>
+      <line x1="0"
+            x2="800"
+            y1="72"
+            y2="72"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="72" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="5"
@@ -78,7 +100,14 @@
             y2="72"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="81" text-anchor="middle" font-size="12">1874</text>
+      <text x="825" y="108" text-anchor="middle" font-size="12">1875</text>
+      <line x1="0"
+            x2="800"
+            y1="99"
+            y2="99"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="99" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="10"
@@ -86,7 +115,14 @@
             y2="99"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="108" text-anchor="middle" font-size="12">1875</text>
+      <text x="825" y="135" text-anchor="middle" font-size="12">1876</text>
+      <line x1="0"
+            x2="800"
+            y1="126"
+            y2="126"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="126" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="5"
@@ -94,7 +130,14 @@
             y2="126"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="135" text-anchor="middle" font-size="12">1876</text>
+      <text x="825" y="162" text-anchor="middle" font-size="12">1877</text>
+      <line x1="0"
+            x2="800"
+            y1="153"
+            y2="153"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="30" cy="153" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="30"
@@ -102,7 +145,14 @@
             y2="153"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="162" text-anchor="middle" font-size="12">1877</text>
+      <text x="825" y="189" text-anchor="middle" font-size="12">1878</text>
+      <line x1="0"
+            x2="800"
+            y1="180"
+            y2="180"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="30" cy="180" r="3" fill="#fc5a03"/>
       <line x1="30"
             x2="30"
@@ -110,7 +160,14 @@
             y2="180"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="189" text-anchor="middle" font-size="12">1878</text>
+      <text x="825" y="216" text-anchor="middle" font-size="12">1879</text>
+      <line x1="0"
+            x2="800"
+            y1="207"
+            y2="207"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="15" cy="207" r="3" fill="#fc5a03"/>
       <line x1="30"
             x2="15"
@@ -118,7 +175,14 @@
             y2="207"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="216" text-anchor="middle" font-size="12">1879</text>
+      <text x="825" y="243" text-anchor="middle" font-size="12">1880</text>
+      <line x1="0"
+            x2="800"
+            y1="234"
+            y2="234"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="234" r="3" fill="#fc5a03"/>
       <line x1="15"
             x2="0"
@@ -126,7 +190,14 @@
             y2="234"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="243" text-anchor="middle" font-size="12">1880</text>
+      <text x="825" y="270" text-anchor="middle" font-size="12">1881</text>
+      <line x1="0"
+            x2="800"
+            y1="261"
+            y2="261"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="45" cy="261" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="45"
@@ -134,7 +205,14 @@
             y2="261"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="270" text-anchor="middle" font-size="12">1881</text>
+      <text x="825" y="297" text-anchor="middle" font-size="12">1882</text>
+      <line x1="0"
+            x2="800"
+            y1="288"
+            y2="288"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="230" cy="288" r="3" fill="#fc5a03"/>
       <line x1="45"
             x2="230"
@@ -142,7 +220,14 @@
             y2="288"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="297" text-anchor="middle" font-size="12">1882</text>
+      <text x="825" y="324" text-anchor="middle" font-size="12">1883</text>
+      <line x1="0"
+            x2="800"
+            y1="315"
+            y2="315"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="230" cy="315" r="3" fill="#fc5a03"/>
       <line x1="230"
             x2="230"
@@ -150,7 +235,14 @@
             y2="315"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="324" text-anchor="middle" font-size="12">1883</text>
+      <text x="825" y="351" text-anchor="middle" font-size="12">1884</text>
+      <line x1="0"
+            x2="800"
+            y1="342"
+            y2="342"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="180" cy="342" r="3" fill="#fc5a03"/>
       <line x1="230"
             x2="180"
@@ -158,7 +250,14 @@
             y2="342"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="351" text-anchor="middle" font-size="12">1884</text>
+      <text x="825" y="378" text-anchor="middle" font-size="12">1885</text>
+      <line x1="0"
+            x2="800"
+            y1="369"
+            y2="369"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="180" cy="369" r="3" fill="#fc5a03"/>
       <line x1="180"
             x2="180"
@@ -166,7 +265,14 @@
             y2="369"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="378" text-anchor="middle" font-size="12">1885</text>
+      <text x="825" y="405" text-anchor="middle" font-size="12">1886</text>
+      <line x1="0"
+            x2="800"
+            y1="396"
+            y2="396"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="396" r="3" fill="#fc5a03"/>
       <line x1="180"
             x2="10"
@@ -174,7 +280,14 @@
             y2="396"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="405" text-anchor="middle" font-size="12">1886</text>
+      <text x="825" y="432" text-anchor="middle" font-size="12">1887</text>
+      <line x1="0"
+            x2="800"
+            y1="423"
+            y2="423"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="423" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="10"
@@ -182,7 +295,14 @@
             y2="423"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="432" text-anchor="middle" font-size="12">1887</text>
+      <text x="825" y="459" text-anchor="middle" font-size="12">1888</text>
+      <line x1="0"
+            x2="800"
+            y1="450"
+            y2="450"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="345" cy="450" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="345"
@@ -190,7 +310,14 @@
             y2="450"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="459" text-anchor="middle" font-size="12">1888</text>
+      <text x="825" y="486" text-anchor="middle" font-size="12">1889</text>
+      <line x1="0"
+            x2="800"
+            y1="477"
+            y2="477"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="740" cy="477" r="3" fill="#fc5a03"/>
       <line x1="345"
             x2="740"
@@ -198,7 +325,14 @@
             y2="477"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="486" text-anchor="middle" font-size="12">1889</text>
+      <text x="825" y="513" text-anchor="middle" font-size="12">1890</text>
+      <line x1="0"
+            x2="800"
+            y1="504"
+            y2="504"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="120" cy="504" r="3" fill="#fc5a03"/>
       <line x1="740"
             x2="120"
@@ -206,6 +340,5 @@
             y2="504"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="513" text-anchor="middle" font-size="12">1890</text>
    </g>
 </svg>

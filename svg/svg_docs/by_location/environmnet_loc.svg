@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="7796" width="850">
+   <g transform="translate(350, 100)">
+      <line x1="-300" x2="300" y1="0" y2="0" stroke="black"/>
+      <line x1="0" x2="0" y1="0" y2="7596" stroke="black"/>
+      <text x="150"
+            y="-50"
+            font-size="16"
+            text-anchor="middle"
+            font-weight="300">Count: "Un-Stressed"</text>
+      <text x="-150"
+            y="-50"
+            font-size="16"
+            text-anchor="middle"
+            font-weight="300">Count: "Stressed"</text>
+      <text x="0"
+            y="7646"
+            font-size="18"
+            text-anchor="middle"
+            font-weight="300">Mentions of Environment/Surroundings by Location: "Stessed" vs. "Un-Stressed"</text>
+      <text y="-20" x="0" font-size="13" text-anchor="middle">0</text>
+      <line y1="-15" y2="0" x1="0" x2="0" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="0"
+            x2="0"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="60" font-size="13" text-anchor="middle">12</text>
+      <line y1="-15" y2="0" x1="60" x2="60" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="60"
+            x2="60"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="120" font-size="13" text-anchor="middle">24</text>
+      <line y1="-15" y2="0" x1="120" x2="120" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="120"
+            x2="120"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="180" font-size="13" text-anchor="middle">36</text>
+      <line y1="-15" y2="0" x1="180" x2="180" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="180"
+            x2="180"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="240" font-size="13" text-anchor="middle">48</text>
+      <line y1="-15" y2="0" x1="240" x2="240" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="240"
+            x2="240"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="300" font-size="13" text-anchor="middle">60</text>
+      <line y1="-15" y2="0" x1="300" x2="300" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="300"
+            x2="300"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="-300" font-size="13" text-anchor="middle">60</text>
+      <line y1="-15" y2="0" x1="-300" x2="-300" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="-300"
+            x2="-300"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="-240" font-size="13" text-anchor="middle">48</text>
+      <line y1="-15" y2="0" x1="-240" x2="-240" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="-240"
+            x2="-240"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="-180" font-size="13" text-anchor="middle">36</text>
+      <line y1="-15" y2="0" x1="-180" x2="-180" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="-180"
+            x2="-180"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="-120" font-size="13" text-anchor="middle">24</text>
+      <line y1="-15" y2="0" x1="-120" x2="-120" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="-120"
+            x2="-120"
+            stroke="black"
+            opacity=".5"/>
+      <text y="-20" x="-60" font-size="13" text-anchor="middle">12</text>
+      <line y1="-15" y2="0" x1="-60" x2="-60" stroke="black"/>
+      <line y1="0"
+            y2="7596"
+            x1="-60"
+            x2="-60"
+            stroke="black"
+            opacity=".5"/>
+   </g>
+</svg>

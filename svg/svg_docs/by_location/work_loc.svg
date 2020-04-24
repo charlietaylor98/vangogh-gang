@@ -61,8 +61,23 @@
             x2="800"
             stroke="black"
             opacity=".5"/>
-      <circle cx="370" cy="18" r="3" fill="#fc5a03"/>
       <text x="825" y="27" text-anchor="start" font-size="12">The Hague</text>
+      <line x1="0"
+            x2="800"
+            y1="18"
+            y2="18"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
+      <circle cx="370" cy="18" r="3" fill="#fc5a03"/>
+      <text x="825" y="54" text-anchor="start" font-size="12">London</text>
+      <line x1="0"
+            x2="800"
+            y1="45"
+            y2="45"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="45" r="3" fill="#fc5a03"/>
       <line x1="370"
             x2="10"
@@ -70,7 +85,14 @@
             y2="45"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="54" text-anchor="start" font-size="12">London</text>
+      <text x="825" y="81" text-anchor="start" font-size="12">Helvoirt</text>
+      <line x1="0"
+            x2="800"
+            y1="72"
+            y2="72"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="72" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="0"
@@ -78,7 +100,14 @@
             y2="72"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="81" text-anchor="start" font-size="12">Helvoirt</text>
+      <text x="825" y="108" text-anchor="start" font-size="12">Paris</text>
+      <line x1="0"
+            x2="800"
+            y1="99"
+            y2="99"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="15" cy="99" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="15"
@@ -86,7 +115,14 @@
             y2="99"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="108" text-anchor="start" font-size="12">Paris</text>
+      <text x="825" y="135" text-anchor="start" font-size="12">Ramsgate</text>
+      <line x1="0"
+            x2="800"
+            y1="126"
+            y2="126"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="126" r="3" fill="#fc5a03"/>
       <line x1="15"
             x2="0"
@@ -94,7 +130,14 @@
             y2="126"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="135" text-anchor="start" font-size="12">Ramsgate</text>
+      <text x="825" y="162" text-anchor="start" font-size="12">Welwyn</text>
+      <line x1="0"
+            x2="800"
+            y1="153"
+            y2="153"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="153" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="0"
@@ -102,7 +145,14 @@
             y2="153"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="162" text-anchor="start" font-size="12">Welwyn</text>
+      <text x="825" y="189" text-anchor="start" font-size="12">Holme Court</text>
+      <line x1="0"
+            x2="800"
+            y1="180"
+            y2="180"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="180" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="5"
@@ -110,7 +160,14 @@
             y2="180"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="189" text-anchor="start" font-size="12">Holme Court</text>
+      <text x="825" y="216" text-anchor="start" font-size="12">Isleworth</text>
+      <line x1="0"
+            x2="800"
+            y1="207"
+            y2="207"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="207" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="0"
@@ -118,7 +175,14 @@
             y2="207"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="216" text-anchor="start" font-size="12">Isleworth</text>
+      <text x="825" y="243" text-anchor="start" font-size="12">Etten</text>
+      <line x1="0"
+            x2="800"
+            y1="234"
+            y2="234"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="45" cy="234" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="45"
@@ -126,7 +190,14 @@
             y2="234"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="243" text-anchor="start" font-size="12">Etten</text>
+      <text x="825" y="270" text-anchor="start" font-size="12">Dordrecht</text>
+      <line x1="0"
+            x2="800"
+            y1="261"
+            y2="261"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="261" r="3" fill="#fc5a03"/>
       <line x1="45"
             x2="0"
@@ -134,7 +205,14 @@
             y2="261"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="270" text-anchor="start" font-size="12">Dordrecht</text>
+      <text x="825" y="297" text-anchor="start" font-size="12">Amsterdam</text>
+      <line x1="0"
+            x2="800"
+            y1="288"
+            y2="288"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="50" cy="288" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="50"
@@ -142,7 +220,14 @@
             y2="288"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="297" text-anchor="start" font-size="12">Amsterdam</text>
+      <text x="825" y="324" text-anchor="start" font-size="12">Laken</text>
+      <line x1="0"
+            x2="800"
+            y1="315"
+            y2="315"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="315" r="3" fill="#fc5a03"/>
       <line x1="50"
             x2="5"
@@ -150,7 +235,14 @@
             y2="315"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="324" text-anchor="start" font-size="12">Laken</text>
+      <text x="825" y="351" text-anchor="start" font-size="12">Wasmes</text>
+      <line x1="0"
+            x2="800"
+            y1="342"
+            y2="342"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="342" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="5"
@@ -158,7 +250,14 @@
             y2="342"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="351" text-anchor="start" font-size="12">Wasmes</text>
+      <text x="825" y="378" text-anchor="start" font-size="12">Petit-Wasmes</text>
+      <line x1="0"
+            x2="800"
+            y1="369"
+            y2="369"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="0" cy="369" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="0"
@@ -166,7 +265,14 @@
             y2="369"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="378" text-anchor="start" font-size="12">Petit-Wasmes</text>
+      <text x="825" y="405" text-anchor="start" font-size="12">Cuesmes</text>
+      <line x1="0"
+            x2="800"
+            y1="396"
+            y2="396"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="396" r="3" fill="#fc5a03"/>
       <line x1="0"
             x2="10"
@@ -174,7 +280,14 @@
             y2="396"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="405" text-anchor="start" font-size="12">Cuesmes</text>
+      <text x="825" y="432" text-anchor="start" font-size="12">Brussels</text>
+      <line x1="0"
+            x2="800"
+            y1="423"
+            y2="423"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="5" cy="423" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="5"
@@ -182,7 +295,14 @@
             y2="423"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="432" text-anchor="start" font-size="12">Brussels</text>
+      <text x="825" y="459" text-anchor="start" font-size="12">Hoogeveen</text>
+      <line x1="0"
+            x2="800"
+            y1="450"
+            y2="450"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="35" cy="450" r="3" fill="#fc5a03"/>
       <line x1="5"
             x2="35"
@@ -190,7 +310,14 @@
             y2="450"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="459" text-anchor="start" font-size="12">Hoogeveen</text>
+      <text x="825" y="486" text-anchor="start" font-size="12">Nieuw-Amsterdam</text>
+      <line x1="0"
+            x2="800"
+            y1="477"
+            y2="477"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="55" cy="477" r="3" fill="#fc5a03"/>
       <line x1="35"
             x2="55"
@@ -198,7 +325,14 @@
             y2="477"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="486" text-anchor="start" font-size="12">Nieuw-Amsterdam</text>
+      <text x="825" y="513" text-anchor="start" font-size="12">Nuenen</text>
+      <line x1="0"
+            x2="800"
+            y1="504"
+            y2="504"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="360" cy="504" r="3" fill="#fc5a03"/>
       <line x1="55"
             x2="360"
@@ -206,7 +340,14 @@
             y2="504"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="513" text-anchor="start" font-size="12">Nuenen</text>
+      <text x="825" y="540" text-anchor="start" font-size="12">Antwerp</text>
+      <line x1="0"
+            x2="800"
+            y1="531"
+            y2="531"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="10" cy="531" r="3" fill="#fc5a03"/>
       <line x1="360"
             x2="10"
@@ -214,7 +355,14 @@
             y2="531"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="540" text-anchor="start" font-size="12">Antwerp</text>
+      <text x="825" y="567" text-anchor="start" font-size="12">Arles</text>
+      <line x1="0"
+            x2="800"
+            y1="558"
+            y2="558"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="495" cy="558" r="3" fill="#fc5a03"/>
       <line x1="10"
             x2="495"
@@ -222,7 +370,14 @@
             y2="558"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="567" text-anchor="start" font-size="12">Arles</text>
+      <text x="825" y="594" text-anchor="start" font-size="12">Saint-Rémy-de-Provence</text>
+      <line x1="0"
+            x2="800"
+            y1="585"
+            y2="585"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="690" cy="585" r="3" fill="#fc5a03"/>
       <line x1="495"
             x2="690"
@@ -230,7 +385,14 @@
             y2="585"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="594" text-anchor="start" font-size="12">Saint-Rémy-de-Provence</text>
+      <text x="825" y="621" text-anchor="start" font-size="12">Auvers-sur-Oise</text>
+      <line x1="0"
+            x2="800"
+            y1="612"
+            y2="612"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <circle cx="20" cy="612" r="3" fill="#fc5a03"/>
       <line x1="690"
             x2="20"
@@ -238,6 +400,5 @@
             y2="612"
             stroke="#fc5a03"
             stroke-width="2"/>
-      <text x="825" y="621" text-anchor="start" font-size="12">Auvers-sur-Oise</text>
    </g>
 </svg>

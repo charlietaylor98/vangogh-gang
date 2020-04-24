@@ -106,6 +106,13 @@
             x2="-60"
             stroke="black"
             opacity=".5"/>
+      <line x1="-300"
+            x2="300"
+            y1="18"
+            y2="18"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="30"
             y="9"
@@ -113,7 +120,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="18" text-anchor="start" font-size="12">The Hague</text>
+      <text x="315" y="21" text-anchor="start" font-size="12">The Hague</text>
+      <line x1="-300"
+            x2="300"
+            y1="45"
+            y2="45"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="5"
             y="36"
@@ -121,7 +135,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="45" text-anchor="start" font-size="12">London</text>
+      <text x="315" y="48" text-anchor="start" font-size="12">London</text>
+      <line x1="-300"
+            x2="300"
+            y1="72"
+            y2="72"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="63"
@@ -129,7 +150,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="72" text-anchor="start" font-size="12">Helvoirt</text>
+      <text x="315" y="75" text-anchor="start" font-size="12">Helvoirt</text>
+      <line x1="-300"
+            x2="300"
+            y1="99"
+            y2="99"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="90"
@@ -137,7 +165,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="99" text-anchor="start" font-size="12">Paris</text>
+      <text x="315" y="102" text-anchor="start" font-size="12">Paris</text>
+      <line x1="-300"
+            x2="300"
+            y1="126"
+            y2="126"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="117"
@@ -145,7 +180,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="126" text-anchor="start" font-size="12">Ramsgate</text>
+      <text x="315" y="129" text-anchor="start" font-size="12">Ramsgate</text>
+      <line x1="-300"
+            x2="300"
+            y1="153"
+            y2="153"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="144"
@@ -153,7 +195,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="153" text-anchor="start" font-size="12">Welwyn</text>
+      <text x="315" y="156" text-anchor="start" font-size="12">Welwyn</text>
+      <line x1="-300"
+            x2="300"
+            y1="180"
+            y2="180"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="171"
@@ -161,7 +210,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="180" text-anchor="start" font-size="12">Holme Court</text>
+      <text x="315" y="183" text-anchor="start" font-size="12">Holme Court</text>
+      <line x1="-300"
+            x2="300"
+            y1="207"
+            y2="207"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="20"
             y="198"
@@ -169,7 +225,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="207" text-anchor="start" font-size="12">Isleworth</text>
+      <text x="315" y="210" text-anchor="start" font-size="12">Isleworth</text>
+      <line x1="-300"
+            x2="300"
+            y1="234"
+            y2="234"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="10"
             y="225"
@@ -177,7 +240,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="234" text-anchor="start" font-size="12">Etten</text>
+      <text x="315" y="237" text-anchor="start" font-size="12">Etten</text>
+      <line x1="-300"
+            x2="300"
+            y1="261"
+            y2="261"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="35"
             y="252"
@@ -185,7 +255,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="261" text-anchor="start" font-size="12">Dordrecht</text>
+      <text x="315" y="264" text-anchor="start" font-size="12">Dordrecht</text>
+      <line x1="-300"
+            x2="300"
+            y1="288"
+            y2="288"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="5"
             y="279"
@@ -193,7 +270,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="288" text-anchor="start" font-size="12">Amsterdam</text>
+      <text x="315" y="291" text-anchor="start" font-size="12">Amsterdam</text>
+      <line x1="-300"
+            x2="300"
+            y1="315"
+            y2="315"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="306"
@@ -201,7 +285,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="315" text-anchor="start" font-size="12">Laken</text>
+      <text x="315" y="318" text-anchor="start" font-size="12">Laken</text>
+      <line x1="-300"
+            x2="300"
+            y1="342"
+            y2="342"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="333"
@@ -209,7 +300,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="342" text-anchor="start" font-size="12">Wasmes</text>
+      <text x="315" y="345" text-anchor="start" font-size="12">Wasmes</text>
+      <line x1="-300"
+            x2="300"
+            y1="369"
+            y2="369"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="360"
@@ -217,7 +315,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="369" text-anchor="start" font-size="12">Petit-Wasmes</text>
+      <text x="315" y="372" text-anchor="start" font-size="12">Petit-Wasmes</text>
+      <line x1="-300"
+            x2="300"
+            y1="396"
+            y2="396"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="387"
@@ -225,7 +330,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="396" text-anchor="start" font-size="12">Cuesmes</text>
+      <text x="315" y="399" text-anchor="start" font-size="12">Cuesmes</text>
+      <line x1="-300"
+            x2="300"
+            y1="423"
+            y2="423"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="414"
@@ -233,7 +345,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="423" text-anchor="start" font-size="12">Brussels</text>
+      <text x="315" y="426" text-anchor="start" font-size="12">Brussels</text>
+      <line x1="-300"
+            x2="300"
+            y1="450"
+            y2="450"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="5"
             y="441"
@@ -241,7 +360,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="450" text-anchor="start" font-size="12">Hoogeveen</text>
+      <text x="315" y="453" text-anchor="start" font-size="12">Hoogeveen</text>
+      <line x1="-300"
+            x2="300"
+            y1="477"
+            y2="477"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="20"
             y="468"
@@ -249,7 +375,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="477" text-anchor="start" font-size="12">Nieuw-Amsterdam</text>
+      <text x="315" y="480" text-anchor="start" font-size="12">Nieuw-Amsterdam</text>
+      <line x1="-300"
+            x2="300"
+            y1="504"
+            y2="504"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="25"
             y="495"
@@ -257,7 +390,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="504" text-anchor="start" font-size="12">Nuenen</text>
+      <text x="315" y="507" text-anchor="start" font-size="12">Nuenen</text>
+      <line x1="-300"
+            x2="300"
+            y1="531"
+            y2="531"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="522"
@@ -265,7 +405,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="531" text-anchor="start" font-size="12">Antwerp</text>
+      <text x="315" y="534" text-anchor="start" font-size="12">Antwerp</text>
+      <line x1="-300"
+            x2="300"
+            y1="558"
+            y2="558"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="20"
             y="549"
@@ -273,7 +420,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="558" text-anchor="start" font-size="12">Arles</text>
+      <text x="315" y="561" text-anchor="start" font-size="12">Arles</text>
+      <line x1="-300"
+            x2="300"
+            y1="585"
+            y2="585"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="70"
             y="576"
@@ -281,7 +435,14 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="585" text-anchor="start" font-size="12">Saint-Rémy-de-Provence</text>
+      <text x="315" y="588" text-anchor="start" font-size="12">Saint-Rémy-de-Provence</text>
+      <line x1="-300"
+            x2="300"
+            y1="612"
+            y2="612"
+            stroke="black"
+            opacity=".5"
+            stroke-dasharray="5,5"/>
       <rect x="0"
             width="0"
             y="603"
@@ -289,7 +450,7 @@
             fill="#88c5db"
             stroke-width="1"
             stroke="black"/>
-      <text x="325" y="612" text-anchor="start" font-size="12">Auvers-sur-Oise</text>
+      <text x="315" y="615" text-anchor="start" font-size="12">Auvers-sur-Oise</text>
       <rect x="-85"
             width="85"
             y="9"

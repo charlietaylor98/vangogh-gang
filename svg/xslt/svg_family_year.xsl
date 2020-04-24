@@ -68,9 +68,11 @@
         <xsl:variable name="ypos" as="xs:double"
             select="$spacing + (position() - 1) * ($bar_height + $spacing)"/>
         <xsl:for-each select=".">
+            <line x1="-{$half_width}" x2="{$half_width}" y1="{$ypos + $spacing}" y2="{$ypos + $spacing}" stroke="black"
+                opacity=".5" stroke-dasharray="5,5"/>
             <rect x="0" width="{$length * $xscale}" y="{$ypos}" height="{$bar_height}"
                 fill="#88c5db" stroke-width="1" stroke="black"/>
-            <text x="{$half_width + 25}" y="{$ypos + $spacing}" text-anchor="middle" font-size="12">
+            <text x="{$half_width + 25}" y="{$ypos + $spacing + 3}" text-anchor="middle" font-size="12">
                 <xsl:value-of select="@id"/>
             </text>
         </xsl:for-each>
