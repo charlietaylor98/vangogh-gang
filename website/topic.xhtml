@@ -4,18 +4,186 @@
     <head>
         <title>Topic Models</title>
         <link rel="stylesheet" type="text/css" href="vangogh.css" />
-        <link rel="stylesheet" type="text/css" href="results.css" />
-        <link rel = "shorcut icon" type="image/ico" href="favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+       <!-- <link rel="stylesheet" type="text/css" href="topic.css" />-->
+        <link rel="shorcut icon" type="image/ico" href="favicon.ico" />
     </head>
     <body>
         <div class="topnav">
             <a href="index.xhtml">Home</a>
             <a href="about.xhtml">About</a>
-            <a class="active" href="results.xhtml">Results</a>
+            <a href="results.xhtml">Results</a>
             <a href="conclusion.xhtml">Conclusion</a>
+            <a class="active" href="topic.xhtml"></a>
         </div>
-        <h1 class="header">Results</h1>
-        <section class="byYear">
+        <div class="intro">
+           <div> 
+        <h1 class="header"></h1>
+        
+            <h2>Overview  </h2>
+            <hr/>
+            <p> The results on this page were generated from the use of the open source software,
+                MALLET. According to the <a href="http://mallet.cs.umass.edu/">Mallet page on the
+                    University of Amherst Site:</a>MALLET is a Java-based package for statistical
+                natural language processing, document classification, clustering, topic modeling,
+                information extraction, and other machine learning applications to text. A tuturial on how to 
+                run your own topic model and generate visuals can be found at <a href="https://github.com/nmcdowell00/MALLET_tutorial">this repository</a>. 
+            </p>
+           </div>
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Screen Shot 2020-04-16 at 10.30.24 PM.png" style="width:50%;" class="center"/>
+            <div>
+                <h2>MALLET</h2>
+                <hr />
+               <p>The image to the left depicts a typical a MALLET command. This command is entered into the command line, prompting MALLET to retrieve a series
+               of text files and process them. MALLET works by processing each word in the corpus of documents and placing said word into a set number of topics. 
+               At first this process is at first random but as more words are processed MALLET recognizes that there are patterns
+              within the text and it begins to sort words based on how similar they are to the words that are already sorted into topics. 
+               One run through a corpus is 1 iteration. If another iteration is run(In this case 800 were run) MALLET takes each word from its topic and resorts it. So on. Thus,
+               topics become more specific at higher # of iterations(there is a practical limit).<strong>(Figure 1)</strong></p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Screen Shot 2020-04-16 at 10.41.41 PM.png" style="width:50%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p>The image to the left shows the command that would follow the above command and generate results for analysis which will be shown below.<strong>(Figure 2)</strong></p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/Screen Shot 2020-04-16 at 2.39.01 PM.png" style="width:75%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p>These results come from input all of the markup into MALLET with the specifications of 10 topics and 800 iterations. I found Topic 1,3,5,7 and 9 to be most significant. 
+                These topics are highlighted on the chart to the left. Topic 1 contains words that are associated with religion, a major influence on Van Gogh in his earlier years. Topic
+                3 and 5 consist of words associated with Van Gogh's work as an artist as well as his inspirations. Topic 7 included words linked with nature. Nature was a source of inspiration many for Van Gogh's pieces. 
+                Topic 9 contains words associated with his homelife and family.<strong>(Figure 3)</strong>  </p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/sample.png" style="width:100%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p></p>
+            </div>
+        </div>
+            
+          <div class="paragraph">
+               
+                <div>
+                    <h2></h2>
+                    <hr />
+                    <p>The above graph is an exmaple of how the data from MALLET would look without using some sort of smooting method(Cubic Bezier, polynomial interpolation). As you can 
+                    see it is very hard to interpret this figure due to the jagged and cluttered nature of the lines. </p>
+                    <hr />
+                    <p>The graph below shows how polynomial interpolation can make MAlLET results much easier to read. This graph depicts the Topic Model of the entire corpus letter written
+                    by Van Gogh. To understand this graph you must refer back to <strong>Figure 3</strong>. For clarification, the Y axis is the measuremnt of Topic Weight, how present a topic is in a certain letter. 
+                        The most siginificant parts of this graph are marked by number. The gray line, Topic 9,
+                    represents Van Gogh's connection with his family and his home. This can be determined by analyzing the 20 words that are grouped into topic 9. The connection with his family and home
+                    is highlighted by the words <strong>evening, uncle, home, letter, and write</strong>. It might be hard for the unaquantied reader to make much sense of the words in the topic
+                    as they have not read the letters Van Gogh wrote to his brother. This is a problem with presenting MALLET data. The results are very subjective as MALLET is not aware of what any
+                    of the words mean. It sorts topics algorithmically(more information can be found in the tuturial linked above). It is usually up to the person generating the results to interpret the 
+                    meaning of each topic. It can be seen the Topic 9 is very present in letter from 1972-1980 but not present in letters from 1880-1890. This represents his sepeartion from his home
+                    due to his career as a painter causing him to move around Europe as well as take over most of his time. Line 5 and 3 are also notable because these topics are linked to Van Gogh's work through 
+                    words such as <strong>paintings, canvas, studies, colours, portrait, studio, model</strong>. It can be seen that these two topics rise in Weight from 1880 to 1890. This is indicative of 
+                    Van Gogh producing more works. Topic 7 is also of note because it refers to Van Gogh's connection with nature through the words <strong>sky, winter, trees, and landscape</strong>. Nature
+                        was one of Van Gogh's greatest joys and inspirations. It can be seen that nature is very present in between 1880 and 1888 but becomes less present from 1888-1890(during this time Van Gogh 
+                        was in out of mental institutions). The way I look at this data is that as Van Gogh progressed in his career he lost connection with his family. Work started to take over his life and eventually 
+                        took place of his joys and even his inspirations(nature). These factors can be linked with his descent into mental instability. 
+                    </p>
+                </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/rd3.png" style="width:100%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+        <!-- topic model of period 1 -->
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/topicsp1.png" style="width:80%;" class="center"/>
+            <div>
+                <h2>Topic Model of Period 1<br/>(1872-1879)</h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/chartp1.png" style="width:100%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+        <!-- topic model of period 2 -->
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/topicsp2.png" style="width:80%;" class="center"/>
+            <div>
+                <h2>Topic Model of Period 2<br/>(1880-1887)</h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/chartp2.png" style="width:100%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+    <!-- topic model of period 3 -->
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/topicsp3.png" style="width:80%;" class="center"/>
+            <div>
+                <h2>Topic Model of Period 3<br/>(1888-1890)</h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div>
+        <div class="paragraph">
+            <img src="/Users/natemcdowell/Desktop/web/Topic Modeling info for site/Topic Graphs and Charts/chartp3.png" style="width:100%;" class="center"/>
+            <div>
+                <h2></h2>
+                <hr />
+                <p></p>
+            </div>
+            
+        </div> <div class="paragraph">
+            
+            <div>
+                <h2>What else I want to do</h2>
+                <hr />
+                <p>Document Classification: baseball and puck are good indicators of labels baseball and hockey respectively. Specifically, suppose that we estimate that 90% of the documents in which the word puck occurs should be labeled hockey, and similarly for baseball.
+                I have written xslt to pull out all words associated with out "bad health" attribute and I hope to apply these words to topic models.</p>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!-- <section class="byYear">
             <div class="buttons">
                 <button onclick='showByYear("environmentYear")' class="center">Environment</button>
                 <button onclick='showByYear("careerYear")' class="center">Career</button>
@@ -2284,7 +2452,7 @@
              
            }//end showByLocation()
            
-        </script>
+        </script></section>-->
         <footer style="font-size:12px">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img
                     alt="Creative Commons License" style="border-width:0"
