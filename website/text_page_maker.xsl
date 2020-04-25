@@ -14,8 +14,18 @@
             </head>
 
             <body>
-                <xsl:apply-templates select="//year" mode="toc"/>
-                <xsl:apply-templates/>
+                <!--
+                <div class="topnav">
+                    <a class="active" href="index.xhtml">Home</a>
+                    <a href="about.xhtml">About</a>
+                    <a href="topic.xhtml">Topic Modeling</a>
+                    <a href="results.xhtml">Results</a>
+                    <a href="conclusion.xhtml">Conclusion</a>
+                </div>-->
+                <div class = "flex">
+                    <div class = "menu"><xsl:apply-templates select="//year" mode="toc"/></div>
+                    <div><xsl:apply-templates/></div>
+                </div>
             </body>
 
         </html>
@@ -46,13 +56,13 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="head|salutation|p|close|sig">
+    <xsl:template match="head | salutation | p | close | sig">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-    <xsl:template match = "stress">
+
+    <xsl:template match="stress">
         <span>
             <xsl:attribute name="class">
                 <xsl:text>stress </xsl:text>
@@ -61,8 +71,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match = "unstress">
+
+    <xsl:template match="unstress">
         <span>
             <xsl:attribute name="class">
                 <xsl:text>unstress </xsl:text>
@@ -71,8 +81,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match = "good_health">
+
+    <xsl:template match="good_health">
         <span>
             <xsl:attribute name="class">
                 <xsl:text>good_health</xsl:text>
@@ -80,8 +90,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match = "bad_health">
+
+    <xsl:template match="bad_health">
         <span>
             <xsl:attribute name="class">
                 <xsl:text>bad_health</xsl:text>
@@ -89,8 +99,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
-    <xsl:template match = "work">
+
+    <xsl:template match="work">
         <span>
             <xsl:attribute name="class">
                 <xsl:text>work</xsl:text>
@@ -99,7 +109,7 @@
         </span>
     </xsl:template>
 
-   
+
 
 
 </xsl:stylesheet>
