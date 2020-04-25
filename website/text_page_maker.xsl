@@ -11,20 +11,57 @@
                 <title>Text</title>
                 <link rel="stylesheet" type="text/css" href="vangogh.css"/>
                 <link rel="stylesheet" type="text/css" href="text.css"/>
+                <link rel="shorcut icon" type="image/ico" href="favicon.ico"/>
+                <script src="text.js"/>
             </head>
 
             <body>
-                <!--
+
                 <div class="topnav">
-                    <a class="active" href="index.xhtml">Home</a>
+                    <a href="index.xhtml">Home</a>
                     <a href="about.xhtml">About</a>
+                    <a class="active" href="text.xhtml">Text</a>
                     <a href="topic.xhtml">Topic Modeling</a>
                     <a href="results.xhtml">Results</a>
                     <a href="conclusion.xhtml">Conclusion</a>
-                </div>-->
-                <div class = "flex">
-                    <div class = "menu"><xsl:apply-templates select="//year" mode="toc"/></div>
-                    <div><xsl:apply-templates/></div>
+                </div>
+                <div class="flex">
+
+                    <div class="yearMenu">
+                        <p class="chartTitle">Year</p>
+                        <xsl:apply-templates select="//year" mode="toc"/>
+                    </div>
+
+
+
+                    <div class="attributeMenu">
+                        <p class="chartTitle">Tag</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" value="stress"/>
+                                <strong>Stress/Bad Health</strong>
+                            </li>
+                            <li>
+                                <input type="checkbox" value="unstress"/>
+                                <em>Unstress/Good Health</em>
+                            </li>
+                            <li style="color:brown;font-weight:bold;"><input type="checkbox" value="work"/>Work</li>
+                        </ul>
+                        <p class="chartTitle">Attribute</p>
+                        <ul>
+                            <li style="color:blue"><input type="checkbox"/>Environment</li>
+                            <li style = "color:red"><input type="checkbox"/>Career</li>
+                            <li style = "color:green"><input type="checkbox"/>Money</li>
+                            <li style = "color:purple"><input type="checkbox"/>Family</li>
+                            <li style = "color:orange"><input type="checkbox"/>Friendship</li>
+                            <li style = "color:magenta"><input type="checkbox"/>Love</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <xsl:apply-templates/>
+                    </div>
+
                 </div>
             </body>
 
@@ -33,16 +70,21 @@
     </xsl:template>
 
     <xsl:template match="year" mode="toc">
-        <button type="button">
-            <a href="{@id}">
-                <xsl:apply-templates select="@id"/>
-            </a>
-        </button>
+
+        <a href="#{@id}" class = "button">
+
+            <xsl:apply-templates select="@id"/>
+
+        </a>
+
 
     </xsl:template>
 
     <xsl:template match="year">
         <h2>
+            <xsl:attribute name="id">
+                <xsl:apply-templates select="@id"/>
+            </xsl:attribute>
             <xsl:apply-templates select="@id"/>
         </h2>
         <xsl:apply-templates select="letter"/>

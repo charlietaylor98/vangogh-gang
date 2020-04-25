@@ -1,3 +1,51 @@
+.attributeMenu
+{
+    background-color:#44aaaa;
+    border-radius: 15px;
+    color:black;
+    padding:15px;
+    width:11%;
+    
+    margin-top: 300px;
+    position:fixed;
+   
+}
+
+.button {
+  font-size:11.5px;
+  font-family:verdana;
+  text-decoration: none;
+  color:black;
+  
+  background-color: white;
+  border-radius: 4px;  
+  
+  padding: 1.2px 7px 1.2px 7px;
+  border:1px solid black;
+  
+ 
+}
+
+
+.chartTitle
+{
+  display: block;
+  font-weight: bold;
+  font-size:20px;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.flex
+{
+     display:flex;
+     flex-direction:row;
+     flex-wrap:nowrap;
+     justify-content:space-between;
+     align-items: baseline;  
+     margin-top:50px;
+}
+
 .letter
 {
       border: 1px solid;
@@ -10,14 +58,75 @@
       
 }
 
-.flex
+
+ul
 {
-     display:flex;
-     justify-content:center;
+    list-style-type:none;
+    padding-left:0px;
+   
 }
 
-.menu
+.yearMenu
 {
-    display:flex;
-    width:10%;
+    background-color:#aaddbb;
+    border-radius: 15px;
+    color:black;
+    width:11%;
+    padding:15px;
+    margin-top: 30px;
+    position:fixed;
 }
+
+div{
+    box-shadow:none;
+}
+
+.letter, .topnav, .yearMenu, .attributeMenu{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stress.on {
+    font-weight:bold;
+}
+
+.unstress.on {
+    font-style:italic;
+}
+
+.work.on{
+    font-weight:bold;
+    color:brown;
+}
+
+.environment.on {
+    
+    color:dodgerblue;
+}
+
+.career.on {
+    
+    color:red;
+}
+
+.money.on {
+    
+    color:green;
+}
+
+.family.on {
+    
+    color:purple;
+}
+
+.friendship.on {
+    
+    color:orange;
+}
+
+.love.on {
+    
+    color:magenta;
+}
+
+
+
